@@ -16,7 +16,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <!-- [FIX] Using url_for for correct path generation -->
     <link href="{{ url_for('static', filename='lib/animate/animate.min.css') }}" rel="stylesheet">
     <link href="{{ url_for('static', filename='lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
 
@@ -27,14 +26,10 @@
     <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
 </head>
 <body>
-
-    <!-- Spinner Start -->
+    <!-- Spinner and Topbar... -->
     <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" role="status"></div>
     </div>
-    <!-- Spinner End -->
-
-    <!-- Topbar start -->
     <div class="container-fluid fixed-top">
         <div class="container">
             <nav class="navbar navbar-light navbar-expand-lg py-3">
@@ -55,9 +50,7 @@
             </nav>
         </div>
     </div>
-    <!-- Topbar End -->
-
-    <!-- Hero Start -->
+    <!-- Hero Header... -->
     <div class="container-fluid hero-header">
         <div class="container">
             <div class="row">
@@ -73,16 +66,13 @@
             </div>
         </div>
     </div>
-    <!-- Hero End -->
 
     <!-- Upload Form Start -->
     <div class="container py-5">
       <div class="row justify-content-center">
-        <div class="col-lg-6 col-md-8">
+        <div class="col-lg-8 col-md-10">
           <div class="card shadow-sm p-4 wow fadeIn" data-wow-delay="0.1s">
-            <h2 class="text-center mb-4">Upload Resume (PDF or DOCX)</h2>
 
-            <!-- [FIX] Added a section to display errors from the backend -->
             {% if error %}
             <div class="alert alert-danger text-center" role="alert">
                 {{ error }}
@@ -90,12 +80,55 @@
             {% endif %}
 
             <form method="POST" enctype="multipart/form-data">
-              <div class="mb-3">
-                <input type="file" name="resume_file" accept=".pdf,.docx" class="form-control" required>
-              </div>
-              <div class="text-center">
-                <button type="submit" class="btn btn-primary px-5">Analyze My Skills</button>
-              </div>
+                <h2 class="text-center mb-4">1. Upload Your Resume</h2>
+                <div class="mb-3">
+                    <input type="file" name="resume_file" accept=".pdf,.docx" class="form-control form-control-lg" required>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- [NEW] Intelligence Profile Section -->
+                <h2 class="text-center mb-4">2. Rate Your Intelligences (Optional)</h2>
+                <p class="text-center text-muted">Rate yourself on a scale of 1 to 10 for a more personalized holistic recommendation.</p>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="linguistic" class="form-label">Linguistic (Word Smart)</label>
+                        <input type="range" class="form-range" min="1" max="10" step="1" value="5" id="linguistic" name="Linguistic">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="logical" class="form-label">Logical-Mathematical (Number/Reasoning Smart)</label>
+                        <input type="range" class="form-range" min="1" max="10" step="1" value="5" id="logical" name="Logical - Mathematical">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="spatial" class="form-label">Spatial-Visualization (Picture Smart)</label>
+                        <input type="range" class="form-range" min="1" max="10" step="1" value="5" id="spatial" name="Spatial-Visualization">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="bodily" class="form-label">Bodily-Kinesthetic (Body Smart)</label>
+                        <input type="range" class="form-range" min="1" max="10" step="1" value="5" id="bodily" name="Bodily">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="musical" class="form-label">Musical (Music Smart)</label>
+                        <input type="range" class="form-range" min="1" max="10" step="1" value="5" id="musical" name="Musical">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="interpersonal" class="form-label">Interpersonal (People Smart)</label>
+                        <input type="range" class="form-range" min="1" max="10" step="1" value="5" id="interpersonal" name="Interpersonal">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="intrapersonal" class="form-label">Intrapersonal (Self Smart)</label>
+                        <input type="range" class="form-range" min="1" max="10" step="1" value="5" id="intrapersonal" name="Intrapersonal">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="naturalist" class="form-label">Naturalist (Nature Smart)</label>
+                        <input type="range" class="form-range" min="1" max="10" step="1" value="5" id="naturalist" name="Naturalist">
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-primary btn-lg px-5">Analyze My Skills</button>
+                </div>
             </form>
           </div>
         </div>
@@ -103,20 +136,14 @@
     </div>
     <!-- Upload Form End -->
 
-    <!-- Back to Top -->
+    <!-- Back to Top & JS Libraries... -->
     <a href="#" class="btn btn-primary border-3 border-light back-to-top"><i class="fa fa-arrow-up"></i></a>
-
-    <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- [FIX] Using url_for for correct path generation -->
     <script src="{{ url_for('static', filename='lib/wow/wow.min.js') }}"></script>
     <script src="{{ url_for('static', filename='lib/easing/easing.min.js') }}"></script>
     <script src="{{ url_for('static', filename='lib/waypoints/waypoints.min.js') }}"></script>
     <script src="{{ url_for('static', filename='lib/owlcarousel/owl.carousel.min.js') }}"></script>
-
-    <!-- Template Javascript -->
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </body>
 </html>

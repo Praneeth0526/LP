@@ -1,6 +1,6 @@
 import os
 import re
-import pickle
+import joblib  # Using joblib as it's more efficient for scikit-learn models
 import fitz  # For PDF reading
 import docx  # For DOCX reading
 import pandas as pd
@@ -15,7 +15,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-app.secret_key = 'your_super_secret_key'
+app.secret_key = 'your_super_secret_key'  # Change this to a random string
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 
@@ -41,152 +41,118 @@ def extract_text_from_file(filepath):
     return ""
 
 
-# [IMPROVEMENT] New function to load job requirements dynamically
 def load_job_requirements_from_csv(filepath):
-    """
-    Loads job role requirements from a CSV file and groups skills by role.
-    This makes the skill-gap analysis data-driven and easy to update.
-    """
+    """Loads job role requirements from a CSV file for skill-gap analysis."""
     try:
         df = pd.read_csv(filepath)
-        # Standardize by stripping whitespace and converting to lowercase
+        # Standardize column names for consistency
+        df.columns = [col.strip() for col in df.columns]
         df['Job Role'] = df['Job Role'].str.strip()
         df['Required Skill'] = df['Required Skill'].str.strip().str.lower()
-
-        # Group skills for each job role into a dictionary
         job_reqs = df.groupby('Job Role')['Required Skill'].apply(list).to_dict()
-
         print("Successfully loaded job requirements from CSV.")
         return job_reqs
-    except FileNotFoundError:
-        print(f"Warning: Job requirements file not found at {filepath}. Skill gap analysis may be incomplete.")
-        return {}
     except Exception as e:
-        print(f"Error loading job requirements from CSV: {e}")
+        print(f"Warning: Could not load job requirements from {filepath}. Error: {e}")
         return {}
 
 
 # ----------------------------------------------------
-# Resume Analyzer Functions
+# Resume Analyzer with Dual-Model Logic
 # ----------------------------------------------------
-# In app.py, replace the entire create_resume_analyzer function
-
 def create_resume_analyzer():
     """
     Factory function to create the resume analyzer.
-    This loads models and data only once for better performance.
+    This loads all models and assets only once for better performance.
     """
-    # Load ML models and assets
-    model_path = os.path.join('models', 'resume_analyzer_model.pkl')
-    scaler_path = os.path.join('models', 'resume_scaler.pkl')
-    features_path = os.path.join('models', 'feature_columns.pkl')
-
     try:
-        with open(model_path, 'rb') as f:
-            model = pickle.load(f)
-        with open(scaler_path, 'rb') as f:
-            scaler = pickle.load(f)
-        with open(features_path, 'rb') as f:
-            feature_columns = pickle.load(f)
+        skills_model = joblib.load('models/skills_model.pkl')
+        holistic_model = joblib.load('models/holistic_model.pkl')
+        skills_features_list = joblib.load('models/skills_features.pkl')
+        holistic_features_list = joblib.load('models/holistic_features.pkl')
+        career_encoder = joblib.load('models/career_label_encoder.pkl')
     except FileNotFoundError as e:
         print(f"FATAL: Could not load model files: {e}")
-        print("Please ensure the training notebook has been run and files are in the 'models/' directory.")
         return None
 
+    all_features_list = sorted(list(set(skills_features_list + holistic_features_list)))
     job_requirements_path = os.path.join('Data', 'updated_job_roles_full.csv')
     job_requirements = load_job_requirements_from_csv(job_requirements_path)
 
-    def extract_skills_from_resume(resume_text):
-        """Extracts skills from resume text."""
+    def extract_features_from_resume(resume_text):
+        """Generates the feature set required by the models from raw resume text."""
         resume_lower = resume_text.lower()
-        skills_found = {
-            'has_python': 1 if 'python' in resume_lower else 0,
-            'has_java': 1 if 'java' in resume_lower and 'javascript' not in resume_lower else 0,
-            'has_sql': 1 if 'sql' in resume_lower or 'mysql' in resume_lower or 'postgresql' in resume_lower else 0,
-            'has_ml': 1 if 'machine learning' in resume_lower or ' ml ' in resume_lower or 'artificial intelligence' in resume_lower else 0,
-            'has_cybersecurity': 1 if 'cybersecurity' in resume_lower or 'cyber security' in resume_lower or 'information security' in resume_lower else 0,
-            'has_blockchain': 1 if 'blockchain' in resume_lower or 'cryptocurrency' in resume_lower else 0,
-            'has_cloud': 1 if 'cloud' in resume_lower or 'aws' in resume_lower or 'azure' in resume_lower else 0,
-            'has_data_analysis': 1 if 'data analysis' in resume_lower or 'data analytics' in resume_lower else 0,
-            'knows_python_prog': 1 if 'python' in resume_lower else 0,
-            'knows_java_prog': 1 if 'java' in resume_lower and 'javascript' not in resume_lower else 0,
-            'knows_javascript': 1 if 'javascript' in resume_lower or 'js' in resume_lower else 0,
-            'knows_r': 1 if ' r ' in resume_lower or 'r programming' in resume_lower else 0,
-            'knows_cpp': 1 if 'c++' in resume_lower or 'cpp' in resume_lower else 0,
-            'knows_csharp': 1 if 'c#' in resume_lower or 'csharp' in resume_lower else 0,
+        features = {feat: 0 for feat in all_features_list}
 
-            # [FIX] Add pandas and git to the primary skill extraction
-            'has_pandas': 1 if 'pandas' in resume_lower else 0,
-            'has_git': 1 if 'git' in resume_lower else 0,
-        }
-        skills_found['technical_skills_count'] = sum(v for k, v in skills_found.items() if k.startswith('has_'))
-        skills_found['programming_languages_count'] = sum(v for k, v in skills_found.items() if k.startswith('knows_'))
-        skills_found.update({
-            'has_projects': 1 if 'project' in resume_lower else 0,
-            'technical_rating': 3,
-            'soft_skills_rating': 3
-        })
-        return skills_found
+        for col in all_features_list:
+            if col.startswith(('Tech_', 'Prog_', 'Soft_')):
+                skill = col.split('_', 1)[1].replace('_', ' ').lower()
+                if skill in resume_lower:
+                    features[col] = 1
 
-    def generate_skill_gaps(current_skills, predicted_job):
-        """Generates skill gap analysis based on predicted job."""
-        required_skills = job_requirements.get(predicted_job, [])
+        features['Has_Projects_Encoded'] = 1 if 'project' in resume_lower else 0
+        tech_skill_count = sum(v for k, v in features.items() if k.startswith('Tech_'))
+        prog_lang_count = sum(v for k, v in features.items() if k.startswith('Prog_'))
+        total_tech_skills = tech_skill_count + prog_lang_count
 
-        # This mapping helps translate extracted skills to the required skills list
-        skill_mapping = {
-            'python': current_skills.get('has_python', 0) or current_skills.get('knows_python_prog', 0),
-            'java': current_skills.get('has_java', 0) or current_skills.get('knows_java_prog', 0),
-            'sql': current_skills.get('has_sql', 0),
-            'machine learning': current_skills.get('has_ml', 0),
-            'javascript': current_skills.get('knows_javascript', 0),
-            'cybersecurity': current_skills.get('has_cybersecurity', 0),
-            'cloud computing': current_skills.get('has_cloud', 0),
+        features['Technical_Competency_Score'] = min(total_tech_skills / 10.0, 1.0)
+        features['Skill_Diversity_Index'] = total_tech_skills
+        features['Career_Readiness_Score'] = (features['Has_Projects_Encoded'] * 0.5) + (
+                    features['Technical_Competency_Score'] * 0.5)
 
-            # [FIX] Use the extracted skill from the dictionary instead of re-scanning the text
-            'pandas': current_skills.get('has_pandas', 0),
-            'git': current_skills.get('has_git', 0),
-        }
-        missing_skills = [skill for skill in required_skills if not skill_mapping.get(skill, 0)]
-        match_percentage = ((len(required_skills) - len(missing_skills)) / len(
-            required_skills) * 100) if required_skills else 100
-        return {
-            'required_skills': required_skills,
+        return features
+
+    def analyze_resume(resume_text, intelligence_scores):
+        """Analyzes a resume using both the skills-based and holistic models."""
+        features = extract_features_from_resume(resume_text)
+
+        # Update features with user-provided intelligence scores
+        features.update(intelligence_scores)
+        features['Intelligence_Profile_Score'] = np.mean(list(intelligence_scores.values())) / 10.0
+
+        # Predict with Skills-Based Model
+        skills_vector = np.array([features.get(col, 0) for col in skills_features_list]).reshape(1, -1)
+        skills_pred_index = skills_model.predict(skills_vector)[0]
+        skills_pred_job = career_encoder.inverse_transform([skills_pred_index])[0]
+        skills_pred_proba = skills_model.predict_proba(skills_vector)[0]
+
+        # Predict with Holistic Model
+        holistic_vector = np.array([features.get(col, 0) for col in holistic_features_list]).reshape(1, -1)
+        holistic_pred_index = holistic_model.predict(holistic_vector)[0]
+        holistic_pred_job = career_encoder.inverse_transform([holistic_pred_index])[0]
+        holistic_pred_proba = holistic_model.predict_proba(holistic_vector)[0]
+
+        # --- [FIX] Correct Skill Gap Analysis ---
+        # Handle job title mismatches (e.g., "Data Scientist" vs "Data Science")
+        job_key = skills_pred_job
+        if job_key not in job_requirements and "Data" in job_key:
+            job_key = "Data Science"
+
+        required = job_requirements.get(job_key, [])
+
+        # [FIX] Make skill checking case-insensitive and robust
+        have_skills = []
+        for req_skill in required:
+            # Check against all feature keys, ignoring case
+            for feature_key in features.keys():
+                if req_skill.lower() in feature_key.lower() and features[feature_key] == 1:
+                    have_skills.append(req_skill)
+                    break  # Move to the next required skill once found
+
+        missing_skills = [skill for skill in required if skill not in have_skills]
+        match_percentage = (len(have_skills) / len(required) * 100) if required else 100
+
+        skill_gaps = {
+            'required_skills': required,
             'missing_skills': missing_skills,
             'skill_match_percentage': match_percentage
         }
 
-    def analyze_resume(resume_text, intelligence_scores=None):
-        """Analyzes resume and provides job recommendations."""
-        skills = extract_skills_from_resume(resume_text)
-        if intelligence_scores is None:
-            intelligence_scores = {
-                'linguistic_score': 5, 'musical_score': 5, 'bodily_score': 5,
-                'logical_mathematical_score': 5, 'spatial_visualization_score': 5,
-                'interpersonal_score': 5, 'intrapersonal_score': 5, 'naturalist_score': 5
-            }
-        skills.update(intelligence_scores)
-
-        # Note: 'has_pandas' and 'has_git' are not in your trained model's feature_columns.
-        # This is okay, as they are only used for the skill-gap analysis, not the prediction.
-        feature_vector = np.array([skills.get(col, 0) for col in feature_columns]).reshape(1, -1)
-        feature_vector_scaled = scaler.transform(feature_vector)
-
-        predicted_job = model.predict(feature_vector_scaled)[0]
-        prediction_probabilities = model.predict_proba(feature_vector_scaled)[0]
-
-        job_classes = model.classes_
-        top3_indices = np.argsort(prediction_probabilities)[-3:][::-1]
-        recommendations = [{'job': job_classes[i], 'probability': prediction_probabilities[i]} for i in top3_indices]
-
-        # Now this function no longer needs the raw resume_text
-        skill_gaps = generate_skill_gaps(skills, predicted_job)
-
         return {
-            'predicted_job': predicted_job,
-            'confidence': max(prediction_probabilities),
-            'top_recommendations': recommendations,
-            'extracted_skills': skills,
-            'skill_gaps': skill_gaps
+            'skills_prediction': {'job': skills_pred_job, 'confidence': skills_pred_proba[skills_pred_index]},
+            'holistic_prediction': {'job': holistic_pred_job, 'confidence': holistic_pred_proba[holistic_pred_index]},
+            'skill_gaps': skill_gaps,
+            'predicted_job': skills_pred_job
         }
 
     return analyze_resume
@@ -196,7 +162,6 @@ def create_resume_analyzer():
 # Load Analyzer and Data
 # -----------------------------
 analyze_resume = create_resume_analyzer()
-
 with open("Data/course_recommendations.json") as f:
     course_recos = json.load(f)
 with open("Data/career_roadmap_courses.json") as f:
@@ -251,19 +216,30 @@ def upload_resume():
             return render_template("upload.html", error=f"Could not extract text from {filename}.")
 
         if analyze_resume:
-            analysis_result = analyze_resume(raw_text)
+            # --- [FIX] Get intelligence scores from the form ---
+            intelligence_scores = {
+                'Linguistic': int(request.form.get('Linguistic', 5)),
+                'Musical': int(request.form.get('Musical', 5)),
+                'Bodily': int(request.form.get('Bodily', 5)),
+                'Logical - Mathematical': int(request.form.get('Logical - Mathematical', 5)),
+                'Spatial-Visualization': int(request.form.get('Spatial-Visualization', 5)),
+                'Interpersonal': int(request.form.get('Interpersonal', 5)),
+                'Intrapersonal': int(request.form.get('Intrapersonal', 5)),
+                'Naturalist': int(request.form.get('Naturalist', 5))
+            }
+
+            analysis_result = analyze_resume(raw_text, intelligence_scores)
             session['analysis_result'] = analysis_result
 
             missing_skills = analysis_result['skill_gaps']['missing_skills']
             missing_skill_recos = {skill.title(): course_recos.get(skill.title(), {}) for skill in missing_skills}
 
             predicted_role = analysis_result['predicted_job']
-            # Handle cases where model predicts 'Data Scientist' but JSON key is 'Data Science'
-            career_path_key = predicted_role
-            if predicted_role == 'Data Scientist':
-                career_path_key = 'Data Science'
+            career_path = career_recos.get(predicted_role, None)
 
-            career_path = career_recos.get(career_path_key, None)
+            # Handle job title mismatches for career path as well
+            if not career_path and 'Data' in predicted_role:
+                career_path = career_recos.get('Data Science', None)
 
             return render_template("result.html",
                                    result=analysis_result,
@@ -279,12 +255,9 @@ def upload_resume():
 def detailed_analysis():
     if 'loggedin' not in session:
         return redirect(url_for('login'))
-
     result = session.get('analysis_result', None)
-
     if not result:
         return redirect(url_for('upload_resume'))
-
     return render_template('detailed_analysis.html', result=result)
 
 
