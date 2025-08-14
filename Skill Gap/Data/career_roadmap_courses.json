@@ -1,0 +1,127 @@
+{
+    "Advocate": {
+        "course": "Law and the Legal System \u2013 HarvardX",
+        "link": "https://pll.harvard.edu/course/law-and-legal-system",
+        "description": "Understand legal frameworks and litigation processes to sharpen your advocacy skills."
+    },
+    "Arts": {
+        "course": "Modern and Contemporary Art \u2013 MoMA",
+        "link": "https://www.coursera.org/learn/modern-art-ideas",
+        "description": "Explore creative thinking and art movements in the 20th century."
+    },
+    "Automation Testing": {
+        "course": "Test Automation with Selenium & Python",
+        "link": "https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/",
+        "description": "Master automation frameworks using real-time Selenium projects."
+    },
+    "Blockchain": {
+        "course": "Blockchain Basics \u2013 University of Buffalo",
+        "link": "https://www.coursera.org/learn/blockchain-basics",
+        "description": "Learn core blockchain concepts including decentralization and smart contracts."
+    },
+    "Business Analyst": {
+        "course": "Business Analysis & Process Management \u2013 Coursera",
+        "link": "https://www.coursera.org/learn/business-process",
+        "description": "Develop skills in stakeholder analysis, documentation, and process optimization."
+    },
+    "Civil Engineer": {
+        "course": "Construction Management \u2013 Columbia University",
+        "link": "https://www.coursera.org/learn/construction-management",
+        "description": "Plan, schedule, and control construction projects professionally."
+    },
+    "Data Science": {
+        "course": "IBM Data Science Professional Certificate",
+        "link": "https://www.coursera.org/professional-certificates/ibm-data-science",
+        "description": "Gain practical data science skills using Python, SQL, and ML."
+    },
+    "Database": {
+        "course": "Database Management Essentials \u2013 Duke University",
+        "link": "https://www.coursera.org/learn/database-management",
+        "description": "Understand relational databases, ER models, and SQL at a professional level."
+    },
+    "DevOps Engineer": {
+        "course": "DevOps on AWS Specialization \u2013 Coursera",
+        "link": "https://www.coursera.org/specializations/aws-devops",
+        "description": "Learn CI/CD pipelines, containers, and monitoring on cloud platforms."
+    },
+    "DotNet Developer": {
+        "course": "C# and .NET Core Bootcamp",
+        "link": "https://www.udemy.com/course/csharp-tutorial-for-beginners/",
+        "description": "Master ASP.NET Core, Entity Framework, and MVC frameworks."
+    },
+    "ETL Developer": {
+        "course": "Data Warehousing and ETL Certification",
+        "link": "https://www.udemy.com/course/data-warehouse-etl-tutorial/",
+        "description": "Build and manage data pipelines and ETL processes."
+    },
+    "Electrical Engineering": {
+        "course": "Introduction to Electrical Engineering \u2013 MIT",
+        "link": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/",
+        "description": "Understand circuit theory, electronics, and signal processing."
+    },
+    "HR": {
+        "course": "Human Resource Management Capstone \u2013 Coursera",
+        "link": "https://www.coursera.org/learn/human-resource-capstone",
+        "description": "Advance your HR strategies including hiring, training, and retention."
+    },
+    "Hadoop": {
+        "course": "Big Data and Hadoop Essentials",
+        "link": "https://www.udemy.com/course/big-data-and-hadoop-for-beginners/",
+        "description": "Learn the Hadoop ecosystem including HDFS, Hive, and Pig."
+    },
+    "Health and fitness": {
+        "course": "Science of Exercise \u2013 University of Colorado",
+        "link": "https://www.coursera.org/learn/science-exercise",
+        "description": "Explore the science behind physical training and wellness."
+    },
+    "Java Developer": {
+        "course": "Java Programming and Software Engineering \u2013 Duke University",
+        "link": "https://www.coursera.org/specializations/java-programming",
+        "description": "Strengthen Java skills including OOP, algorithms, and GUI development."
+    },
+    "Mechanical Engineer": {
+        "course": "CAD and Digital Manufacturing \u2013 Autodesk",
+        "link": "https://www.coursera.org/learn/autodesk-cad",
+        "description": "Work with CAD tools and learn principles of mechanical design."
+    },
+    "Network Security Engineer": {
+        "course": "Cybersecurity Specialization \u2013 University of Maryland",
+        "link": "https://www.coursera.org/specializations/cyber-security",
+        "description": "Master firewalls, VPNs, and secure communications."
+    },
+    "Operations Manager": {
+        "course": "Operations Management \u2013 Wharton, UPenn",
+        "link": "https://www.coursera.org/learn/wharton-operations",
+        "description": "Learn process analysis, productivity, and quality management."
+    },
+    "PMO": {
+        "course": "Project Management Principles and Practices \u2013 UCI",
+        "link": "https://www.coursera.org/specializations/project-management",
+        "description": "Master tools and techniques for managing enterprise projects."
+    },
+    "Python Developer": {
+        "course": "Advanced Python \u2013 Real Python",
+        "link": "https://realpython.com/",
+        "description": "Deep dive into decorators, generators, and API building."
+    },
+    "SAP Developer": {
+        "course": "SAP ERP Essential Training \u2013 LinkedIn Learning",
+        "link": "https://www.linkedin.com/learning/sap-erp-essential-training",
+        "description": "Understand SAP modules, transactions, and ABAP basics."
+    },
+    "Sales": {
+        "course": "Sales Training for High Performing Teams \u2013 HubSpot",
+        "link": "https://academy.hubspot.com/courses/sales-enablement",
+        "description": "Learn inbound sales strategies and CRM techniques."
+    },
+    "Testing": {
+        "course": "Software Testing and Automation \u2013 University of Minnesota",
+        "link": "https://www.coursera.org/specializations/software-testing-automation",
+        "description": "Master testing methodologies and automation with Selenium."
+    },
+    "Web Designing": {
+        "course": "Responsive Web Design Certification \u2013 freeCodeCamp",
+        "link": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+        "description": "Build mobile-friendly websites using HTML, CSS, and Flexbox."
+    }
+}

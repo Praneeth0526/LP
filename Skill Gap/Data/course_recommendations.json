@@ -1,0 +1,74 @@
+{
+    "Python": {
+        "why": "A core programming language in data science, automation, and web development.",
+        "course": "Python for Everybody \u2013 Coursera",
+        "link": "https://www.coursera.org/specializations/python",
+        "impact": "Makes you versatile in automation, data analysis, and backend systems."
+    },
+    "SQL": {
+        "why": "Essential for querying and managing relational databases.",
+        "course": "SQL for Data Science \u2013 Coursera",
+        "link": "https://www.coursera.org/learn/sql-for-data-science",
+        "impact": "Helps extract insights from structured data efficiently."
+    },
+    "Excel": {
+        "why": "Fundamental tool for business analytics and reporting.",
+        "course": "Excel Skills for Business \u2013 Coursera",
+        "link": "https://www.coursera.org/learn/excel",
+        "impact": "Boosts data analysis and reporting proficiency in any role."
+    },
+    "Statistics": {
+        "why": "Foundation for data analysis, hypothesis testing, and machine learning.",
+        "course": "Statistics with R \u2013 Coursera",
+        "link": "https://www.coursera.org/learn/statistics",
+        "impact": "Equips you for roles in data analysis and experimentation."
+    },
+    "Power BI": {
+        "why": "Popular BI tool for interactive visual dashboards and data storytelling.",
+        "course": "Getting Started with Power BI \u2013 Coursera",
+        "link": "https://www.coursera.org/learn/power-bi",
+        "impact": "Enables impactful business reporting and visualization."
+    },
+    "HTML": {
+        "why": "The standard markup language for web development.",
+        "course": "HTML5 Coding Essentials \u2013 edX",
+        "link": "https://www.edx.org/course/html5-and-css-fundamentals",
+        "impact": "Builds the foundation for frontend development."
+    },
+    "CSS": {
+        "why": "Used to style and layout web pages visually.",
+        "course": "CSS Basics \u2013 MDN Web Docs",
+        "link": "https://developer.mozilla.org/en-US/docs/Learn/CSS",
+        "impact": "Enhances your ability to create visually appealing interfaces."
+    },
+    "JavaScript": {
+        "why": "Key scripting language for client-side web development.",
+        "course": "JavaScript Essentials \u2013 Codecademy",
+        "link": "https://www.codecademy.com/learn/introduction-to-javascript",
+        "impact": "Empowers you to create dynamic web applications."
+    },
+    "React": {
+        "why": "Modern JS library for building user interfaces.",
+        "course": "React for Beginners \u2013 Scrimba",
+        "link": "https://scrimba.com/learn/learnreact",
+        "impact": "Highly valued for frontend engineering roles."
+    },
+    "Git": {
+        "why": "Version control system to track code changes.",
+        "course": "Introduction to Git and GitHub \u2013 Coursera",
+        "link": "https://www.coursera.org/learn/introduction-git-github",
+        "impact": "Supports team collaboration and source code management."
+    },
+    "Machine Learning": {
+        "why": "The backbone of modern AI systems.",
+        "course": "Machine Learning \u2013 Andrew Ng (Coursera)",
+        "link": "https://www.coursera.org/learn/machine-learning",
+        "impact": "Makes you capable of building intelligent predictive models."
+    },
+    "Pandas": {
+        "why": "Essential Python library for data manipulation and analysis.",
+        "course": "Data Manipulation with pandas \u2013 DataCamp",
+        "link": "https://www.datacamp.com/courses/data-manipulation-with-pandas",
+        "impact": "Speeds up your ability to analyze structured data efficiently."
+    }
+}

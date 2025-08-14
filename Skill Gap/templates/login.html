@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            background-image: url('../static/img/d5.jpg'); /* Replace 'your-background-image.jpg' with the path to your image */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column; /* Align items in a column */
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffffff; /* Set the color of your text */
+            margin-top: 20px; /* Adjust the margin to position the text */
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.8); /* Adjust the alpha value for transparency */
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 400px;
+            width: 100%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333333; /* Set the color of your label text */
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50; /* Set the background color of your submit button */
+            color: white; /* Set the text color of your submit button */
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049; /* Set the hover background color of your submit button */
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Login</h1>
+    <form action="/" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+
+</html>

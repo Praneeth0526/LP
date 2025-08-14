@@ -1,0 +1,14 @@
+# requirements.txt
+
+# Core web framework
+Flask
+Werkzeug
+
+# Data handling and ML
+pandas
+numpy
+scikit-learn
+
+# File reading
+python-docx
+PyMuPDF
