@@ -1,22 +1,47 @@
 import os
-import re
-import joblib  # Using joblib as it's more efficient for scikit-learn models
-import fitz  # For PDF reading
-import docx  # For DOCX reading
+import joblib
+import fitz
+import docx
 import pandas as pd
-import json
 import numpy as np
+import json
+import re
 from flask import Flask, request, render_template, redirect, url_for, session
 from werkzeug.utils import secure_filename
 
 # -----------------------------
-# Flask Setup
+# Flask App Initialization
 # -----------------------------
 app = Flask(__name__)
-UPLOAD_FOLDER = 'uploads'
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-app.secret_key = 'your_super_secret_key'  # Change this to a random string
-os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+app.config['UPLOAD_FOLDER'] = 'uploads'
+app.secret_key = 'your_super_secret_key'
+os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
+
+# -----------------------------
+# Load All ML Artifacts and Data
+# -----------------------------
+try:
+    model = joblib.load('models/final_model.pkl')
+    scaler = joblib.load('models/scaler.pkl')
+    target_encoder = joblib.load('models/target_encoder.pkl')
+    label_encoders = joblib.load('models/label_encoders.pkl')
+    feature_columns = joblib.load('models/feature_columns.pkl')
+
+    job_requirements_df = pd.read_csv('Data/csv_sheets/Job_Roles_And_Skills.csv')
+    job_requirements_df.columns = [col.strip() for col in job_requirements_df.columns]
+    job_requirements = job_requirements_df.groupby('Job Role')['Required Skill'].apply(list).to_dict()
+
+    with open("Data/course_recommendations.json") as f:
+        course_recos = json.load(f)
+    with open("Data/career_roadmap_courses.json") as f:
+        career_recos = json.load(f)
+
+    print("✅ All models and data files loaded successfully.")
+
+except FileNotFoundError as e:
+    print(f"❌ FATAL ERROR: Could not load model files: {e}")
+    print("Please ensure you have run the final training notebook to generate all .pkl files.")
+    model = None
 
 
 # -----------------------------
@@ -26,153 +51,120 @@ def extract_text_from_file(filepath):
     """Extracts raw text from PDF or DOCX files."""
     if filepath.endswith('.pdf'):
         try:
-            doc = fitz.open(filepath)
-            return " ".join([page.get_text() for page in doc])
+            return " ".join([page.get_text() for page in fitz.open(filepath)])
         except Exception as e:
             print(f"Error reading PDF {filepath}: {e}")
             return ""
     elif filepath.endswith('.docx'):
         try:
-            doc = docx.Document(filepath)
-            return "\n".join([para.text for para in doc.paragraphs])
+            return "\n".join([para.text for para in docx.Document(filepath).paragraphs])
         except Exception as e:
             print(f"Error reading DOCX {filepath}: {e}")
             return ""
     return ""
 
 
-def load_job_requirements_from_csv(filepath):
-    """Loads job role requirements from a CSV file for skill-gap analysis."""
-    try:
-        df = pd.read_csv(filepath)
-        # Standardize column names for consistency
-        df.columns = [col.strip() for col in df.columns]
-        df['Job Role'] = df['Job Role'].str.strip()
-        df['Required Skill'] = df['Required Skill'].str.strip().str.lower()
-        job_reqs = df.groupby('Job Role')['Required Skill'].apply(list).to_dict()
-        print("Successfully loaded job requirements from CSV.")
-        return job_reqs
-    except Exception as e:
-        print(f"Warning: Could not load job requirements from {filepath}. Error: {e}")
-        return {}
-
-
-# ----------------------------------------------------
-# Resume Analyzer with Dual-Model Logic
-# ----------------------------------------------------
-def create_resume_analyzer():
+# -----------------------------
+# Core Prediction Pipeline
+# -----------------------------
+def create_feature_vector(resume_text, form_data):
     """
-    Factory function to create the resume analyzer.
-    This loads all models and assets only once for better performance.
+    Creates a feature vector from raw inputs that matches the model's training data.
     """
-    try:
-        skills_model = joblib.load('models/skills_model.pkl')
-        holistic_model = joblib.load('models/holistic_model.pkl')
-        skills_features_list = joblib.load('models/skills_features.pkl')
-        holistic_features_list = joblib.load('models/holistic_features.pkl')
-        career_encoder = joblib.load('models/career_label_encoder.pkl')
-    except FileNotFoundError as e:
-        print(f"FATAL: Could not load model files: {e}")
-        return None
+    # 1. Initialize a DataFrame with all the required feature columns, filled with zeros
+    input_df = pd.DataFrame(columns=feature_columns)
+    input_df.loc[0] = 0
 
-    all_features_list = sorted(list(set(skills_features_list + holistic_features_list)))
-    job_requirements_path = os.path.join('Data', 'updated_job_roles_full.csv')
-    job_requirements = load_job_requirements_from_csv(job_requirements_path)
+    # 2. Process Numerical Features from the form
+    numerical_features = [col for col in feature_columns if col in scaler.feature_names_in_]
+    for col in numerical_features:
+        if col in form_data:
+            input_df.loc[0, col] = float(form_data.get(col, 0))
 
-    def extract_features_from_resume(resume_text):
-        """Generates the feature set required by the models from raw resume text."""
-        resume_lower = resume_text.lower()
-        features = {feat: 0 for feat in all_features_list}
+    # Create proxy for 'Score' and 'Rating' based on intelligence scores
+    # [FIX] Convert the string values from the form to float before calculating the mean.
+    intel_scores = [float(v) for k, v in form_data.items() if
+                    k in ['Student-Linguistic', 'Musical', 'Bodily', 'Logical - Mathematical', 'Spatial-Visualization',
+                          'Interpersonal', 'Intrapersonal', 'Naturalist']]
+    avg_intel_score = np.mean(intel_scores) if intel_scores else 5
+    input_df.loc[0, 'Score'] = avg_intel_score * 10
+    input_df.loc[0, 'Rating(technical and programming)'] = float(form_data.get('Logical - Mathematical', 5))
+    input_df.loc[0, 'Rating(soft skills)'] = float(form_data.get('Interpersonal', 5))
 
-        for col in all_features_list:
-            if col.startswith(('Tech_', 'Prog_', 'Soft_')):
-                skill = col.split('_', 1)[1].replace('_', ' ').lower()
-                if skill in resume_lower:
-                    features[col] = 1
+    # 3. Process Label-Encoded Categorical Features from the form
+    for col, encoder in label_encoders.items():
+        encoded_col_name = f'{col}_encoded'
+        if encoded_col_name in input_df.columns:
+            value = form_data.get(col, encoder.classes_[0])
+            if value in encoder.classes_:
+                input_df.loc[0, encoded_col_name] = encoder.transform([value])[0]
+            else:
+                input_df.loc[0, encoded_col_name] = 0  # Default for unknown
 
-        features['Has_Projects_Encoded'] = 1 if 'project' in resume_lower else 0
-        tech_skill_count = sum(v for k, v in features.items() if k.startswith('Tech_'))
-        prog_lang_count = sum(v for k, v in features.items() if k.startswith('Prog_'))
-        total_tech_skills = tech_skill_count + prog_lang_count
+    # 4. Process One-Hot Encoded Skill Features from the resume text
+    resume_lower = resume_text.lower()
+    for col in feature_columns:
+        if col.startswith(('Tech_', 'Prog_', 'Soft_')):
+            # Recreate the original skill name from the feature name
+            skill = col.split('_', 1)[1].replace('_', ' ').lower()
+            if skill in resume_lower:
+                input_df.loc[0, col] = 1
 
-        features['Technical_Competency_Score'] = min(total_tech_skills / 10.0, 1.0)
-        features['Skill_Diversity_Index'] = total_tech_skills
-        features['Career_Readiness_Score'] = (features['Has_Projects_Encoded'] * 0.5) + (
-                    features['Technical_Competency_Score'] * 0.5)
+    # 5. Scale the numerical features using the loaded scaler
+    input_df[numerical_features] = scaler.transform(input_df[numerical_features])
 
-        return features
+    return input_df
 
-    def analyze_resume(resume_text, intelligence_scores):
-        """Analyzes a resume using both the skills-based and holistic models."""
-        features = extract_features_from_resume(resume_text)
 
-        # Update features with user-provided intelligence scores
-        features.update(intelligence_scores)
-        features['Intelligence_Profile_Score'] = np.mean(list(intelligence_scores.values())) / 10.0
+def analyze_resume_and_predict(resume_text, form_data):
+    """
+    Full pipeline to process inputs, make a prediction, and perform skill gap analysis.
+    """
+    # 1. Create the feature vector for the model
+    feature_vector = create_feature_vector(resume_text, form_data)
 
-        # Predict with Skills-Based Model
-        skills_vector = np.array([features.get(col, 0) for col in skills_features_list]).reshape(1, -1)
-        skills_pred_index = skills_model.predict(skills_vector)[0]
-        skills_pred_job = career_encoder.inverse_transform([skills_pred_index])[0]
-        skills_pred_proba = skills_model.predict_proba(skills_vector)[0]
+    # 2. Make a prediction
+    prediction_index = model.predict(feature_vector)[0]
+    prediction_proba = model.predict_proba(feature_vector)[0]
+    predicted_job = target_encoder.inverse_transform([prediction_index])[0]
+    confidence = prediction_proba[prediction_index]
 
-        # Predict with Holistic Model
-        holistic_vector = np.array([features.get(col, 0) for col in holistic_features_list]).reshape(1, -1)
-        holistic_pred_index = holistic_model.predict(holistic_vector)[0]
-        holistic_pred_job = career_encoder.inverse_transform([holistic_pred_index])[0]
-        holistic_pred_proba = holistic_model.predict_proba(holistic_vector)[0]
+    # 3. Perform Skill-Gap Analysis
+    job_key = predicted_job
+    if job_key not in job_requirements and "Data" in job_key:
+        job_key = "Data Science"
 
-        # --- [FIX] Correct Skill Gap Analysis ---
-        # Handle job title mismatches (e.g., "Data Scientist" vs "Data Science")
-        job_key = skills_pred_job
-        if job_key not in job_requirements and "Data" in job_key:
-            job_key = "Data Science"
+    required_skills = [skill.lower() for skill in job_requirements.get(job_key, [])]
 
-        required = job_requirements.get(job_key, [])
+    have_skills = []
+    resume_lower = resume_text.lower()
+    for skill in required_skills:
+        if skill in resume_lower:
+            have_skills.append(skill)
 
-        # [FIX] Make skill checking case-insensitive and robust
-        have_skills = []
-        for req_skill in required:
-            # Check against all feature keys, ignoring case
-            for feature_key in features.keys():
-                if req_skill.lower() in feature_key.lower() and features[feature_key] == 1:
-                    have_skills.append(req_skill)
-                    break  # Move to the next required skill once found
+    missing_skills = [skill for skill in required_skills if skill not in have_skills]
+    match_percentage = (len(have_skills) / len(required_skills) * 100) if required_skills else 100
 
-        missing_skills = [skill for skill in required if skill not in have_skills]
-        match_percentage = (len(have_skills) / len(required) * 100) if required else 100
+    skill_gaps = {
+        'required_skills': required_skills,
+        'have_skills': have_skills,
+        'missing_skills': missing_skills,
+        'skill_match_percentage': match_percentage
+    }
 
-        skill_gaps = {
-            'required_skills': required,
-            'missing_skills': missing_skills,
-            'skill_match_percentage': match_percentage
-        }
-
-        return {
-            'skills_prediction': {'job': skills_pred_job, 'confidence': skills_pred_proba[skills_pred_index]},
-            'holistic_prediction': {'job': holistic_pred_job, 'confidence': holistic_pred_proba[holistic_pred_index]},
-            'skill_gaps': skill_gaps,
-            'predicted_job': skills_pred_job
-        }
-
-    return analyze_resume
+    return {
+        'predicted_job': predicted_job,
+        'confidence': confidence,
+        'skill_gaps': skill_gaps
+    }
 
 
 # -----------------------------
-# Load Analyzer and Data
-# -----------------------------
-analyze_resume = create_resume_analyzer()
-with open("Data/course_recommendations.json") as f:
-    course_recos = json.load(f)
-with open("Data/career_roadmap_courses.json") as f:
-    career_recos = json.load(f)
-
-
-# -----------------------------
-# Routes
+# Flask Routes
 # -----------------------------
 @app.route('/', methods=['GET', 'POST'])
 def login():
+    # Your existing login logic
     msg = ''
     if request.method == 'POST' and 'username' in request.form and 'password' in request.form:
         if request.form['username'] == "admin" and request.form['password'] == "admin":
@@ -215,21 +207,8 @@ def upload_resume():
         if not raw_text:
             return render_template("upload.html", error=f"Could not extract text from {filename}.")
 
-        if analyze_resume:
-            # --- [FIX] Get intelligence scores from the form ---
-            intelligence_scores = {
-                'Linguistic': int(request.form.get('Linguistic', 5)),
-                'Musical': int(request.form.get('Musical', 5)),
-                'Bodily': int(request.form.get('Bodily', 5)),
-                'Logical - Mathematical': int(request.form.get('Logical - Mathematical', 5)),
-                'Spatial-Visualization': int(request.form.get('Spatial-Visualization', 5)),
-                'Interpersonal': int(request.form.get('Interpersonal', 5)),
-                'Intrapersonal': int(request.form.get('Intrapersonal', 5)),
-                'Naturalist': int(request.form.get('Naturalist', 5))
-            }
-
-            analysis_result = analyze_resume(raw_text, intelligence_scores)
-            session['analysis_result'] = analysis_result
+        if model:
+            analysis_result = analyze_resume_and_predict(raw_text, request.form)
 
             missing_skills = analysis_result['skill_gaps']['missing_skills']
             missing_skill_recos = {skill.title(): course_recos.get(skill.title(), {}) for skill in missing_skills}
@@ -237,7 +216,6 @@ def upload_resume():
             predicted_role = analysis_result['predicted_job']
             career_path = career_recos.get(predicted_role, None)
 
-            # Handle job title mismatches for career path as well
             if not career_path and 'Data' in predicted_role:
                 career_path = career_recos.get('Data Science', None)
 
@@ -246,19 +224,17 @@ def upload_resume():
                                    recommendations=missing_skill_recos,
                                    career=career_path)
         else:
-            return render_template("upload.html", error="Resume analyzer is not available. Check server logs.")
+            return render_template("upload.html", error="Model is not available. Check server logs.")
 
-    return render_template("upload.html")
-
-
-@app.route('/detailed_analysis')
-def detailed_analysis():
-    if 'loggedin' not in session:
-        return redirect(url_for('login'))
-    result = session.get('analysis_result', None)
-    if not result:
-        return redirect(url_for('upload_resume'))
-    return render_template('detailed_analysis.html', result=result)
+    # Pass unique values for dropdowns to the template
+    form_options = {
+        'Current Course': label_encoders['Current Course'].classes_,
+        'Projects': label_encoders['Projects'].classes_,
+        'Career Interest': label_encoders['Career Interest'].classes_,
+        'Challenges': label_encoders['Challenges'].classes_,
+        'Support-required': label_encoders['Support-required'].classes_
+    }
+    return render_template("upload.html", form_options=form_options)
 
 
 @app.route('/logout')

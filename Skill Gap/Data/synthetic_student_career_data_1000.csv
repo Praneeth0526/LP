@@ -1,0 +1,1001 @@
+Year,Current Course,Technical Skill,Programming Languages,Rating(technical and programming),Projects,Career Interest,Challenges,Support-required,Student-Linguistic,Musical,Bodily,Logical - Mathematical,Spatial-Visualization,Interpersonal,Intrapersonal,Naturalist,Soft Skills,Rating(soft skills),Score,Recommended Job
+4th,B.Tech CSE,IoT Applications,Java Kotlin Swift,3,No,Cloud Architect,Lack of resources,Mentorship programs,18,11,13,19,16,11,16,17,Conflict Resolution Team Leadership,4,135,AI Engineer
+3rd,B.Tech IT,Data Engineering,PHP JavaScript MySQL,5,No,Data Scientist,Presentation skills,Internships,15,12,19,19,16,8,11,20,Strategic Thinking Analytical Skills,4,138,AI Engineer
+4th,B.Tech IT,Cloud Infrastructure,Julia Python R,2,Yes,Cloud Architect,Interview anxiety,Peer groups,16,20,19,20,9,17,12,12,Emotional Intelligence Active Listening,3,135,Data Scientist
+3rd,B.Tech IT,Full Stack Development,Python Java C++,4,Yes,Software Engineer,Lack of resources,Peer groups,10,14,9,10,18,13,16,7,Decision-Making Flexibility Innovation,3,111,Cybersecurity Analyst
+3rd,MCA,Computer Vision,Python R SQL,4,No,Data Scientist,Interview anxiety,Workshops,18,19,14,10,14,10,19,12,Emotional Intelligence Active Listening,4,132,AI Engineer
+3rd,MCA,Embedded Systems,Java Kotlin Swift,4,Yes,Software Engineer,Interview anxiety,Online resources,20,17,7,18,10,14,13,17,Leadership Creativity Critical-Thinking,5,134,Data Scientist
+4th,M.Sc Data Science,Computer Vision,Python Java C++,3,Yes,Cloud Architect,Time management,Internships,19,10,8,20,19,12,18,20,Emotional Intelligence Active Listening,2,136,Cloud Architect
+1st,B.Tech IT,Mobile App Development,PHP JavaScript MySQL,1,No,Data Scientist,Interview anxiety,Peer groups,12,16,20,18,9,12,17,16,Leadership Creativity Critical-Thinking,1,124,Software Engineer
+4th,B.Tech CSE,Full Stack Development,Python Go Rust,5,No,Cybersecurity Analyst,Team collaboration,Internships,20,6,14,14,20,15,13,18,Leadership Creativity Critical-Thinking,4,138,Data Scientist
+2nd,MBA,Computer Vision,PHP JavaScript MySQL,2,No,Data Scientist,Presentation skills,Online resources,17,12,9,16,19,15,13,17,Communication Adaptability Problem-Solving,5,132,Data Scientist
+3rd,B.Tech CSE,Penetration Testing,C# .NET SQL,3,Yes,AI Engineer,Procrastination,Workshops,14,9,12,10,10,13,18,8,Presentation Skills Public Speaking,2,104,Business Analyst
+1st,B.Tech IT,Network Security,C# .NET SQL,1,Yes,AI Engineer,Lack of resources,Internships,20,13,8,10,16,20,16,19,Decision-Making Flexibility Innovation,3,130,Cloud Architect
+3rd,B.Sc Computer Science,Cloud Security,JavaScript TypeScript Python,1,Yes,Cloud Architect,Interview anxiety,Workshops,9,14,10,15,12,8,15,13,Conflict Resolution Team Leadership,5,108,Cybersecurity Analyst
+1st,B.Sc Computer Science,Full Stack Development,PHP JavaScript MySQL,3,Yes,Cloud Architect,Team collaboration,Online resources,17,16,8,18,14,19,10,19,Strategic Thinking Analytical Skills,3,133,Data Scientist
+4th,B.Tech IT,Embedded Systems,PHP JavaScript MySQL,3,No,Business Analyst,Team collaboration,Mentorship programs,18,17,14,12,10,15,17,15,Communication Adaptability Problem-Solving,3,130,Cloud Architect
+1st,B.Tech CSE,Embedded Systems,Scala Java Python,3,No,Data Scientist,Lack of resources,Mentorship programs,13,20,18,12,17,19,15,16,Leadership Creativity Critical-Thinking,5,146,Data Scientist
+2nd,MCA,Deep Learning,Python Go Rust,5,Yes,Software Engineer,Team collaboration,Workshops,15,10,14,20,13,17,19,5,Conflict Resolution Team Leadership,1,125,Cybersecurity Analyst
+2nd,MCA,Blockchain Development,PHP JavaScript MySQL,4,Yes,Software Engineer,Lack of resources,Mentorship programs,20,15,6,11,10,11,20,12,Emotional Intelligence Active Listening,3,119,Software Engineer
+2nd,MCA,Data Visualization,Python Java C++,1,Yes,Cybersecurity Analyst,Presentation skills,Internships,18,7,20,19,8,8,18,8,Collaboration Empathy Teamwork,4,116,Cybersecurity Analyst
+1st,MBA,Data Engineering,Julia Python R,4,No,AI Engineer,Time management,Mentorship programs,16,18,7,15,18,11,18,15,Emotional Intelligence Active Listening,5,136,Cloud Architect
+2nd,MBA,Deep Learning,R SAS Python,2,No,Cloud Architect,Lack of resources,Peer groups,19,9,13,11,16,11,14,14,Emotional Intelligence Active Listening,4,119,Software Engineer
+1st,B.Sc Computer Science,Cloud Security,Python Go Rust,3,Yes,Data Scientist,Presentation skills,Peer groups,12,16,5,12,16,11,18,16,Strategic Thinking Analytical Skills,2,116,Software Engineer
+3rd,B.Sc Computer Science,Computer Vision,Julia Python R,1,No,Business Analyst,Procrastination,Peer groups,19,11,13,15,18,15,17,20,Conflict Resolution Team Leadership,1,132,Cloud Architect
+2nd,M.Sc Data Science,Network Security,JavaScript TypeScript Python,5,No,Cybersecurity Analyst,Presentation skills,Peer groups,16,18,13,19,15,10,11,9,Leadership Creativity Critical-Thinking,3,127,AI Engineer
+2nd,MCA,Data Visualization,Python Go Rust,5,Yes,Cloud Architect,Lack of resources,Peer groups,15,5,17,15,17,17,15,16,Emotional Intelligence Active Listening,4,135,Cloud Architect
+2nd,MBA,Embedded Systems,Python Java C++,1,Yes,Data Scientist,Procrastination,Peer groups,20,10,17,18,12,9,14,19,Time-Management Resilience Negotiation,2,125,Software Engineer
+4th,M.Sc Data Science,Full Stack Development,Python Go Rust,1,Yes,Cloud Architect,Team collaboration,Internships,19,15,15,10,19,10,19,9,Presentation Skills Public Speaking,5,128,Data Scientist
+4th,MCA,Full Stack Development,JavaScript TypeScript Python,3,No,Cybersecurity Analyst,Presentation skills,Mentorship programs,19,10,13,18,12,18,20,5,Leadership Creativity Critical-Thinking,1,123,Software Engineer
+4th,B.Tech CSE,Cloud Security,JavaScript TypeScript Python,1,Yes,Business Analyst,Team collaboration,Internships,13,17,11,16,11,16,16,10,Collaboration Empathy Teamwork,5,122,Software Engineer
+1st,B.Tech IT,Full Stack Development,JavaScript TypeScript Python,1,Yes,Software Engineer,Procrastination,Online resources,18,11,5,14,8,20,11,19,Emotional Intelligence Active Listening,3,114,Software Engineer
+1st,B.Tech IT,Full Stack Development,MATLAB Python C,4,Yes,Cybersecurity Analyst,Time management,Mentorship programs,13,15,16,13,12,16,17,19,Decision-Making Flexibility Innovation,3,135,Data Scientist
+3rd,B.Tech IT,Business Intelligence,Julia Python R,5,Yes,Cybersecurity Analyst,Team collaboration,Mentorship programs,16,10,16,12,14,19,14,7,Communication Adaptability Problem-Solving,1,120,Cybersecurity Analyst
+4th,M.Sc Data Science,Deep Learning,Julia Python R,2,No,AI Engineer,Lack of resources,Online resources,18,6,17,12,18,20,11,18,Leadership Creativity Critical-Thinking,3,130,Data Scientist
+3rd,MBA,Embedded Systems,Scala Java Python,4,No,Business Analyst,Presentation skills,Mentorship programs,17,10,11,14,9,20,15,13,Communication Adaptability Problem-Solving,2,121,Software Engineer
+2nd,M.Sc Data Science,Full Stack Development,R SAS Python,4,No,Cybersecurity Analyst,Presentation skills,Mentorship programs,8,6,18,14,10,17,20,14,Strategic Thinking Analytical Skills,2,119,Software Engineer
+4th,M.Sc Data Science,Data Visualization,Python R SQL,5,No,Data Scientist,Procrastination,Online resources,14,16,17,16,14,12,10,13,Communication Adaptability Problem-Solving,3,128,Data Scientist
+1st,B.Tech CSE,Penetration Testing,Python Java C++,1,No,Cybersecurity Analyst,Presentation skills,Workshops,8,19,10,16,11,18,19,19,Strategic Thinking Analytical Skills,1,124,Software Engineer
+2nd,B.Sc Computer Science,Network Security,MATLAB Python C,3,Yes,Cybersecurity Analyst,Presentation skills,Workshops,17,14,5,20,9,9,10,8,Decision-Making Flexibility Innovation,2,102,Business Analyst
+3rd,MCA,Computer Vision,Julia Python R,3,No,Cybersecurity Analyst,Lack of resources,Workshops,11,16,13,15,20,11,19,10,Time-Management Resilience Negotiation,3,127,AI Engineer
+1st,B.Tech CSE,AI Fundamentals,C# .NET SQL,3,No,Software Engineer,Time management,Internships,8,10,16,15,9,12,10,13,Communication Adaptability Problem-Solving,2,103,Business Analyst
+3rd,B.Tech CSE,DevOps,JavaScript TypeScript Python,1,No,Software Engineer,Procrastination,Peer groups,8,19,15,20,12,13,14,8,Presentation Skills Public Speaking,3,117,Software Engineer
+3rd,B.Tech CSE,Data Visualization,Python Java C++,2,Yes,Data Scientist,Time management,Workshops,19,17,18,14,15,18,18,12,Presentation Skills Public Speaking,1,137,Cloud Architect
+4th,B.Sc Computer Science,DevOps,PHP JavaScript MySQL,3,No,AI Engineer,Team collaboration,Peer groups,14,18,18,17,11,11,14,16,Decision-Making Flexibility Innovation,2,129,AI Engineer
+4th,M.Sc Data Science,Data Visualization,C# .NET SQL,3,Yes,Cloud Architect,Team collaboration,Workshops,14,11,8,17,14,17,15,5,Decision-Making Flexibility Innovation,3,113,Software Engineer
+1st,MBA,Full Stack Development,Python Java C++,4,No,Data Scientist,Procrastination,Internships,16,6,18,18,8,11,14,9,Strategic Thinking Analytical Skills,2,112,Cybersecurity Analyst
+4th,MCA,DevOps,Python R SQL,1,Yes,Data Scientist,Presentation skills,Online resources,18,14,19,11,15,18,16,9,Emotional Intelligence Active Listening,2,126,Cloud Architect
+4th,MBA,Cloud Infrastructure,Julia Python R,4,No,Data Scientist,Procrastination,Online resources,14,12,6,14,13,15,13,13,Collaboration Empathy Teamwork,3,114,Software Engineer
+3rd,B.Tech CSE,Full Stack Development,R SAS Python,5,Yes,AI Engineer,Presentation skills,Online resources,9,16,20,19,11,13,11,14,Communication Adaptability Problem-Solving,4,131,Data Scientist
+4th,MBA,IoT Applications,Python Go Rust,4,Yes,Cloud Architect,Procrastination,Workshops,8,6,20,14,12,8,20,12,Communication Adaptability Problem-Solving,4,116,Software Engineer
+4th,B.Sc Computer Science,NLP,Julia Python R,2,Yes,AI Engineer,Presentation skills,Workshops,17,13,12,12,18,12,11,9,Conflict Resolution Team Leadership,5,118,Software Engineer
+2nd,M.Sc Data Science,Computer Vision,C# .NET SQL,2,No,AI Engineer,Interview anxiety,Mentorship programs,10,14,14,13,9,20,20,17,Collaboration Empathy Teamwork,1,123,Software Engineer
+2nd,MCA,Business Intelligence,MATLAB Python C,2,Yes,Data Scientist,Procrastination,Workshops,19,15,19,10,11,8,10,16,Emotional Intelligence Active Listening,2,116,Cybersecurity Analyst
+3rd,MCA,Blockchain Development,Julia Python R,2,No,Cloud Architect,Time management,Peer groups,14,5,13,17,18,15,13,9,Emotional Intelligence Active Listening,5,118,Cybersecurity Analyst
+3rd,M.Sc Data Science,NLP,MATLAB Python C,5,Yes,Cybersecurity Analyst,Time management,Online resources,20,13,9,12,9,18,12,17,Presentation Skills Public Speaking,3,126,Cloud Architect
+2nd,M.Sc Data Science,NLP,Python Java C++,3,No,Business Analyst,Lack of resources,Internships,18,15,12,19,10,17,10,13,Time-Management Resilience Negotiation,3,126,Data Scientist
+1st,MCA,Business Intelligence,R SAS Python,4,No,Business Analyst,Lack of resources,Online resources,11,13,13,18,14,12,20,6,Conflict Resolution Team Leadership,5,125,Software Engineer
+3rd,B.Tech IT,Data Visualization,Scala Java Python,1,No,AI Engineer,Team collaboration,Peer groups,14,15,18,11,15,15,10,7,Emotional Intelligence Active Listening,3,113,Cybersecurity Analyst
+3rd,M.Sc Data Science,Cloud Infrastructure,JavaScript TypeScript Python,3,Yes,Business Analyst,Presentation skills,Internships,15,17,14,14,17,9,16,10,Decision-Making Flexibility Innovation,2,122,Software Engineer
+1st,B.Sc Computer Science,Cloud Infrastructure,R SAS Python,3,Yes,Software Engineer,Interview anxiety,Mentorship programs,18,17,11,11,13,14,15,10,Collaboration Empathy Teamwork,5,125,Software Engineer
+2nd,MBA,DevOps,Scala Java Python,5,Yes,Cybersecurity Analyst,Procrastination,Internships,12,12,12,16,18,12,11,18,Presentation Skills Public Speaking,4,129,AI Engineer
+4th,M.Sc Data Science,Mobile App Development,Scala Java Python,2,Yes,AI Engineer,Presentation skills,Peer groups,14,7,16,20,9,16,17,17,Collaboration Empathy Teamwork,1,122,Software Engineer
+1st,B.Sc Computer Science,Computer Vision,R SAS Python,4,Yes,Business Analyst,Lack of resources,Internships,15,11,17,15,11,14,13,9,Strategic Thinking Analytical Skills,1,115,Software Engineer
+2nd,B.Tech IT,Blockchain Development,Python Java C++,5,Yes,Business Analyst,Time management,Internships,15,5,11,16,13,12,18,5,Collaboration Empathy Teamwork,5,115,Software Engineer
+3rd,B.Tech IT,Penetration Testing,Python R SQL,5,Yes,Software Engineer,Time management,Online resources,11,20,10,18,18,12,14,17,Decision-Making Flexibility Innovation,1,132,Cloud Architect
+2nd,B.Tech CSE,Cloud Infrastructure,C# .NET SQL,1,Yes,Cybersecurity Analyst,Lack of resources,Peer groups,20,14,17,11,19,9,19,7,Leadership Creativity Critical-Thinking,3,124,Software Engineer
+3rd,M.Sc Data Science,Deep Learning,JavaScript TypeScript Python,1,Yes,Data Scientist,Interview anxiety,Online resources,15,8,11,14,18,8,13,20,Conflict Resolution Team Leadership,2,113,Software Engineer
+3rd,B.Sc Computer Science,Computer Vision,Python Go Rust,3,No,AI Engineer,Presentation skills,Mentorship programs,9,18,16,20,12,15,20,20,Time-Management Resilience Negotiation,3,142,Data Scientist
+2nd,MBA,IoT Applications,Java Kotlin Swift,5,Yes,Business Analyst,Presentation skills,Online resources,19,13,16,18,18,15,10,13,Decision-Making Flexibility Innovation,1,134,Data Scientist
+1st,MBA,DevOps,Scala Java Python,2,No,Cybersecurity Analyst,Interview anxiety,Peer groups,19,5,18,18,18,13,16,18,Conflict Resolution Team Leadership,4,137,Data Scientist
+4th,B.Sc Computer Science,Cloud Infrastructure,MATLAB Python C,1,No,Cloud Architect,Interview anxiety,Mentorship programs,8,8,16,20,9,9,18,20,Presentation Skills Public Speaking,3,116,Cybersecurity Analyst
+3rd,B.Tech IT,Embedded Systems,Scala Java Python,5,Yes,Business Analyst,Procrastination,Online resources,12,5,19,20,17,19,14,20,Strategic Thinking Analytical Skills,1,138,Cloud Architect
+3rd,B.Sc Computer Science,Cloud Security,PHP JavaScript MySQL,2,Yes,Software Engineer,Presentation skills,Workshops,11,8,16,17,8,16,16,14,Decision-Making Flexibility Innovation,3,116,Software Engineer
+2nd,B.Sc Computer Science,Data Engineering,Python R SQL,4,Yes,Data Scientist,Procrastination,Mentorship programs,10,8,20,11,19,20,11,13,Decision-Making Flexibility Innovation,1,122,Software Engineer
+1st,B.Sc Computer Science,Penetration Testing,PHP JavaScript MySQL,1,Yes,Business Analyst,Presentation skills,Workshops,19,11,10,17,9,16,15,17,Strategic Thinking Analytical Skills,1,118,Cybersecurity Analyst
+1st,MCA,Computer Vision,Python R SQL,4,Yes,AI Engineer,Interview anxiety,Workshops,14,5,16,17,8,9,17,6,Communication Adaptability Problem-Solving,2,104,Business Analyst
+1st,MBA,IoT Applications,Julia Python R,2,Yes,Business Analyst,Interview anxiety,Internships,16,14,9,12,19,16,16,16,Presentation Skills Public Speaking,5,132,Cloud Architect
+1st,B.Sc Computer Science,NLP,Python R SQL,4,Yes,Cybersecurity Analyst,Interview anxiety,Peer groups,10,5,10,16,19,20,19,8,Communication Adaptability Problem-Solving,2,119,Cybersecurity Analyst
+4th,B.Tech CSE,Cloud Infrastructure,Java Kotlin Swift,1,No,Data Scientist,Time management,Online resources,8,17,19,12,8,14,11,8,Emotional Intelligence Active Listening,4,107,Software Engineer
+1st,B.Tech IT,Embedded Systems,Java Kotlin Swift,3,No,AI Engineer,Interview anxiety,Workshops,18,19,19,19,17,8,16,16,Communication Adaptability Problem-Solving,4,146,Cloud Architect
+2nd,M.Sc Data Science,Network Security,Python Go Rust,4,No,Cybersecurity Analyst,Procrastination,Online resources,9,8,5,12,9,14,20,12,Leadership Creativity Critical-Thinking,3,103,Business Analyst
+2nd,B.Sc Computer Science,Embedded Systems,Scala Java Python,2,Yes,Business Analyst,Procrastination,Peer groups,18,5,15,12,8,12,19,18,Communication Adaptability Problem-Solving,3,117,Cybersecurity Analyst
+3rd,B.Tech CSE,Embedded Systems,Scala Java Python,3,No,Software Engineer,Interview anxiety,Internships,19,11,15,13,8,17,11,15,Strategic Thinking Analytical Skills,2,119,Cybersecurity Analyst
+2nd,M.Sc Data Science,Computer Vision,Python R SQL,3,No,Cybersecurity Analyst,Team collaboration,Internships,8,19,19,12,14,16,11,5,Collaboration Empathy Teamwork,2,114,Cybersecurity Analyst
+3rd,B.Tech IT,AI Fundamentals,PHP JavaScript MySQL,4,Yes,Cybersecurity Analyst,Interview anxiety,Peer groups,18,7,16,14,18,9,19,15,Leadership Creativity Critical-Thinking,2,128,Data Scientist
+2nd,B.Sc Computer Science,DevOps,Java Kotlin Swift,1,Yes,Software Engineer,Time management,Peer groups,19,13,6,13,18,11,18,12,Leadership Creativity Critical-Thinking,5,122,Software Engineer
+1st,MBA,Cloud Security,Scala Java Python,5,No,Cloud Architect,Time management,Peer groups,17,10,20,11,20,11,13,7,Conflict Resolution Team Leadership,3,125,Software Engineer
+1st,B.Tech CSE,AI Fundamentals,Python R SQL,3,No,Data Scientist,Team collaboration,Workshops,12,13,10,11,8,10,11,14,Strategic Thinking Analytical Skills,5,105,Business Analyst
+3rd,B.Tech IT,Data Engineering,Python Java C++,2,No,Cloud Architect,Procrastination,Internships,13,19,19,15,14,8,15,19,Collaboration Empathy Teamwork,1,128,Cloud Architect
+3rd,B.Tech IT,Network Security,C# .NET SQL,3,Yes,Cybersecurity Analyst,Interview anxiety,Internships,19,16,20,18,19,10,18,12,Leadership Creativity Critical-Thinking,3,144,Cloud Architect
+1st,MCA,Cloud Security,Python Java C++,2,Yes,AI Engineer,Team collaboration,Mentorship programs,9,15,15,16,8,12,16,13,Strategic Thinking Analytical Skills,1,110,Cybersecurity Analyst
+1st,B.Tech IT,Cloud Security,R SAS Python,5,No,AI Engineer,Presentation skills,Online resources,9,12,6,19,19,16,20,8,Strategic Thinking Analytical Skills,4,127,Cloud Architect
+3rd,M.Sc Data Science,NLP,Java Kotlin Swift,3,Yes,Data Scientist,Team collaboration,Peer groups,11,15,12,16,19,14,18,12,Communication Adaptability Problem-Solving,5,133,Cloud Architect
+1st,MBA,Mobile App Development,C# .NET SQL,4,Yes,Data Scientist,Lack of resources,Peer groups,20,18,11,18,17,18,20,17,Strategic Thinking Analytical Skills,5,157,AI Engineer
+2nd,MCA,AI Fundamentals,JavaScript TypeScript Python,1,Yes,AI Engineer,Presentation skills,Online resources,12,13,5,10,17,8,11,17,Communication Adaptability Problem-Solving,2,99,Business Analyst
+1st,MBA,Mobile App Development,C# .NET SQL,4,Yes,Business Analyst,Interview anxiety,Internships,10,13,19,17,19,17,19,12,Communication Adaptability Problem-Solving,4,142,Data Scientist
+3rd,B.Tech CSE,Mobile App Development,Python Java C++,4,No,Data Scientist,Presentation skills,Online resources,8,15,13,20,10,9,18,17,Decision-Making Flexibility Innovation,2,122,Cybersecurity Analyst
+2nd,MCA,DevOps,PHP JavaScript MySQL,3,No,Cloud Architect,Procrastination,Workshops,15,18,12,13,13,10,15,11,Leadership Creativity Critical-Thinking,4,121,Software Engineer
+4th,B.Tech IT,AI Fundamentals,R SAS Python,4,No,AI Engineer,Interview anxiety,Workshops,14,7,14,12,18,13,20,15,Decision-Making Flexibility Innovation,1,123,Cybersecurity Analyst
+3rd,M.Sc Data Science,IoT Applications,Java Kotlin Swift,3,No,Cloud Architect,Lack of resources,Internships,18,7,12,16,8,8,14,6,Collaboration Empathy Teamwork,2,99,Business Analyst
+3rd,B.Tech IT,Business Intelligence,JavaScript TypeScript Python,3,Yes,Cybersecurity Analyst,Interview anxiety,Mentorship programs,13,14,9,13,11,20,12,14,Strategic Thinking Analytical Skills,3,118,Software Engineer
+4th,B.Tech CSE,AI Fundamentals,PHP JavaScript MySQL,3,No,Cloud Architect,Time management,Workshops,19,14,19,14,13,10,18,17,Collaboration Empathy Teamwork,4,138,Data Scientist
+1st,B.Tech CSE,AI Fundamentals,Python R SQL,4,No,AI Engineer,Team collaboration,Internships,14,9,7,13,16,9,12,20,Emotional Intelligence Active Listening,2,112,Cybersecurity Analyst
+1st,MBA,DevOps,Python Java C++,1,Yes,Cybersecurity Analyst,Presentation skills,Peer groups,19,12,14,15,18,12,20,19,Communication Adaptability Problem-Solving,5,141,Data Scientist
+2nd,MBA,IoT Applications,PHP JavaScript MySQL,2,Yes,Cybersecurity Analyst,Time management,Workshops,14,6,16,13,11,12,19,11,Communication Adaptability Problem-Solving,2,110,Cybersecurity Analyst
+1st,M.Sc Data Science,Cloud Security,Python Go Rust,5,Yes,Cybersecurity Analyst,Presentation skills,Peer groups,20,6,8,14,12,11,17,7,Presentation Skills Public Speaking,3,111,Software Engineer
+4th,B.Tech IT,Mobile App Development,MATLAB Python C,1,Yes,Data Scientist,Procrastination,Peer groups,8,7,16,10,17,17,13,16,Collaboration Empathy Teamwork,5,116,Cybersecurity Analyst
+1st,MBA,Full Stack Development,Java Kotlin Swift,2,No,Data Scientist,Lack of resources,Online resources,18,20,8,18,13,17,20,11,Strategic Thinking Analytical Skills,4,137,Cloud Architect
+1st,B.Tech CSE,NLP,Python R SQL,5,Yes,Cybersecurity Analyst,Team collaboration,Internships,14,18,11,19,15,16,19,7,Presentation Skills Public Speaking,4,137,Data Scientist
+4th,B.Tech IT,Data Visualization,Python R SQL,4,Yes,Data Scientist,Team collaboration,Online resources,10,5,9,17,15,13,18,13,Collaboration Empathy Teamwork,5,118,Cybersecurity Analyst
+1st,B.Tech IT,DevOps,R SAS Python,4,No,Business Analyst,Presentation skills,Mentorship programs,17,6,15,11,16,11,15,15,Strategic Thinking Analytical Skills,5,124,Software Engineer
+3rd,MCA,Cloud Infrastructure,R SAS Python,5,Yes,Cloud Architect,Team collaboration,Workshops,9,5,6,15,14,16,20,7,Leadership Creativity Critical-Thinking,2,106,Software Engineer
+2nd,MCA,Business Intelligence,Java Kotlin Swift,5,Yes,Cloud Architect,Procrastination,Peer groups,11,7,15,19,12,15,19,11,Decision-Making Flexibility Innovation,4,127,Cloud Architect
+3rd,MBA,Penetration Testing,Python Go Rust,4,No,AI Engineer,Interview anxiety,Internships,10,11,11,20,15,13,14,20,Communication Adaptability Problem-Solving,1,124,Cybersecurity Analyst
+4th,B.Sc Computer Science,IoT Applications,R SAS Python,4,Yes,Data Scientist,Procrastination,Internships,17,11,14,16,13,20,10,8,Leadership Creativity Critical-Thinking,2,121,Cybersecurity Analyst
+2nd,MBA,Network Security,Java Kotlin Swift,5,Yes,Software Engineer,Time management,Peer groups,17,12,19,13,8,13,13,16,Decision-Making Flexibility Innovation,5,131,Cloud Architect
+4th,M.Sc Data Science,Cloud Infrastructure,MATLAB Python C,3,Yes,Cloud Architect,Interview anxiety,Peer groups,15,10,10,11,19,18,14,9,Time-Management Resilience Negotiation,3,118,Software Engineer
+1st,B.Sc Computer Science,DevOps,PHP JavaScript MySQL,4,No,Cloud Architect,Interview anxiety,Workshops,11,10,16,20,17,13,11,20,Collaboration Empathy Teamwork,2,130,AI Engineer
+1st,B.Tech IT,IoT Applications,JavaScript TypeScript Python,5,Yes,Business Analyst,Presentation skills,Mentorship programs,8,10,12,18,17,10,13,14,Decision-Making Flexibility Innovation,5,122,Cybersecurity Analyst
+2nd,B.Tech CSE,Full Stack Development,PHP JavaScript MySQL,5,No,Cybersecurity Analyst,Time management,Mentorship programs,20,15,16,12,10,19,16,19,Presentation Skills Public Speaking,5,147,Data Scientist
+4th,MCA,Cloud Infrastructure,MATLAB Python C,2,Yes,Data Scientist,Presentation skills,Mentorship programs,16,11,9,17,8,20,17,6,Communication Adaptability Problem-Solving,5,118,Cybersecurity Analyst
+4th,B.Tech IT,Business Intelligence,R SAS Python,5,Yes,Data Scientist,Lack of resources,Peer groups,18,16,12,16,14,20,14,11,Leadership Creativity Critical-Thinking,4,139,Cloud Architect
+4th,B.Sc Computer Science,Computer Vision,JavaScript TypeScript Python,2,Yes,AI Engineer,Procrastination,Mentorship programs,13,15,7,15,8,19,10,11,Time-Management Resilience Negotiation,3,108,Software Engineer
+4th,B.Tech CSE,Cloud Security,Java Kotlin Swift,2,No,Cloud Architect,Procrastination,Internships,16,11,12,15,18,10,14,5,Decision-Making Flexibility Innovation,1,107,Software Engineer
+3rd,MCA,Mobile App Development,Scala Java Python,5,Yes,AI Engineer,Team collaboration,Workshops,11,20,8,10,10,14,10,16,Strategic Thinking Analytical Skills,2,113,Cybersecurity Analyst
+4th,M.Sc Data Science,Penetration Testing,R SAS Python,4,No,Software Engineer,Lack of resources,Peer groups,14,12,15,12,9,16,15,15,Time-Management Resilience Negotiation,1,118,Cybersecurity Analyst
+4th,MBA,Full Stack Development,Julia Python R,3,No,Software Engineer,Lack of resources,Peer groups,12,6,18,12,11,17,10,20,Conflict Resolution Team Leadership,3,118,Cybersecurity Analyst
+4th,B.Sc Computer Science,Network Security,Python Java C++,2,Yes,AI Engineer,Interview anxiety,Internships,12,8,13,14,20,11,18,13,Conflict Resolution Team Leadership,4,121,Software Engineer
+3rd,M.Sc Data Science,Mobile App Development,Java Kotlin Swift,1,Yes,Cloud Architect,Lack of resources,Peer groups,9,16,18,13,11,9,11,9,Emotional Intelligence Active Listening,2,102,Business Analyst
+2nd,B.Sc Computer Science,Full Stack Development,Java Kotlin Swift,3,No,Business Analyst,Time management,Online resources,16,11,19,14,14,20,15,14,Strategic Thinking Analytical Skills,2,133,Data Scientist
+4th,B.Tech CSE,DevOps,Python Go Rust,1,Yes,Business Analyst,Presentation skills,Workshops,9,9,13,17,9,9,20,12,Time-Management Resilience Negotiation,4,108,Cybersecurity Analyst
+1st,MCA,Mobile App Development,Python R SQL,3,Yes,AI Engineer,Interview anxiety,Workshops,12,16,17,12,20,14,15,18,Decision-Making Flexibility Innovation,1,132,Data Scientist
+3rd,B.Tech CSE,DevOps,Julia Python R,5,No,Data Scientist,Team collaboration,Workshops,8,5,6,13,17,15,14,7,Strategic Thinking Analytical Skills,3,101,Business Analyst
+2nd,B.Sc Computer Science,AI Fundamentals,PHP JavaScript MySQL,2,No,Data Scientist,Procrastination,Workshops,12,12,6,17,12,9,15,17,Collaboration Empathy Teamwork,4,112,Cybersecurity Analyst
+2nd,MCA,NLP,MATLAB Python C,1,No,AI Engineer,Team collaboration,Internships,14,18,8,18,15,15,20,17,Presentation Skills Public Speaking,5,137,AI Engineer
+3rd,MCA,Blockchain Development,C# .NET SQL,5,No,Software Engineer,Presentation skills,Workshops,16,15,18,19,20,13,16,6,Collaboration Empathy Teamwork,1,135,Cloud Architect
+2nd,B.Tech IT,Blockchain Development,C# .NET SQL,4,No,Software Engineer,Procrastination,Peer groups,14,20,18,19,20,8,17,11,Leadership Creativity Critical-Thinking,3,141,Cloud Architect
+1st,B.Tech IT,Deep Learning,Java Kotlin Swift,3,No,Business Analyst,Procrastination,Workshops,13,19,20,11,18,13,12,16,Decision-Making Flexibility Innovation,4,136,Data Scientist
+2nd,M.Sc Data Science,Data Engineering,Python Java C++,2,Yes,Business Analyst,Time management,Workshops,8,9,7,18,9,8,10,15,Presentation Skills Public Speaking,5,98,Business Analyst
+1st,B.Tech IT,DevOps,JavaScript TypeScript Python,5,Yes,AI Engineer,Presentation skills,Workshops,17,15,5,18,13,12,16,11,Presentation Skills Public Speaking,4,125,Cybersecurity Analyst
+1st,B.Tech IT,Full Stack Development,MATLAB Python C,1,Yes,Software Engineer,Time management,Mentorship programs,17,14,11,17,15,19,16,17,Conflict Resolution Team Leadership,2,132,Cloud Architect
+2nd,MBA,Business Intelligence,PHP JavaScript MySQL,3,No,Data Scientist,Presentation skills,Mentorship programs,13,16,15,20,17,14,17,12,Decision-Making Flexibility Innovation,2,134,Data Scientist
+1st,B.Sc Computer Science,Embedded Systems,JavaScript TypeScript Python,4,No,Cybersecurity Analyst,Time management,Mentorship programs,14,8,18,20,17,16,14,18,Collaboration Empathy Teamwork,4,141,AI Engineer
+1st,M.Sc Data Science,Cloud Infrastructure,Java Kotlin Swift,5,No,Business Analyst,Procrastination,Online resources,13,6,20,16,16,8,13,19,Communication Adaptability Problem-Solving,4,129,AI Engineer
+2nd,B.Tech CSE,Penetration Testing,PHP JavaScript MySQL,3,No,Cloud Architect,Interview anxiety,Mentorship programs,15,8,19,15,19,17,13,6,Leadership Creativity Critical-Thinking,1,120,Cybersecurity Analyst
+4th,B.Tech CSE,DevOps,Scala Java Python,1,No,AI Engineer,Procrastination,Peer groups,19,15,20,13,11,11,10,5,Decision-Making Flexibility Innovation,1,108,Software Engineer
+2nd,M.Sc Data Science,Deep Learning,Scala Java Python,1,Yes,AI Engineer,Presentation skills,Online resources,14,19,11,12,18,18,20,19,Presentation Skills Public Speaking,1,135,Data Scientist
+3rd,MBA,Cloud Infrastructure,Python Java C++,4,Yes,Data Scientist,Interview anxiety,Internships,16,19,18,17,15,11,19,12,Time-Management Resilience Negotiation,5,145,Cloud Architect
+1st,B.Sc Computer Science,NLP,MATLAB Python C,5,No,Data Scientist,Lack of resources,Internships,18,17,7,11,14,20,15,7,Collaboration Empathy Teamwork,1,121,Software Engineer
+4th,M.Sc Data Science,Cloud Security,Java Kotlin Swift,5,No,Business Analyst,Team collaboration,Online resources,8,10,17,14,9,18,16,12,Time-Management Resilience Negotiation,2,118,Cybersecurity Analyst
+3rd,MCA,DevOps,Python Java C++,5,No,Data Scientist,Procrastination,Workshops,11,15,7,20,17,20,14,8,Emotional Intelligence Active Listening,5,132,AI Engineer
+2nd,M.Sc Data Science,Data Engineering,R SAS Python,5,Yes,Cloud Architect,Team collaboration,Internships,8,9,8,16,8,11,10,16,Decision-Making Flexibility Innovation,3,102,Business Analyst
+1st,MCA,Mobile App Development,R SAS Python,4,Yes,Data Scientist,Interview anxiety,Mentorship programs,14,10,15,10,13,18,20,8,Leadership Creativity Critical-Thinking,3,122,Cybersecurity Analyst
+2nd,MBA,Mobile App Development,PHP JavaScript MySQL,3,Yes,Cloud Architect,Interview anxiety,Online resources,11,5,17,13,14,14,16,19,Decision-Making Flexibility Innovation,2,119,Software Engineer
+4th,MBA,Deep Learning,Java Kotlin Swift,3,Yes,Data Scientist,Lack of resources,Mentorship programs,11,20,18,16,19,10,16,6,Communication Adaptability Problem-Solving,5,132,AI Engineer
+2nd,MCA,DevOps,C# .NET SQL,4,No,Cloud Architect,Procrastination,Workshops,18,17,5,19,18,18,14,5,Time-Management Resilience Negotiation,2,126,Data Scientist
+4th,B.Tech CSE,IoT Applications,C# .NET SQL,3,No,Cloud Architect,Team collaboration,Workshops,14,14,5,18,9,10,19,8,Leadership Creativity Critical-Thinking,5,113,Cybersecurity Analyst
+4th,MCA,AI Fundamentals,MATLAB Python C,2,Yes,Software Engineer,Team collaboration,Peer groups,16,16,7,14,17,17,11,7,Decision-Making Flexibility Innovation,1,111,Cybersecurity Analyst
+3rd,M.Sc Data Science,Deep Learning,JavaScript TypeScript Python,3,Yes,Cybersecurity Analyst,Lack of resources,Mentorship programs,9,17,10,15,12,13,10,20,Emotional Intelligence Active Listening,3,118,Cybersecurity Analyst
+4th,B.Tech CSE,Network Security,R SAS Python,2,Yes,Software Engineer,Team collaboration,Online resources,14,8,7,13,17,9,13,8,Emotional Intelligence Active Listening,5,103,Business Analyst
+4th,B.Tech IT,Full Stack Development,R SAS Python,5,Yes,Data Scientist,Interview anxiety,Peer groups,17,7,10,16,8,14,12,10,Leadership Creativity Critical-Thinking,5,114,Software Engineer
+2nd,M.Sc Data Science,Network Security,MATLAB Python C,5,No,Cybersecurity Analyst,Time management,Workshops,16,10,15,14,20,8,15,10,Time-Management Resilience Negotiation,4,126,Data Scientist
+3rd,B.Sc Computer Science,Full Stack Development,JavaScript TypeScript Python,2,Yes,Business Analyst,Team collaboration,Peer groups,12,18,10,16,8,14,13,13,Communication Adaptability Problem-Solving,4,116,Cybersecurity Analyst
+3rd,B.Sc Computer Science,Cloud Infrastructure,Scala Java Python,5,Yes,Cloud Architect,Interview anxiety,Online resources,17,9,17,16,17,20,17,11,Collaboration Empathy Teamwork,4,142,AI Engineer
+3rd,B.Tech IT,Blockchain Development,Scala Java Python,3,Yes,Cloud Architect,Lack of resources,Peer groups,13,12,14,19,19,9,13,7,Emotional Intelligence Active Listening,5,122,Cybersecurity Analyst
+1st,MBA,Mobile App Development,Scala Java Python,1,Yes,Cybersecurity Analyst,Team collaboration,Mentorship programs,9,7,8,20,16,11,12,6,Time-Management Resilience Negotiation,1,93,Business Analyst
+4th,B.Tech IT,AI Fundamentals,Python Java C++,2,No,Cloud Architect,Time management,Workshops,19,14,6,13,20,19,19,5,Emotional Intelligence Active Listening,5,129,Data Scientist
+2nd,B.Sc Computer Science,Cloud Security,C# .NET SQL,2,No,Software Engineer,Time management,Peer groups,11,16,18,19,11,12,15,19,Collaboration Empathy Teamwork,1,127,Cloud Architect
+3rd,M.Sc Data Science,AI Fundamentals,C# .NET SQL,1,No,Data Scientist,Lack of resources,Online resources,13,5,6,13,13,19,18,20,Conflict Resolution Team Leadership,1,111,Software Engineer
+2nd,B.Sc Computer Science,Cloud Security,Julia Python R,5,No,Software Engineer,Time management,Peer groups,13,14,17,11,8,10,10,16,Communication Adaptability Problem-Solving,1,111,Software Engineer
+3rd,M.Sc Data Science,AI Fundamentals,C# .NET SQL,3,Yes,Business Analyst,Presentation skills,Internships,10,5,18,14,9,12,12,14,Presentation Skills Public Speaking,1,102,Business Analyst
+3rd,MBA,Full Stack Development,PHP JavaScript MySQL,2,No,AI Engineer,Interview anxiety,Internships,13,13,13,20,11,10,12,20,Conflict Resolution Team Leadership,1,118,Cybersecurity Analyst
+4th,B.Sc Computer Science,Network Security,PHP JavaScript MySQL,1,No,Business Analyst,Lack of resources,Mentorship programs,13,13,15,18,8,8,10,12,Leadership Creativity Critical-Thinking,1,101,Business Analyst
+3rd,MBA,Penetration Testing,R SAS Python,3,Yes,Business Analyst,Interview anxiety,Workshops,15,15,17,10,14,13,18,19,Conflict Resolution Team Leadership,2,131,AI Engineer
+1st,B.Tech IT,Data Visualization,C# .NET SQL,4,No,AI Engineer,Lack of resources,Internships,10,10,14,16,17,16,18,7,Time-Management Resilience Negotiation,3,122,Cybersecurity Analyst
+4th,B.Sc Computer Science,IoT Applications,C# .NET SQL,4,Yes,Cybersecurity Analyst,Team collaboration,Internships,17,15,17,15,9,16,16,14,Leadership Creativity Critical-Thinking,3,133,AI Engineer
+1st,M.Sc Data Science,Deep Learning,Python Go Rust,3,Yes,Software Engineer,Time management,Online resources,9,7,16,17,11,20,11,9,Time-Management Resilience Negotiation,5,116,Software Engineer
+1st,MBA,Cloud Security,Scala Java Python,5,No,Business Analyst,Lack of resources,Workshops,10,7,7,17,13,19,14,9,Conflict Resolution Team Leadership,3,112,Cybersecurity Analyst
+1st,M.Sc Data Science,Deep Learning,Scala Java Python,5,No,Software Engineer,Lack of resources,Internships,10,17,7,17,13,18,13,7,Collaboration Empathy Teamwork,5,122,Cybersecurity Analyst
+1st,M.Sc Data Science,Deep Learning,Python Java C++,5,No,Cybersecurity Analyst,Procrastination,Mentorship programs,9,7,10,17,18,19,16,6,Conflict Resolution Team Leadership,4,120,Software Engineer
+4th,B.Tech CSE,Mobile App Development,JavaScript TypeScript Python,3,No,Business Analyst,Time management,Workshops,13,5,13,13,11,9,16,6,Communication Adaptability Problem-Solving,3,98,Business Analyst
+4th,B.Tech IT,Mobile App Development,Python Go Rust,4,Yes,Business Analyst,Team collaboration,Peer groups,18,13,19,20,13,11,19,12,Communication Adaptability Problem-Solving,4,141,Cloud Architect
+2nd,B.Tech IT,Embedded Systems,Python R SQL,1,No,Business Analyst,Interview anxiety,Internships,9,17,8,16,15,12,18,16,Leadership Creativity Critical-Thinking,5,123,Software Engineer
+2nd,B.Sc Computer Science,NLP,R SAS Python,1,Yes,AI Engineer,Interview anxiety,Peer groups,10,11,19,18,20,19,17,15,Decision-Making Flexibility Innovation,3,137,Cloud Architect
+1st,B.Tech IT,DevOps,PHP JavaScript MySQL,5,Yes,Software Engineer,Procrastination,Mentorship programs,20,12,18,19,12,19,17,19,Strategic Thinking Analytical Skills,2,150,Cloud Architect
+3rd,B.Tech IT,Mobile App Development,C# .NET SQL,3,Yes,Business Analyst,Procrastination,Mentorship programs,11,13,15,14,15,15,13,7,Collaboration Empathy Teamwork,4,117,Cybersecurity Analyst
+4th,M.Sc Data Science,Cloud Security,Python Java C++,1,No,AI Engineer,Time management,Internships,18,18,13,20,8,12,18,11,Communication Adaptability Problem-Solving,1,122,Cybersecurity Analyst
+2nd,MBA,Business Intelligence,MATLAB Python C,3,Yes,Business Analyst,Team collaboration,Mentorship programs,20,14,18,12,17,16,11,6,Time-Management Resilience Negotiation,2,124,Cybersecurity Analyst
+4th,M.Sc Data Science,Penetration Testing,Python R SQL,4,No,Business Analyst,Interview anxiety,Peer groups,10,15,10,17,15,10,18,11,Communication Adaptability Problem-Solving,1,116,Cybersecurity Analyst
+3rd,MCA,Cloud Security,MATLAB Python C,1,No,Data Scientist,Lack of resources,Workshops,19,20,15,16,19,19,14,16,Conflict Resolution Team Leadership,2,144,Data Scientist
+4th,MCA,Computer Vision,MATLAB Python C,5,Yes,Cybersecurity Analyst,Team collaboration,Internships,13,11,13,13,9,13,16,8,Emotional Intelligence Active Listening,2,110,Cybersecurity Analyst
+4th,B.Tech IT,Embedded Systems,R SAS Python,3,Yes,Business Analyst,Presentation skills,Internships,10,19,8,10,20,19,10,5,Decision-Making Flexibility Innovation,2,111,Cybersecurity Analyst
+4th,B.Tech CSE,Full Stack Development,Python R SQL,2,Yes,Business Analyst,Team collaboration,Internships,8,5,16,12,19,12,20,9,Leadership Creativity Critical-Thinking,5,115,Cybersecurity Analyst
+4th,M.Sc Data Science,Data Visualization,Python Java C++,2,Yes,Cybersecurity Analyst,Team collaboration,Workshops,20,11,16,13,10,16,17,9,Conflict Resolution Team Leadership,1,118,Software Engineer
+1st,B.Tech CSE,IoT Applications,MATLAB Python C,4,Yes,Cloud Architect,Interview anxiety,Mentorship programs,18,9,11,10,17,20,20,11,Presentation Skills Public Speaking,2,128,AI Engineer
+2nd,B.Tech CSE,Data Visualization,Java Kotlin Swift,5,No,Cybersecurity Analyst,Team collaboration,Workshops,9,11,6,10,20,16,15,15,Strategic Thinking Analytical Skills,5,122,Software Engineer
+2nd,B.Tech IT,Full Stack Development,PHP JavaScript MySQL,5,No,Data Scientist,Team collaboration,Peer groups,17,6,5,16,19,11,11,10,Presentation Skills Public Speaking,4,113,Software Engineer
+2nd,B.Tech IT,Embedded Systems,Scala Java Python,1,No,Cloud Architect,Lack of resources,Online resources,20,16,6,12,10,14,18,7,Time-Management Resilience Negotiation,1,107,Software Engineer
+2nd,B.Tech CSE,Cloud Security,C# .NET SQL,5,Yes,Cybersecurity Analyst,Procrastination,Online resources,19,5,6,18,17,20,19,20,Leadership Creativity Critical-Thinking,4,142,Cloud Architect
+4th,B.Tech IT,Data Engineering,MATLAB Python C,5,Yes,Business Analyst,Time management,Peer groups,12,14,9,14,18,20,10,16,Communication Adaptability Problem-Solving,3,129,Data Scientist
+4th,B.Sc Computer Science,Mobile App Development,MATLAB Python C,2,Yes,Software Engineer,Lack of resources,Peer groups,12,19,20,19,13,9,14,20,Emotional Intelligence Active Listening,3,136,AI Engineer
+4th,B.Tech CSE,Mobile App Development,Julia Python R,2,No,Cybersecurity Analyst,Time management,Internships,9,17,16,13,9,20,12,10,Leadership Creativity Critical-Thinking,4,118,Cybersecurity Analyst
+3rd,MCA,Deep Learning,Python Java C++,1,No,Business Analyst,Interview anxiety,Online resources,20,16,13,19,16,14,13,5,Decision-Making Flexibility Innovation,2,122,Cybersecurity Analyst
+4th,MBA,AI Fundamentals,MATLAB Python C,2,No,Cybersecurity Analyst,Presentation skills,Workshops,8,13,15,17,19,18,10,17,Communication Adaptability Problem-Solving,1,123,Software Engineer
+2nd,B.Sc Computer Science,Deep Learning,Python R SQL,3,Yes,Data Scientist,Interview anxiety,Mentorship programs,17,13,9,14,20,13,18,6,Leadership Creativity Critical-Thinking,2,120,Software Engineer
+3rd,MCA,AI Fundamentals,Scala Java Python,3,Yes,Business Analyst,Team collaboration,Mentorship programs,12,10,16,11,16,16,16,20,Collaboration Empathy Teamwork,4,131,Data Scientist
+4th,B.Sc Computer Science,Cloud Security,Scala Java Python,4,Yes,Cloud Architect,Team collaboration,Peer groups,15,8,7,11,10,11,14,5,Leadership Creativity Critical-Thinking,3,95,Business Analyst
+3rd,B.Tech CSE,Cloud Infrastructure,R SAS Python,2,No,Business Analyst,Team collaboration,Peer groups,14,12,16,18,10,9,12,10,Presentation Skills Public Speaking,3,111,Software Engineer
+2nd,B.Sc Computer Science,Full Stack Development,R SAS Python,2,Yes,AI Engineer,Lack of resources,Peer groups,10,6,15,10,14,9,10,16,Decision-Making Flexibility Innovation,5,104,Business Analyst
+1st,B.Sc Computer Science,DevOps,Julia Python R,4,Yes,AI Engineer,Procrastination,Mentorship programs,17,13,14,14,15,16,11,7,Collaboration Empathy Teamwork,3,121,Software Engineer
+2nd,B.Tech IT,Computer Vision,Python Go Rust,5,No,Data Scientist,Time management,Workshops,10,11,5,10,15,20,19,13,Conflict Resolution Team Leadership,3,119,Software Engineer
+3rd,M.Sc Data Science,DevOps,JavaScript TypeScript Python,2,No,Software Engineer,Time management,Online resources,9,7,6,20,8,19,13,5,Leadership Creativity Critical-Thinking,5,101,Business Analyst
+4th,B.Tech IT,Mobile App Development,Scala Java Python,1,No,AI Engineer,Presentation skills,Internships,10,5,14,15,16,8,11,11,Decision-Making Flexibility Innovation,5,102,Business Analyst
+3rd,B.Tech IT,Embedded Systems,Python Java C++,5,Yes,Cybersecurity Analyst,Presentation skills,Online resources,17,8,5,10,12,12,20,19,Leadership Creativity Critical-Thinking,2,117,Cybersecurity Analyst
+3rd,MBA,Blockchain Development,R SAS Python,3,Yes,Data Scientist,Team collaboration,Mentorship programs,17,5,19,16,14,11,13,9,Presentation Skills Public Speaking,3,116,Software Engineer
+3rd,B.Tech IT,Blockchain Development,Python Java C++,4,Yes,Cloud Architect,Team collaboration,Workshops,8,18,19,17,19,12,10,8,Presentation Skills Public Speaking,5,129,Data Scientist
+4th,MBA,NLP,Python Java C++,5,Yes,AI Engineer,Time management,Internships,13,12,6,16,19,20,17,10,Time-Management Resilience Negotiation,3,129,AI Engineer
+4th,B.Sc Computer Science,AI Fundamentals,Java Kotlin Swift,3,No,Cybersecurity Analyst,Time management,Workshops,19,11,20,11,13,12,14,16,Conflict Resolution Team Leadership,4,130,Cloud Architect
+1st,B.Tech IT,Data Visualization,Julia Python R,5,No,Data Scientist,Team collaboration,Internships,12,13,13,20,16,9,18,14,Conflict Resolution Team Leadership,4,133,Cloud Architect
+4th,M.Sc Data Science,Full Stack Development,Scala Java Python,4,Yes,AI Engineer,Interview anxiety,Peer groups,17,8,10,20,18,18,11,20,Communication Adaptability Problem-Solving,2,134,AI Engineer
+2nd,B.Tech IT,IoT Applications,Python Go Rust,4,No,Business Analyst,Procrastination,Online resources,16,11,16,19,17,19,15,18,Time-Management Resilience Negotiation,2,143,Data Scientist
+1st,M.Sc Data Science,AI Fundamentals,JavaScript TypeScript Python,5,No,AI Engineer,Lack of resources,Online resources,18,7,16,11,12,18,13,15,Decision-Making Flexibility Innovation,4,128,AI Engineer
+4th,B.Sc Computer Science,IoT Applications,Java Kotlin Swift,3,No,Data Scientist,Presentation skills,Online resources,19,13,16,11,15,13,14,11,Time-Management Resilience Negotiation,3,124,Software Engineer
+4th,MBA,Embedded Systems,JavaScript TypeScript Python,3,Yes,Data Scientist,Time management,Online resources,8,12,18,14,16,13,16,8,Collaboration Empathy Teamwork,2,115,Software Engineer
+2nd,B.Sc Computer Science,Blockchain Development,Java Kotlin Swift,2,Yes,AI Engineer,Interview anxiety,Online resources,15,6,19,18,9,12,19,11,Emotional Intelligence Active Listening,1,115,Software Engineer
+2nd,MCA,Deep Learning,PHP JavaScript MySQL,5,Yes,Data Scientist,Procrastination,Online resources,10,12,20,14,12,18,18,17,Conflict Resolution Team Leadership,5,141,Cloud Architect
+3rd,MBA,Cloud Infrastructure,C# .NET SQL,1,No,Cloud Architect,Team collaboration,Mentorship programs,13,11,17,16,18,16,14,16,Leadership Creativity Critical-Thinking,3,129,Cloud Architect
+1st,B.Tech CSE,Data Visualization,Python Go Rust,3,Yes,Data Scientist,Interview anxiety,Peer groups,16,17,11,17,8,18,10,20,Time-Management Resilience Negotiation,5,133,Data Scientist
+1st,MCA,AI Fundamentals,C# .NET SQL,5,Yes,Cloud Architect,Presentation skills,Workshops,8,11,19,10,9,8,18,20,Presentation Skills Public Speaking,1,115,Software Engineer
+1st,MCA,NLP,Julia Python R,1,Yes,Cybersecurity Analyst,Team collaboration,Online resources,16,11,9,10,9,20,20,9,Presentation Skills Public Speaking,3,112,Cybersecurity Analyst
+4th,M.Sc Data Science,Cloud Security,Julia Python R,1,Yes,AI Engineer,Procrastination,Peer groups,11,10,11,12,12,11,15,16,Conflict Resolution Team Leadership,2,104,Business Analyst
+1st,MCA,Data Engineering,Java Kotlin Swift,5,Yes,AI Engineer,Lack of resources,Peer groups,20,18,8,13,20,17,14,12,Collaboration Empathy Teamwork,1,134,Cloud Architect
+3rd,B.Sc Computer Science,Cloud Security,Java Kotlin Swift,1,No,Data Scientist,Team collaboration,Workshops,13,18,9,14,20,9,16,12,Collaboration Empathy Teamwork,5,123,Software Engineer
+1st,MCA,Mobile App Development,MATLAB Python C,4,Yes,Data Scientist,Time management,Peer groups,16,9,15,17,11,17,14,12,Decision-Making Flexibility Innovation,4,127,AI Engineer
+3rd,B.Sc Computer Science,Full Stack Development,C# .NET SQL,3,Yes,AI Engineer,Lack of resources,Mentorship programs,18,20,17,15,20,19,16,11,Collaboration Empathy Teamwork,4,150,AI Engineer
+2nd,B.Tech IT,Penetration Testing,Python Go Rust,5,Yes,Cybersecurity Analyst,Procrastination,Mentorship programs,12,5,16,11,12,18,17,13,Presentation Skills Public Speaking,5,124,Software Engineer
+4th,B.Tech CSE,Network Security,JavaScript TypeScript Python,4,No,Software Engineer,Interview anxiety,Peer groups,11,13,9,10,11,12,19,9,Emotional Intelligence Active Listening,3,108,Cybersecurity Analyst
+1st,MBA,Network Security,JavaScript TypeScript Python,4,No,Cybersecurity Analyst,Presentation skills,Mentorship programs,17,9,20,16,10,9,17,10,Leadership Creativity Critical-Thinking,2,120,Cybersecurity Analyst
+1st,M.Sc Data Science,Cloud Infrastructure,Java Kotlin Swift,1,Yes,Software Engineer,Procrastination,Online resources,17,19,18,18,20,20,14,9,Decision-Making Flexibility Innovation,3,143,Data Scientist
+4th,MCA,Cloud Infrastructure,JavaScript TypeScript Python,5,Yes,Cybersecurity Analyst,Lack of resources,Internships,10,13,12,11,16,20,17,20,Emotional Intelligence Active Listening,2,133,AI Engineer
+3rd,B.Tech CSE,Cloud Infrastructure,Scala Java Python,4,No,Data Scientist,Presentation skills,Mentorship programs,16,11,19,20,18,11,13,8,Communication Adaptability Problem-Solving,2,128,Cloud Architect
+4th,MCA,Penetration Testing,JavaScript TypeScript Python,1,No,Data Scientist,Interview anxiety,Internships,12,13,9,20,20,17,10,16,Conflict Resolution Team Leadership,4,127,Cloud Architect
+3rd,M.Sc Data Science,Cloud Security,Python Go Rust,1,Yes,AI Engineer,Interview anxiety,Online resources,12,13,7,18,9,18,19,14,Decision-Making Flexibility Innovation,3,118,Cybersecurity Analyst
+3rd,B.Tech IT,NLP,C# .NET SQL,3,Yes,Software Engineer,Interview anxiety,Workshops,18,6,13,19,17,16,11,13,Collaboration Empathy Teamwork,5,129,AI Engineer
+2nd,B.Sc Computer Science,Network Security,MATLAB Python C,1,No,Business Analyst,Lack of resources,Workshops,9,9,15,12,13,17,19,16,Communication Adaptability Problem-Solving,4,120,Software Engineer
+3rd,MCA,Network Security,Java Kotlin Swift,3,Yes,Cloud Architect,Time management,Mentorship programs,15,20,16,10,13,9,10,17,Emotional Intelligence Active Listening,2,120,Cybersecurity Analyst
+1st,B.Sc Computer Science,IoT Applications,PHP JavaScript MySQL,2,Yes,Data Scientist,Team collaboration,Mentorship programs,9,17,14,14,9,10,15,17,Leadership Creativity Critical-Thinking,2,113,Software Engineer
+4th,B.Sc Computer Science,Mobile App Development,Julia Python R,1,No,AI Engineer,Time management,Online resources,20,8,11,18,19,17,16,8,Strategic Thinking Analytical Skills,1,121,Software Engineer
+2nd,M.Sc Data Science,AI Fundamentals,JavaScript TypeScript Python,5,Yes,Cloud Architect,Procrastination,Online resources,8,11,10,20,12,12,17,16,Strategic Thinking Analytical Skills,3,122,Cybersecurity Analyst
+2nd,B.Tech IT,Cloud Infrastructure,Python Java C++,1,Yes,Business Analyst,Lack of resources,Workshops,14,5,5,14,16,18,11,20,Collaboration Empathy Teamwork,2,109,Cybersecurity Analyst
+1st,MBA,Business Intelligence,Python Java C++,1,No,Cloud Architect,Time management,Online resources,8,5,10,16,19,8,19,20,Collaboration Empathy Teamwork,5,117,Software Engineer
+2nd,MBA,Business Intelligence,Java Kotlin Swift,5,No,AI Engineer,Presentation skills,Workshops,15,5,18,10,14,17,20,18,Presentation Skills Public Speaking,1,129,Cloud Architect
+4th,B.Tech IT,Blockchain Development,C# .NET SQL,2,No,Cloud Architect,Team collaboration,Internships,8,15,10,18,18,10,11,10,Communication Adaptability Problem-Solving,5,114,Software Engineer
+1st,B.Sc Computer Science,DevOps,Java Kotlin Swift,5,Yes,Software Engineer,Presentation skills,Workshops,10,10,10,17,10,16,11,17,Presentation Skills Public Speaking,5,121,Cybersecurity Analyst
+2nd,B.Sc Computer Science,Cloud Infrastructure,Scala Java Python,1,No,Cloud Architect,Team collaboration,Online resources,14,18,18,15,12,19,17,19,Decision-Making Flexibility Innovation,3,140,AI Engineer
+4th,M.Sc Data Science,Cloud Security,Python R SQL,4,Yes,Cybersecurity Analyst,Presentation skills,Peer groups,16,17,19,14,18,13,10,8,Time-Management Resilience Negotiation,1,125,Software Engineer
+4th,B.Tech CSE,Deep Learning,Python R SQL,2,No,Business Analyst,Team collaboration,Internships,12,9,11,13,16,10,15,20,Emotional Intelligence Active Listening,2,114,Cybersecurity Analyst
+4th,B.Sc Computer Science,Penetration Testing,PHP JavaScript MySQL,2,No,Cybersecurity Analyst,Time management,Online resources,16,8,10,19,15,10,10,13,Presentation Skills Public Speaking,1,107,Cybersecurity Analyst
+3rd,B.Sc Computer Science,IoT Applications,Python Go Rust,4,No,Business Analyst,Lack of resources,Internships,12,6,20,14,12,11,15,19,Time-Management Resilience Negotiation,3,123,Cybersecurity Analyst
+4th,B.Tech CSE,IoT Applications,C# .NET SQL,3,Yes,AI Engineer,Presentation skills,Workshops,9,13,8,17,8,20,17,12,Decision-Making Flexibility Innovation,2,114,Cybersecurity Analyst
+2nd,MCA,Computer Vision,PHP JavaScript MySQL,4,Yes,Cybersecurity Analyst,Procrastination,Online resources,14,14,11,17,15,10,13,8,Presentation Skills Public Speaking,1,112,Software Engineer
+4th,B.Tech IT,Blockchain Development,MATLAB Python C,2,Yes,Cloud Architect,Procrastination,Mentorship programs,11,6,19,14,12,19,15,8,Conflict Resolution Team Leadership,5,118,Software Engineer
+3rd,MBA,Mobile App Development,Python Go Rust,3,No,Business Analyst,Team collaboration,Mentorship programs,8,7,13,18,12,20,11,15,Conflict Resolution Team Leadership,3,116,Cybersecurity Analyst
+4th,B.Tech CSE,AI Fundamentals,PHP JavaScript MySQL,1,No,Software Engineer,Interview anxiety,Online resources,18,20,20,13,18,20,16,13,Strategic Thinking Analytical Skills,3,146,Cloud Architect
+3rd,B.Sc Computer Science,Mobile App Development,Python R SQL,3,Yes,AI Engineer,Interview anxiety,Workshops,16,17,12,18,17,11,20,13,Collaboration Empathy Teamwork,1,132,AI Engineer
+2nd,B.Tech CSE,IoT Applications,Scala Java Python,3,Yes,Cybersecurity Analyst,Procrastination,Peer groups,16,11,12,19,8,13,16,19,Decision-Making Flexibility Innovation,3,126,AI Engineer
+3rd,MBA,IoT Applications,Python Go Rust,5,Yes,Cloud Architect,Presentation skills,Mentorship programs,16,7,12,17,15,12,10,15,Emotional Intelligence Active Listening,1,116,Cybersecurity Analyst
+4th,MBA,Full Stack Development,C# .NET SQL,1,No,Data Scientist,Time management,Peer groups,11,11,18,19,10,9,14,15,Decision-Making Flexibility Innovation,2,113,Software Engineer
+4th,B.Sc Computer Science,Business Intelligence,R SAS Python,5,No,Cloud Architect,Time management,Peer groups,18,14,14,13,9,14,17,12,Leadership Creativity Critical-Thinking,1,123,Cybersecurity Analyst
+2nd,B.Sc Computer Science,Full Stack Development,Python Go Rust,4,No,AI Engineer,Team collaboration,Peer groups,12,11,18,17,13,16,11,10,Strategic Thinking Analytical Skills,4,124,Cybersecurity Analyst
+4th,B.Tech CSE,Full Stack Development,Java Kotlin Swift,2,Yes,Data Scientist,Interview anxiety,Internships,18,17,15,11,9,17,14,16,Communication Adaptability Problem-Solving,5,131,Data Scientist
+1st,MBA,Cloud Infrastructure,PHP JavaScript MySQL,4,Yes,Software Engineer,Interview anxiety,Internships,17,20,16,12,15,14,13,11,Time-Management Resilience Negotiation,3,132,Cloud Architect
+2nd,M.Sc Data Science,Business Intelligence,Python Go Rust,3,Yes,AI Engineer,Team collaboration,Online resources,17,5,12,20,13,18,14,10,Leadership Creativity Critical-Thinking,3,121,Cybersecurity Analyst
+1st,MBA,Mobile App Development,Python Go Rust,3,Yes,Cloud Architect,Team collaboration,Online resources,14,11,9,10,20,20,20,7,Conflict Resolution Team Leadership,5,127,AI Engineer
+2nd,B.Tech IT,Embedded Systems,Python Go Rust,4,No,Cybersecurity Analyst,Procrastination,Online resources,20,12,9,10,20,13,15,10,Presentation Skills Public Speaking,3,123,Cybersecurity Analyst
+4th,B.Sc Computer Science,IoT Applications,JavaScript TypeScript Python,5,Yes,Software Engineer,Time management,Peer groups,14,13,11,12,8,8,18,14,Emotional Intelligence Active Listening,1,110,Cybersecurity Analyst
+1st,B.Tech CSE,Cloud Security,MATLAB Python C,1,No,Software Engineer,Interview anxiety,Workshops,10,17,5,19,16,18,11,14,Emotional Intelligence Active Listening,5,122,Software Engineer
+1st,MCA,Data Engineering,Python Java C++,5,No,Cloud Architect,Presentation skills,Peer groups,13,20,13,20,12,11,17,5,Communication Adaptability Problem-Solving,5,131,AI Engineer
+2nd,B.Sc Computer Science,Network Security,Python Go Rust,1,No,Cloud Architect,Lack of resources,Peer groups,15,10,15,10,12,11,17,13,Decision-Making Flexibility Innovation,4,113,Software Engineer
+3rd,B.Sc Computer Science,IoT Applications,JavaScript TypeScript Python,4,No,Cybersecurity Analyst,Presentation skills,Workshops,17,14,13,13,20,20,13,15,Presentation Skills Public Speaking,2,137,Cloud Architect
+2nd,MCA,Mobile App Development,R SAS Python,5,No,Data Scientist,Lack of resources,Online resources,11,8,15,20,9,18,19,16,Decision-Making Flexibility Innovation,4,134,Data Scientist
+1st,M.Sc Data Science,Full Stack Development,Julia Python R,4,No,Business Analyst,Time management,Peer groups,18,12,19,10,12,16,20,6,Time-Management Resilience Negotiation,1,123,Software Engineer
+4th,MCA,Deep Learning,Python Go Rust,4,Yes,Data Scientist,Presentation skills,Peer groups,15,15,8,19,13,17,11,6,Time-Management Resilience Negotiation,3,118,Cybersecurity Analyst
+2nd,B.Sc Computer Science,Embedded Systems,Java Kotlin Swift,3,Yes,Cybersecurity Analyst,Presentation skills,Workshops,18,12,9,15,14,20,17,16,Conflict Resolution Team Leadership,5,137,Data Scientist
+2nd,MCA,Embedded Systems,MATLAB Python C,2,No,Business Analyst,Team collaboration,Internships,9,11,18,18,15,16,11,12,Leadership Creativity Critical-Thinking,2,118,Cybersecurity Analyst
+2nd,B.Tech CSE,Data Visualization,C# .NET SQL,2,No,Cybersecurity Analyst,Procrastination,Internships,12,13,11,16,10,10,15,6,Strategic Thinking Analytical Skills,4,105,Business Analyst
+3rd,MCA,Penetration Testing,Java Kotlin Swift,1,No,AI Engineer,Interview anxiety,Internships,13,18,18,11,14,8,20,17,Decision-Making Flexibility Innovation,1,123,Software Engineer
+2nd,M.Sc Data Science,Deep Learning,MATLAB Python C,1,Yes,Business Analyst,Interview anxiety,Mentorship programs,8,5,7,12,9,19,18,17,Presentation Skills Public Speaking,1,99,Business Analyst
+1st,B.Tech CSE,Data Visualization,MATLAB Python C,4,Yes,Cybersecurity Analyst,Interview anxiety,Mentorship programs,12,6,11,20,18,20,12,13,Time-Management Resilience Negotiation,4,128,Cloud Architect
+3rd,MBA,Computer Vision,MATLAB Python C,2,No,Data Scientist,Procrastination,Peer groups,12,9,14,16,15,18,19,5,Leadership Creativity Critical-Thinking,4,120,Cybersecurity Analyst
+4th,B.Tech CSE,Full Stack Development,Julia Python R,1,Yes,Business Analyst,Procrastination,Workshops,19,12,13,14,8,18,14,15,Decision-Making Flexibility Innovation,1,117,Software Engineer
+2nd,B.Tech CSE,Data Engineering,C# .NET SQL,3,No,Data Scientist,Interview anxiety,Internships,9,8,19,17,19,14,13,17,Strategic Thinking Analytical Skills,4,130,Cloud Architect
+4th,MCA,Full Stack Development,Python Go Rust,1,No,AI Engineer,Interview anxiety,Online resources,8,11,16,19,18,19,15,18,Decision-Making Flexibility Innovation,3,132,AI Engineer
+4th,MBA,Blockchain Development,PHP JavaScript MySQL,5,No,Cybersecurity Analyst,Interview anxiety,Mentorship programs,15,9,20,11,10,8,10,18,Decision-Making Flexibility Innovation,1,113,Cybersecurity Analyst
+4th,B.Sc Computer Science,Business Intelligence,MATLAB Python C,2,Yes,Cybersecurity Analyst,Presentation skills,Online resources,14,14,8,16,9,13,15,16,Leadership Creativity Critical-Thinking,5,119,Software Engineer
+4th,MBA,Data Engineering,MATLAB Python C,3,No,Cybersecurity Analyst,Time management,Internships,18,15,7,13,20,19,14,20,Presentation Skills Public Speaking,1,134,AI Engineer
+1st,MCA,Cloud Infrastructure,PHP JavaScript MySQL,2,Yes,AI Engineer,Team collaboration,Peer groups,15,8,19,11,18,20,17,9,Conflict Resolution Team Leadership,2,125,Cybersecurity Analyst
+3rd,B.Sc Computer Science,DevOps,R SAS Python,1,Yes,AI Engineer,Interview anxiety,Peer groups,15,7,7,13,20,18,17,13,Collaboration Empathy Teamwork,3,118,Software Engineer
+3rd,MCA,Cloud Infrastructure,Java Kotlin Swift,2,No,AI Engineer,Lack of resources,Workshops,14,8,13,15,10,9,12,16,Presentation Skills Public Speaking,1,103,Business Analyst
+4th,B.Tech CSE,Cloud Infrastructure,JavaScript TypeScript Python,2,Yes,Cloud Architect,Team collaboration,Workshops,13,8,6,15,18,9,17,8,Emotional Intelligence Active Listening,2,102,Business Analyst
+1st,MCA,Network Security,Scala Java Python,5,No,Cybersecurity Analyst,Team collaboration,Mentorship programs,20,13,19,12,8,15,19,16,Conflict Resolution Team Leadership,3,138,Data Scientist
+2nd,B.Tech CSE,Deep Learning,C# .NET SQL,3,Yes,AI Engineer,Presentation skills,Peer groups,15,7,5,10,12,10,15,10,Communication Adaptability Problem-Solving,4,98,Business Analyst
+2nd,MBA,Mobile App Development,PHP JavaScript MySQL,5,No,Business Analyst,Team collaboration,Workshops,9,8,12,16,8,20,10,12,Presentation Skills Public Speaking,2,109,Software Engineer
+3rd,B.Tech IT,Penetration Testing,C# .NET SQL,4,Yes,Cybersecurity Analyst,Lack of resources,Peer groups,10,5,9,16,8,19,15,6,Leadership Creativity Critical-Thinking,3,102,Business Analyst
+4th,B.Tech CSE,IoT Applications,C# .NET SQL,5,No,Data Scientist,Presentation skills,Internships,8,20,7,10,13,10,12,13,Conflict Resolution Team Leadership,3,109,Cybersecurity Analyst
+3rd,B.Tech IT,Deep Learning,C# .NET SQL,1,Yes,Cloud Architect,Presentation skills,Mentorship programs,17,18,19,15,17,20,16,20,Time-Management Resilience Negotiation,4,152,AI Engineer
+3rd,MCA,Full Stack Development,Julia Python R,5,No,Cybersecurity Analyst,Lack of resources,Internships,20,11,10,15,11,12,14,15,Communication Adaptability Problem-Solving,2,122,Cybersecurity Analyst
+2nd,B.Tech CSE,Computer Vision,R SAS Python,3,Yes,Data Scientist,Interview anxiety,Online resources,12,12,16,18,14,20,11,5,Presentation Skills Public Speaking,4,122,Cybersecurity Analyst
+2nd,MCA,Deep Learning,Python Go Rust,5,Yes,Cloud Architect,Time management,Workshops,15,6,13,18,12,12,11,16,Communication Adaptability Problem-Solving,4,121,Cybersecurity Analyst
+3rd,M.Sc Data Science,Embedded Systems,MATLAB Python C,3,Yes,Cloud Architect,Presentation skills,Online resources,17,15,7,16,10,19,13,10,Decision-Making Flexibility Innovation,5,123,Software Engineer
+4th,M.Sc Data Science,AI Fundamentals,Java Kotlin Swift,3,Yes,Data Scientist,Presentation skills,Internships,14,7,12,15,20,10,11,19,Emotional Intelligence Active Listening,4,122,Software Engineer
+1st,MCA,Penetration Testing,MATLAB Python C,1,No,Data Scientist,Lack of resources,Mentorship programs,18,9,17,14,11,15,20,5,Leadership Creativity Critical-Thinking,2,115,Software Engineer
+4th,B.Sc Computer Science,NLP,Python Java C++,2,No,Software Engineer,Presentation skills,Workshops,20,18,18,10,11,16,18,20,Strategic Thinking Analytical Skills,4,143,Data Scientist
+4th,B.Sc Computer Science,Mobile App Development,Python R SQL,1,Yes,Cloud Architect,Team collaboration,Workshops,14,17,15,18,16,9,18,9,Collaboration Empathy Teamwork,4,126,AI Engineer
+4th,B.Tech IT,Computer Vision,Python R SQL,1,Yes,Business Analyst,Time management,Online resources,20,7,17,17,20,11,17,13,Strategic Thinking Analytical Skills,3,130,AI Engineer
+2nd,B.Sc Computer Science,Penetration Testing,MATLAB Python C,5,No,Business Analyst,Presentation skills,Online resources,11,20,7,12,11,15,14,5,Presentation Skills Public Speaking,2,109,Cybersecurity Analyst
+1st,B.Sc Computer Science,Deep Learning,Java Kotlin Swift,2,Yes,Software Engineer,Lack of resources,Peer groups,12,17,8,20,20,20,12,20,Presentation Skills Public Speaking,4,141,AI Engineer
+4th,B.Sc Computer Science,NLP,R SAS Python,1,No,Cybersecurity Analyst,Lack of resources,Workshops,17,18,10,15,18,20,11,18,Time-Management Resilience Negotiation,5,139,Cloud Architect
+1st,B.Sc Computer Science,AI Fundamentals,R SAS Python,3,No,Cloud Architect,Procrastination,Internships,15,11,19,15,15,13,12,11,Emotional Intelligence Active Listening,5,127,Cloud Architect
+1st,B.Sc Computer Science,Mobile App Development,MATLAB Python C,5,No,Software Engineer,Time management,Peer groups,13,6,9,18,18,14,20,7,Time-Management Resilience Negotiation,2,119,Cybersecurity Analyst
+2nd,B.Tech CSE,Data Visualization,PHP JavaScript MySQL,1,No,Data Scientist,Interview anxiety,Peer groups,14,13,15,20,11,20,17,7,Emotional Intelligence Active Listening,5,129,Cloud Architect
+3rd,M.Sc Data Science,Computer Vision,C# .NET SQL,3,No,Data Scientist,Interview anxiety,Workshops,18,17,7,12,20,20,20,5,Collaboration Empathy Teamwork,5,135,Data Scientist
+2nd,MCA,Business Intelligence,Java Kotlin Swift,3,Yes,Data Scientist,Team collaboration,Workshops,13,6,5,17,14,18,14,9,Communication Adaptability Problem-Solving,1,104,Business Analyst
+2nd,B.Tech CSE,Computer Vision,Julia Python R,3,Yes,Cybersecurity Analyst,Time management,Peer groups,15,12,20,10,19,13,15,5,Strategic Thinking Analytical Skills,4,123,Cybersecurity Analyst
+1st,MBA,Network Security,Julia Python R,2,Yes,Data Scientist,Procrastination,Online resources,17,6,13,15,12,15,14,19,Communication Adaptability Problem-Solving,5,125,Software Engineer
+3rd,B.Tech IT,DevOps,Python Go Rust,1,No,Business Analyst,Team collaboration,Workshops,19,18,20,11,20,8,14,10,Emotional Intelligence Active Listening,5,132,AI Engineer
+3rd,MBA,Mobile App Development,JavaScript TypeScript Python,4,Yes,AI Engineer,Time management,Mentorship programs,13,18,12,16,20,16,14,8,Collaboration Empathy Teamwork,3,131,AI Engineer
+1st,B.Tech CSE,Network Security,Scala Java Python,4,No,AI Engineer,Team collaboration,Workshops,20,14,7,18,14,12,14,8,Collaboration Empathy Teamwork,4,123,Cybersecurity Analyst
+3rd,MCA,Blockchain Development,Julia Python R,4,No,AI Engineer,Time management,Workshops,10,11,10,11,14,18,13,19,Presentation Skills Public Speaking,5,124,Cybersecurity Analyst
+4th,MBA,Network Security,Python Java C++,4,No,AI Engineer,Lack of resources,Online resources,12,16,5,16,14,10,16,15,Time-Management Resilience Negotiation,3,118,Cybersecurity Analyst
+1st,B.Tech CSE,Data Engineering,MATLAB Python C,2,Yes,Business Analyst,Interview anxiety,Internships,8,13,9,13,9,20,19,5,Emotional Intelligence Active Listening,4,108,Software Engineer
+4th,MBA,DevOps,R SAS Python,1,Yes,Data Scientist,Presentation skills,Online resources,9,10,9,15,8,17,18,12,Collaboration Empathy Teamwork,2,104,Business Analyst
+4th,B.Tech IT,Blockchain Development,Scala Java Python,4,No,Cybersecurity Analyst,Team collaboration,Peer groups,10,8,9,16,12,20,15,8,Presentation Skills Public Speaking,3,112,Cybersecurity Analyst
+2nd,MBA,Penetration Testing,Python Java C++,4,Yes,Data Scientist,Interview anxiety,Mentorship programs,10,16,16,14,15,14,10,14,Communication Adaptability Problem-Solving,4,125,Software Engineer
+4th,MCA,Data Engineering,PHP JavaScript MySQL,3,No,Software Engineer,Team collaboration,Peer groups,10,18,15,18,16,15,13,10,Decision-Making Flexibility Innovation,3,127,Cloud Architect
+3rd,B.Tech IT,Cloud Infrastructure,Python R SQL,2,No,AI Engineer,Team collaboration,Peer groups,19,14,11,17,11,17,11,5,Collaboration Empathy Teamwork,1,111,Cybersecurity Analyst
+1st,B.Tech CSE,Data Engineering,Python Go Rust,4,Yes,AI Engineer,Team collaboration,Mentorship programs,12,14,19,13,18,19,18,16,Collaboration Empathy Teamwork,1,139,AI Engineer
+3rd,B.Tech IT,Network Security,Java Kotlin Swift,4,No,Software Engineer,Team collaboration,Internships,9,19,11,14,15,9,11,12,Time-Management Resilience Negotiation,2,112,Software Engineer
+1st,B.Sc Computer Science,Data Visualization,JavaScript TypeScript Python,1,Yes,AI Engineer,Time management,Mentorship programs,18,18,9,17,19,18,12,8,Decision-Making Flexibility Innovation,2,125,Software Engineer
+4th,MBA,Data Engineering,Python Java C++,2,Yes,AI Engineer,Lack of resources,Workshops,16,16,5,19,17,19,11,16,Communication Adaptability Problem-Solving,4,131,AI Engineer
+3rd,B.Tech IT,Full Stack Development,Julia Python R,4,Yes,Cloud Architect,Procrastination,Internships,17,9,13,12,15,14,10,11,Time-Management Resilience Negotiation,1,111,Cybersecurity Analyst
+1st,MCA,Network Security,Python Go Rust,4,No,Cloud Architect,Interview anxiety,Internships,20,10,14,16,9,18,18,18,Strategic Thinking Analytical Skills,5,141,AI Engineer
+1st,MBA,DevOps,Julia Python R,3,No,Software Engineer,Interview anxiety,Workshops,14,8,14,17,16,8,16,10,Conflict Resolution Team Leadership,4,117,Cybersecurity Analyst
+2nd,B.Tech CSE,Cloud Security,Python R SQL,5,No,Data Scientist,Procrastination,Mentorship programs,20,12,9,15,15,17,19,14,Strategic Thinking Analytical Skills,1,133,Cloud Architect
+2nd,MBA,Full Stack Development,Python Go Rust,1,No,Cybersecurity Analyst,Procrastination,Peer groups,17,12,7,20,16,12,13,18,Emotional Intelligence Active Listening,4,125,Cybersecurity Analyst
+1st,MBA,Business Intelligence,JavaScript TypeScript Python,5,No,AI Engineer,Procrastination,Peer groups,17,12,9,11,15,12,20,16,Decision-Making Flexibility Innovation,1,124,Software Engineer
+3rd,M.Sc Data Science,Embedded Systems,JavaScript TypeScript Python,3,Yes,Data Scientist,Interview anxiety,Workshops,12,12,12,16,20,9,15,15,Conflict Resolution Team Leadership,4,125,Cybersecurity Analyst
+4th,B.Tech CSE,Mobile App Development,C# .NET SQL,2,No,Cybersecurity Analyst,Lack of resources,Peer groups,10,12,17,12,16,11,19,6,Leadership Creativity Critical-Thinking,5,117,Cybersecurity Analyst
+2nd,B.Sc Computer Science,Mobile App Development,JavaScript TypeScript Python,2,Yes,AI Engineer,Team collaboration,Online resources,17,9,8,19,16,14,12,11,Collaboration Empathy Teamwork,3,116,Software Engineer
+2nd,M.Sc Data Science,Cloud Infrastructure,C# .NET SQL,2,Yes,Data Scientist,Time management,Peer groups,16,11,12,19,10,15,11,16,Leadership Creativity Critical-Thinking,4,122,Cybersecurity Analyst
+4th,B.Sc Computer Science,Blockchain Development,Python Go Rust,1,Yes,Software Engineer,Procrastination,Mentorship programs,14,17,7,12,14,13,13,10,Leadership Creativity Critical-Thinking,5,112,Software Engineer
+4th,MBA,IoT Applications,C# .NET SQL,1,Yes,Cybersecurity Analyst,Procrastination,Workshops,15,11,9,14,12,17,18,18,Time-Management Resilience Negotiation,2,120,Cybersecurity Analyst
+4th,M.Sc Data Science,Cloud Security,Python Go Rust,4,Yes,Cybersecurity Analyst,Time management,Online resources,12,16,17,13,17,16,13,8,Strategic Thinking Analytical Skills,1,122,Cybersecurity Analyst
+4th,B.Tech CSE,DevOps,MATLAB Python C,5,Yes,Cybersecurity Analyst,Interview anxiety,Mentorship programs,10,8,14,15,12,16,11,6,Conflict Resolution Team Leadership,5,112,Cybersecurity Analyst
+2nd,M.Sc Data Science,Deep Learning,JavaScript TypeScript Python,5,No,Data Scientist,Team collaboration,Internships,11,15,14,10,10,10,15,9,Decision-Making Flexibility Innovation,1,106,Cybersecurity Analyst
+4th,B.Tech IT,Full Stack Development,MATLAB Python C,4,No,Software Engineer,Interview anxiety,Peer groups,13,19,19,11,17,16,10,11,Communication Adaptability Problem-Solving,5,134,Cloud Architect
+1st,M.Sc Data Science,Blockchain Development,MATLAB Python C,2,Yes,Cloud Architect,Procrastination,Online resources,18,9,8,16,16,8,16,6,Strategic Thinking Analytical Skills,3,107,Cybersecurity Analyst
+3rd,MCA,Data Visualization,Python Go Rust,5,Yes,Software Engineer,Presentation skills,Peer groups,9,12,5,15,11,20,18,7,Decision-Making Flexibility Innovation,2,111,Software Engineer
+3rd,B.Sc Computer Science,NLP,C# .NET SQL,2,Yes,Data Scientist,Procrastination,Workshops,14,13,11,11,13,19,14,17,Communication Adaptability Problem-Solving,4,124,Software Engineer
+4th,B.Tech CSE,Mobile App Development,MATLAB Python C,5,No,Business Analyst,Team collaboration,Online resources,15,11,19,19,14,9,12,6,Collaboration Empathy Teamwork,2,119,Cybersecurity Analyst
+1st,MCA,Embedded Systems,Java Kotlin Swift,4,Yes,Cybersecurity Analyst,Procrastination,Mentorship programs,9,16,14,15,17,15,13,11,Emotional Intelligence Active Listening,3,124,Software Engineer
+2nd,MBA,Blockchain Development,R SAS Python,3,No,AI Engineer,Procrastination,Online resources,15,7,13,20,8,19,13,6,Presentation Skills Public Speaking,4,115,Cybersecurity Analyst
+4th,B.Tech CSE,Network Security,Julia Python R,3,Yes,Cloud Architect,Procrastination,Internships,14,19,5,10,9,19,15,20,Strategic Thinking Analytical Skills,3,123,Software Engineer
+4th,MCA,Deep Learning,PHP JavaScript MySQL,5,No,Cybersecurity Analyst,Interview anxiety,Mentorship programs,14,18,5,14,20,15,18,14,Conflict Resolution Team Leadership,5,138,Data Scientist
+2nd,B.Sc Computer Science,NLP,Scala Java Python,4,No,Business Analyst,Presentation skills,Mentorship programs,19,12,12,13,18,12,19,14,Conflict Resolution Team Leadership,2,131,AI Engineer
+3rd,B.Tech CSE,Cloud Infrastructure,JavaScript TypeScript Python,3,Yes,Business Analyst,Time management,Workshops,15,15,7,18,20,13,20,18,Emotional Intelligence Active Listening,4,140,Cloud Architect
+4th,B.Tech IT,Business Intelligence,Python R SQL,3,Yes,Software Engineer,Lack of resources,Mentorship programs,10,11,13,12,8,16,15,10,Leadership Creativity Critical-Thinking,4,109,Cybersecurity Analyst
+2nd,B.Sc Computer Science,Penetration Testing,Java Kotlin Swift,3,No,Cybersecurity Analyst,Team collaboration,Mentorship programs,11,20,14,16,10,12,13,15,Decision-Making Flexibility Innovation,3,123,Software Engineer
+2nd,B.Tech IT,Embedded Systems,Julia Python R,5,No,Software Engineer,Time management,Mentorship programs,15,17,10,20,16,14,14,15,Presentation Skills Public Speaking,3,137,AI Engineer
+3rd,B.Tech CSE,NLP,Python Java C++,2,Yes,Cloud Architect,Presentation skills,Mentorship programs,12,7,12,20,19,12,12,6,Conflict Resolution Team Leadership,2,108,Cybersecurity Analyst
+2nd,M.Sc Data Science,Network Security,PHP JavaScript MySQL,1,Yes,AI Engineer,Lack of resources,Peer groups,19,12,11,16,18,9,16,10,Emotional Intelligence Active Listening,1,115,Cybersecurity Analyst
+1st,M.Sc Data Science,NLP,JavaScript TypeScript Python,2,No,Business Analyst,Procrastination,Peer groups,10,16,18,19,14,16,13,17,Communication Adaptability Problem-Solving,4,135,Cloud Architect
+2nd,M.Sc Data Science,Data Visualization,C# .NET SQL,2,No,Cybersecurity Analyst,Interview anxiety,Online resources,9,10,18,13,14,13,18,6,Conflict Resolution Team Leadership,5,115,Cybersecurity Analyst
+3rd,M.Sc Data Science,Cloud Security,Python Java C++,1,No,Cloud Architect,Presentation skills,Internships,14,19,7,13,16,8,16,17,Leadership Creativity Critical-Thinking,5,122,Software Engineer
+1st,B.Sc Computer Science,Data Visualization,MATLAB Python C,4,No,Cybersecurity Analyst,Presentation skills,Workshops,10,12,16,13,8,10,17,12,Strategic Thinking Analytical Skills,2,110,Software Engineer
+1st,MCA,Computer Vision,Python R SQL,1,No,AI Engineer,Time management,Peer groups,19,6,16,10,13,15,18,11,Emotional Intelligence Active Listening,5,120,Software Engineer
+4th,B.Tech IT,Deep Learning,Julia Python R,1,Yes,AI Engineer,Procrastination,Online resources,13,8,9,11,20,9,10,14,Collaboration Empathy Teamwork,2,100,Business Analyst
+4th,M.Sc Data Science,Data Engineering,Python Java C++,4,No,Cybersecurity Analyst,Procrastination,Internships,12,19,10,14,8,12,18,12,Presentation Skills Public Speaking,3,119,Software Engineer
+4th,M.Sc Data Science,IoT Applications,PHP JavaScript MySQL,2,No,Data Scientist,Lack of resources,Online resources,20,12,15,10,18,18,13,12,Time-Management Resilience Negotiation,5,132,Cloud Architect
+4th,MBA,Data Engineering,Python Java C++,4,No,Cybersecurity Analyst,Procrastination,Workshops,20,13,11,20,16,17,12,13,Decision-Making Flexibility Innovation,3,136,Data Scientist
+3rd,B.Sc Computer Science,AI Fundamentals,C# .NET SQL,4,No,Business Analyst,Interview anxiety,Peer groups,15,5,9,16,20,11,11,19,Collaboration Empathy Teamwork,5,124,Cybersecurity Analyst
+4th,M.Sc Data Science,Cloud Infrastructure,R SAS Python,4,No,Business Analyst,Time management,Internships,9,9,20,20,15,15,19,16,Decision-Making Flexibility Innovation,3,137,Cloud Architect
+3rd,B.Sc Computer Science,AI Fundamentals,Python R SQL,1,Yes,Data Scientist,Lack of resources,Workshops,12,7,9,20,14,9,11,9,Conflict Resolution Team Leadership,1,95,Business Analyst
+4th,B.Sc Computer Science,Network Security,Julia Python R,4,Yes,Data Scientist,Procrastination,Peer groups,9,19,9,17,19,11,18,10,Presentation Skills Public Speaking,1,122,Cybersecurity Analyst
+2nd,MCA,Blockchain Development,Python R SQL,5,No,Data Scientist,Interview anxiety,Workshops,19,14,10,12,10,17,12,14,Emotional Intelligence Active Listening,1,120,Cybersecurity Analyst
+4th,B.Tech CSE,Data Engineering,C# .NET SQL,3,No,Cloud Architect,Procrastination,Workshops,19,17,14,15,16,13,16,16,Communication Adaptability Problem-Solving,4,140,Cloud Architect
+2nd,M.Sc Data Science,NLP,MATLAB Python C,3,No,Data Scientist,Team collaboration,Internships,10,17,18,18,11,15,12,14,Strategic Thinking Analytical Skills,5,131,AI Engineer
+4th,B.Tech IT,NLP,Python Java C++,3,Yes,AI Engineer,Lack of resources,Online resources,19,16,12,10,16,8,19,19,Leadership Creativity Critical-Thinking,4,133,AI Engineer
+2nd,MCA,Cloud Infrastructure,C# .NET SQL,2,No,Business Analyst,Lack of resources,Mentorship programs,13,7,11,19,12,19,10,6,Communication Adaptability Problem-Solving,3,107,Software Engineer
+2nd,B.Tech CSE,Data Engineering,Julia Python R,5,No,Cybersecurity Analyst,Presentation skills,Workshops,18,18,14,15,13,19,18,20,Decision-Making Flexibility Innovation,4,153,Cloud Architect
+3rd,B.Sc Computer Science,Network Security,Java Kotlin Swift,3,Yes,AI Engineer,Team collaboration,Mentorship programs,10,14,15,20,14,17,11,9,Time-Management Resilience Negotiation,2,120,Cybersecurity Analyst
+1st,B.Tech IT,Cloud Security,Python Java C++,4,No,Business Analyst,Team collaboration,Online resources,20,7,18,13,13,17,19,19,Decision-Making Flexibility Innovation,2,138,Data Scientist
+4th,M.Sc Data Science,AI Fundamentals,JavaScript TypeScript Python,4,No,Cloud Architect,Lack of resources,Workshops,12,9,9,17,8,13,19,16,Emotional Intelligence Active Listening,4,119,Cybersecurity Analyst
+2nd,MBA,Computer Vision,Java Kotlin Swift,5,No,AI Engineer,Procrastination,Mentorship programs,16,8,12,20,20,9,15,18,Emotional Intelligence Active Listening,5,138,Data Scientist
+2nd,B.Tech IT,Business Intelligence,MATLAB Python C,4,No,Cybersecurity Analyst,Procrastination,Mentorship programs,14,7,12,13,8,15,18,15,Emotional Intelligence Active Listening,1,112,Software Engineer
+1st,B.Sc Computer Science,Cloud Security,Python Go Rust,2,Yes,Cloud Architect,Time management,Peer groups,17,9,13,16,14,20,17,6,Decision-Making Flexibility Innovation,4,124,Cybersecurity Analyst
+2nd,B.Tech IT,Data Visualization,Julia Python R,5,No,Cloud Architect,Lack of resources,Peer groups,11,15,7,15,20,19,17,19,Presentation Skills Public Speaking,2,137,Cloud Architect
+1st,MBA,DevOps,C# .NET SQL,1,No,AI Engineer,Interview anxiety,Workshops,20,13,16,15,19,19,16,14,Emotional Intelligence Active Listening,3,140,Cloud Architect
+3rd,M.Sc Data Science,Data Visualization,MATLAB Python C,1,Yes,AI Engineer,Team collaboration,Internships,13,7,10,18,15,9,19,10,Communication Adaptability Problem-Solving,5,113,Cybersecurity Analyst
+2nd,B.Sc Computer Science,Data Visualization,Java Kotlin Swift,4,No,Business Analyst,Lack of resources,Peer groups,14,9,14,14,11,9,12,16,Decision-Making Flexibility Innovation,2,111,Software Engineer
+4th,B.Tech CSE,Business Intelligence,JavaScript TypeScript Python,4,Yes,Cybersecurity Analyst,Presentation skills,Workshops,14,9,9,10,10,13,19,18,Communication Adaptability Problem-Solving,3,116,Cybersecurity Analyst
+3rd,M.Sc Data Science,Cloud Security,Java Kotlin Swift,3,No,Business Analyst,Time management,Workshops,18,7,12,15,20,11,13,16,Time-Management Resilience Negotiation,4,126,Cloud Architect
+1st,B.Sc Computer Science,NLP,R SAS Python,5,Yes,Business Analyst,Procrastination,Mentorship programs,9,17,19,14,11,20,17,9,Decision-Making Flexibility Innovation,4,134,AI Engineer
+4th,B.Tech IT,Mobile App Development,Scala Java Python,4,Yes,Cybersecurity Analyst,Time management,Mentorship programs,14,10,9,10,13,11,11,19,Collaboration Empathy Teamwork,2,109,Software Engineer
+3rd,B.Tech IT,Full Stack Development,C# .NET SQL,1,No,AI Engineer,Procrastination,Workshops,12,15,7,12,18,9,16,17,Emotional Intelligence Active Listening,1,110,Cybersecurity Analyst
+4th,B.Tech IT,DevOps,Java Kotlin Swift,1,No,Data Scientist,Lack of resources,Internships,9,13,11,18,20,20,20,18,Decision-Making Flexibility Innovation,5,141,AI Engineer
+1st,MCA,Mobile App Development,Java Kotlin Swift,4,Yes,Software Engineer,Lack of resources,Mentorship programs,9,16,20,20,15,12,16,12,Emotional Intelligence Active Listening,3,134,Cloud Architect
+1st,B.Sc Computer Science,Embedded Systems,R SAS Python,4,Yes,Software Engineer,Procrastination,Workshops,9,14,11,11,11,12,18,10,Emotional Intelligence Active Listening,4,112,Software Engineer
+2nd,B.Tech IT,IoT Applications,C# .NET SQL,1,No,Cybersecurity Analyst,Procrastination,Peer groups,15,14,11,20,14,18,18,14,Leadership Creativity Critical-Thinking,2,130,Data Scientist
+1st,B.Tech IT,DevOps,JavaScript TypeScript Python,5,Yes,Cloud Architect,Procrastination,Internships,12,9,11,18,14,14,18,17,Communication Adaptability Problem-Solving,2,127,AI Engineer
+1st,B.Tech CSE,Deep Learning,Scala Java Python,1,No,Data Scientist,Lack of resources,Workshops,9,19,15,14,12,18,14,6,Presentation Skills Public Speaking,1,111,Cybersecurity Analyst
+2nd,M.Sc Data Science,Business Intelligence,Python R SQL,1,Yes,Cybersecurity Analyst,Lack of resources,Mentorship programs,11,10,7,14,20,13,14,5,Decision-Making Flexibility Innovation,5,106,Cybersecurity Analyst
+1st,B.Sc Computer Science,Deep Learning,PHP JavaScript MySQL,1,Yes,Cloud Architect,Lack of resources,Internships,11,9,8,14,16,13,16,17,Presentation Skills Public Speaking,5,116,Software Engineer
+2nd,M.Sc Data Science,Business Intelligence,Julia Python R,5,No,AI Engineer,Lack of resources,Internships,10,10,19,12,16,10,15,6,Time-Management Resilience Negotiation,5,118,Software Engineer
+2nd,B.Tech IT,AI Fundamentals,C# .NET SQL,5,No,Cybersecurity Analyst,Time management,Online resources,11,11,18,11,20,19,13,16,Communication Adaptability Problem-Solving,5,139,Cloud Architect
+1st,MBA,Blockchain Development,Python Go Rust,1,No,Cloud Architect,Lack of resources,Workshops,20,9,6,14,16,13,12,12,Time-Management Resilience Negotiation,4,112,Cybersecurity Analyst
+2nd,B.Tech CSE,Data Engineering,PHP JavaScript MySQL,5,No,Cloud Architect,Interview anxiety,Peer groups,8,6,17,16,19,20,17,10,Decision-Making Flexibility Innovation,2,127,Cloud Architect
+4th,M.Sc Data Science,Blockchain Development,MATLAB Python C,4,Yes,Data Scientist,Time management,Internships,15,8,15,12,8,14,10,8,Emotional Intelligence Active Listening,3,104,Business Analyst
+1st,MCA,Full Stack Development,R SAS Python,5,Yes,Cloud Architect,Presentation skills,Online resources,16,9,5,20,11,10,13,7,Presentation Skills Public Speaking,3,107,Cybersecurity Analyst
+3rd,MBA,DevOps,Python Go Rust,3,Yes,Business Analyst,Lack of resources,Online resources,13,15,14,15,18,16,14,10,Emotional Intelligence Active Listening,5,131,Data Scientist
+1st,B.Tech IT,AI Fundamentals,Python R SQL,1,No,Software Engineer,Team collaboration,Peer groups,17,7,18,12,15,20,14,13,Conflict Resolution Team Leadership,3,124,Cybersecurity Analyst
+1st,B.Tech IT,Cloud Infrastructure,C# .NET SQL,5,No,Data Scientist,Time management,Online resources,11,16,10,13,8,13,14,9,Collaboration Empathy Teamwork,3,110,Cybersecurity Analyst
+2nd,MBA,Network Security,Python Java C++,2,Yes,Business Analyst,Team collaboration,Peer groups,20,11,14,16,16,10,11,11,Emotional Intelligence Active Listening,5,123,Cybersecurity Analyst
+3rd,MBA,Data Engineering,Java Kotlin Swift,3,Yes,Data Scientist,Procrastination,Internships,14,18,17,13,14,16,12,9,Conflict Resolution Team Leadership,2,123,Software Engineer
+1st,M.Sc Data Science,Full Stack Development,MATLAB Python C,5,No,Cybersecurity Analyst,Interview anxiety,Online resources,9,5,17,19,17,12,13,7,Presentation Skills Public Speaking,3,115,Cybersecurity Analyst
+3rd,M.Sc Data Science,Deep Learning,Python R SQL,2,No,Business Analyst,Procrastination,Workshops,12,14,8,16,19,17,11,16,Decision-Making Flexibility Innovation,5,127,Data Scientist
+3rd,B.Sc Computer Science,Penetration Testing,Java Kotlin Swift,1,No,Software Engineer,Lack of resources,Peer groups,14,10,19,15,14,15,18,13,Communication Adaptability Problem-Solving,3,126,Data Scientist
+3rd,M.Sc Data Science,Computer Vision,PHP JavaScript MySQL,3,No,Software Engineer,Procrastination,Internships,15,6,14,20,10,10,13,18,Decision-Making Flexibility Innovation,5,122,Cybersecurity Analyst
+2nd,MBA,Deep Learning,R SAS Python,4,Yes,Business Analyst,Presentation skills,Workshops,19,16,10,15,17,11,17,18,Communication Adaptability Problem-Solving,2,135,Cloud Architect
+3rd,MCA,Embedded Systems,Python Go Rust,5,No,AI Engineer,Procrastination,Online resources,11,17,8,11,8,14,17,6,Strategic Thinking Analytical Skills,5,112,Cybersecurity Analyst
+2nd,M.Sc Data Science,Data Visualization,Scala Java Python,5,Yes,AI Engineer,Team collaboration,Internships,12,16,15,19,12,9,13,19,Emotional Intelligence Active Listening,2,129,AI Engineer
+4th,M.Sc Data Science,Embedded Systems,Python Java C++,4,Yes,Cybersecurity Analyst,Procrastination,Internships,8,12,18,18,19,11,19,19,Time-Management Resilience Negotiation,4,140,Data Scientist
+3rd,M.Sc Data Science,Blockchain Development,Java Kotlin Swift,1,Yes,Software Engineer,Team collaboration,Workshops,17,11,16,10,20,16,10,11,Presentation Skills Public Speaking,4,121,Cybersecurity Analyst
+2nd,MBA,DevOps,Python Java C++,5,No,Cloud Architect,Lack of resources,Internships,12,12,19,11,9,20,19,8,Conflict Resolution Team Leadership,2,124,Software Engineer
+2nd,B.Tech IT,Embedded Systems,R SAS Python,3,No,Software Engineer,Procrastination,Peer groups,11,17,16,13,14,14,16,5,Strategic Thinking Analytical Skills,5,122,Cybersecurity Analyst
+1st,MBA,Blockchain Development,MATLAB Python C,4,Yes,Cloud Architect,Interview anxiety,Internships,9,9,12,18,17,17,16,8,Conflict Resolution Team Leadership,2,118,Software Engineer
+2nd,MCA,Mobile App Development,Julia Python R,4,No,Data Scientist,Team collaboration,Online resources,8,19,7,20,12,14,18,8,Strategic Thinking Analytical Skills,2,118,Cybersecurity Analyst
+3rd,B.Tech CSE,Data Visualization,MATLAB Python C,1,Yes,Cybersecurity Analyst,Team collaboration,Online resources,9,13,12,18,19,16,16,9,Decision-Making Flexibility Innovation,3,120,Software Engineer
+4th,M.Sc Data Science,IoT Applications,MATLAB Python C,4,Yes,AI Engineer,Procrastination,Peer groups,15,5,17,16,19,12,13,20,Communication Adaptability Problem-Solving,4,133,Cloud Architect
+3rd,MBA,Data Engineering,Python R SQL,3,No,Software Engineer,Procrastination,Peer groups,18,10,14,17,17,8,19,17,Leadership Creativity Critical-Thinking,5,136,Cloud Architect
+2nd,MBA,Data Engineering,R SAS Python,3,No,Business Analyst,Presentation skills,Internships,11,12,5,14,16,15,19,20,Time-Management Resilience Negotiation,4,126,Data Scientist
+2nd,MBA,Blockchain Development,JavaScript TypeScript Python,2,No,AI Engineer,Time management,Peer groups,13,12,14,11,19,12,11,7,Leadership Creativity Critical-Thinking,4,111,Software Engineer
+4th,B.Sc Computer Science,Business Intelligence,Java Kotlin Swift,1,No,Data Scientist,Lack of resources,Peer groups,20,14,9,16,11,10,10,9,Presentation Skills Public Speaking,1,103,Business Analyst
+2nd,B.Tech IT,IoT Applications,R SAS Python,2,Yes,Data Scientist,Lack of resources,Workshops,18,12,8,11,11,13,19,18,Presentation Skills Public Speaking,2,118,Cybersecurity Analyst
+1st,MCA,Data Engineering,Julia Python R,4,No,Business Analyst,Team collaboration,Workshops,17,7,19,16,19,20,11,11,Conflict Resolution Team Leadership,3,134,AI Engineer
+3rd,MBA,Mobile App Development,Julia Python R,1,No,AI Engineer,Procrastination,Workshops,12,9,7,12,17,9,13,19,Decision-Making Flexibility Innovation,2,104,Business Analyst
+2nd,B.Tech IT,Penetration Testing,Scala Java Python,1,No,Business Analyst,Procrastination,Online resources,20,19,11,13,9,16,13,19,Leadership Creativity Critical-Thinking,3,128,Data Scientist
+2nd,MBA,IoT Applications,C# .NET SQL,1,Yes,Cybersecurity Analyst,Lack of resources,Online resources,17,15,6,10,12,19,19,9,Conflict Resolution Team Leadership,4,117,Software Engineer
+1st,B.Sc Computer Science,Data Visualization,Python R SQL,1,Yes,Data Scientist,Team collaboration,Peer groups,13,20,18,19,9,20,15,5,Time-Management Resilience Negotiation,4,129,AI Engineer
+4th,B.Sc Computer Science,IoT Applications,Python R SQL,4,No,Data Scientist,Interview anxiety,Mentorship programs,12,20,6,15,12,11,16,15,Conflict Resolution Team Leadership,5,125,Software Engineer
+2nd,MCA,Computer Vision,Java Kotlin Swift,5,Yes,Cloud Architect,Procrastination,Peer groups,20,11,16,17,18,20,16,6,Communication Adaptability Problem-Solving,1,136,Cloud Architect
+2nd,MCA,Computer Vision,PHP JavaScript MySQL,5,No,Cybersecurity Analyst,Team collaboration,Mentorship programs,8,7,15,20,10,14,12,5,Communication Adaptability Problem-Solving,1,103,Business Analyst
+3rd,MBA,Full Stack Development,Python Java C++,3,No,AI Engineer,Interview anxiety,Workshops,13,15,17,15,11,8,11,9,Leadership Creativity Critical-Thinking,1,107,Cybersecurity Analyst
+4th,B.Sc Computer Science,DevOps,Python Go Rust,5,No,Cloud Architect,Procrastination,Online resources,13,8,19,16,16,11,10,5,Conflict Resolution Team Leadership,5,118,Cybersecurity Analyst
+3rd,MBA,Cloud Infrastructure,R SAS Python,2,No,Cloud Architect,Time management,Mentorship programs,17,15,20,11,11,18,14,15,Conflict Resolution Team Leadership,5,135,AI Engineer
+3rd,MCA,Cloud Infrastructure,MATLAB Python C,3,No,Software Engineer,Interview anxiety,Peer groups,9,5,16,19,19,8,16,16,Presentation Skills Public Speaking,3,120,Software Engineer
+4th,M.Sc Data Science,Full Stack Development,R SAS Python,4,Yes,Software Engineer,Time management,Mentorship programs,9,7,13,13,17,10,13,20,Strategic Thinking Analytical Skills,1,112,Cybersecurity Analyst
+2nd,B.Sc Computer Science,Data Engineering,R SAS Python,2,No,AI Engineer,Presentation skills,Internships,16,10,15,19,12,13,10,19,Decision-Making Flexibility Innovation,1,120,Software Engineer
+1st,B.Tech CSE,Computer Vision,Python Go Rust,5,Yes,AI Engineer,Time management,Online resources,9,11,6,13,9,14,17,8,Presentation Skills Public Speaking,1,99,Business Analyst
+4th,B.Tech IT,IoT Applications,Scala Java Python,4,No,AI Engineer,Procrastination,Peer groups,8,13,17,19,11,20,10,19,Time-Management Resilience Negotiation,4,133,AI Engineer
+4th,MBA,Full Stack Development,Python Java C++,4,No,AI Engineer,Team collaboration,Internships,16,18,6,17,19,12,19,19,Conflict Resolution Team Leadership,4,142,Cloud Architect
+4th,M.Sc Data Science,Data Visualization,Python R SQL,5,No,Cybersecurity Analyst,Presentation skills,Workshops,16,18,17,20,14,20,10,15,Emotional Intelligence Active Listening,1,142,Cloud Architect
+3rd,MCA,AI Fundamentals,PHP JavaScript MySQL,1,No,Software Engineer,Presentation skills,Peer groups,14,10,11,11,13,18,18,12,Emotional Intelligence Active Listening,2,113,Cybersecurity Analyst
+4th,MBA,Data Visualization,C# .NET SQL,1,Yes,Software Engineer,Lack of resources,Workshops,14,18,18,16,13,17,18,7,Collaboration Empathy Teamwork,4,131,AI Engineer
+4th,B.Tech IT,IoT Applications,Python Go Rust,4,Yes,Software Engineer,Interview anxiety,Mentorship programs,8,10,11,16,9,11,18,15,Time-Management Resilience Negotiation,2,110,Cybersecurity Analyst
+3rd,B.Tech IT,Mobile App Development,MATLAB Python C,3,No,Cybersecurity Analyst,Time management,Mentorship programs,10,16,15,18,20,20,10,9,Communication Adaptability Problem-Solving,1,126,AI Engineer
+1st,MCA,IoT Applications,JavaScript TypeScript Python,1,No,Cloud Architect,Presentation skills,Internships,17,13,18,16,20,20,11,19,Strategic Thinking Analytical Skills,5,146,AI Engineer
+2nd,B.Sc Computer Science,Deep Learning,MATLAB Python C,2,Yes,Cloud Architect,Presentation skills,Workshops,8,11,7,11,18,19,20,19,Time-Management Resilience Negotiation,3,123,Software Engineer
+3rd,B.Tech CSE,AI Fundamentals,Python R SQL,5,Yes,Data Scientist,Presentation skills,Peer groups,16,15,9,11,10,10,10,5,Strategic Thinking Analytical Skills,5,106,Cybersecurity Analyst
+4th,B.Tech IT,Business Intelligence,Scala Java Python,3,No,AI Engineer,Team collaboration,Internships,9,13,20,12,19,12,17,13,Communication Adaptability Problem-Solving,2,125,Software Engineer
+4th,MCA,Data Engineering,PHP JavaScript MySQL,1,Yes,Business Analyst,Presentation skills,Mentorship programs,18,13,9,17,11,14,15,13,Conflict Resolution Team Leadership,1,114,Software Engineer
+4th,B.Sc Computer Science,Business Intelligence,Python R SQL,3,No,AI Engineer,Time management,Internships,14,10,11,15,8,12,12,10,Emotional Intelligence Active Listening,2,102,Business Analyst
+4th,B.Sc Computer Science,Penetration Testing,Python R SQL,5,Yes,AI Engineer,Interview anxiety,Workshops,13,6,6,20,18,10,17,9,Time-Management Resilience Negotiation,1,111,Software Engineer
+3rd,B.Tech IT,DevOps,Java Kotlin Swift,4,No,AI Engineer,Team collaboration,Peer groups,13,5,7,19,10,19,10,11,Communication Adaptability Problem-Solving,5,112,Cybersecurity Analyst
+2nd,M.Sc Data Science,AI Fundamentals,R SAS Python,1,Yes,Business Analyst,Team collaboration,Workshops,13,14,5,13,17,11,16,15,Strategic Thinking Analytical Skills,5,116,Cybersecurity Analyst
+4th,MBA,Network Security,MATLAB Python C,2,No,AI Engineer,Lack of resources,Online resources,18,19,14,14,16,14,15,15,Leadership Creativity Critical-Thinking,4,137,AI Engineer
+2nd,B.Sc Computer Science,Deep Learning,Python R SQL,4,Yes,Cloud Architect,Procrastination,Online resources,14,18,6,15,17,8,15,7,Emotional Intelligence Active Listening,1,110,Cybersecurity Analyst
+1st,MCA,Blockchain Development,JavaScript TypeScript Python,1,No,AI Engineer,Procrastination,Peer groups,13,5,20,19,20,12,10,6,Time-Management Resilience Negotiation,1,109,Software Engineer
+3rd,B.Tech IT,Computer Vision,Python R SQL,4,Yes,AI Engineer,Procrastination,Workshops,15,6,11,18,18,10,20,11,Strategic Thinking Analytical Skills,5,127,AI Engineer
+4th,M.Sc Data Science,Full Stack Development,C# .NET SQL,3,Yes,Cloud Architect,Presentation skills,Workshops,16,14,18,11,10,16,19,16,Communication Adaptability Problem-Solving,5,136,Data Scientist
+4th,B.Tech IT,DevOps,C# .NET SQL,3,Yes,AI Engineer,Procrastination,Internships,13,19,13,13,12,15,10,10,Communication Adaptability Problem-Solving,4,119,Cybersecurity Analyst
+3rd,B.Tech CSE,AI Fundamentals,JavaScript TypeScript Python,4,No,Cybersecurity Analyst,Team collaboration,Workshops,12,10,18,13,10,11,19,9,Presentation Skills Public Speaking,1,112,Software Engineer
+2nd,B.Tech CSE,Data Visualization,MATLAB Python C,2,Yes,Data Scientist,Procrastination,Online resources,16,19,18,20,16,12,17,5,Collaboration Empathy Teamwork,2,131,Data Scientist
+1st,B.Tech IT,Business Intelligence,C# .NET SQL,4,Yes,Cloud Architect,Interview anxiety,Internships,15,15,11,13,19,20,13,7,Strategic Thinking Analytical Skills,3,127,AI Engineer
+1st,MBA,AI Fundamentals,Python R SQL,4,No,Software Engineer,Interview anxiety,Internships,9,17,9,13,14,15,13,13,Presentation Skills Public Speaking,2,115,Cybersecurity Analyst
+3rd,B.Tech CSE,Penetration Testing,Python Go Rust,1,Yes,Software Engineer,Time management,Internships,11,10,17,20,17,14,17,6,Decision-Making Flexibility Innovation,3,120,Cybersecurity Analyst
+1st,MCA,Blockchain Development,PHP JavaScript MySQL,1,No,Business Analyst,Lack of resources,Mentorship programs,16,6,6,10,8,20,20,16,Strategic Thinking Analytical Skills,4,112,Cybersecurity Analyst
+4th,B.Tech IT,Blockchain Development,MATLAB Python C,5,Yes,Cybersecurity Analyst,Procrastination,Workshops,9,18,16,18,15,8,16,6,Communication Adaptability Problem-Solving,4,124,Cybersecurity Analyst
+4th,B.Tech IT,Blockchain Development,Java Kotlin Swift,1,Yes,Data Scientist,Procrastination,Online resources,17,12,7,14,20,15,18,14,Leadership Creativity Critical-Thinking,3,125,Cybersecurity Analyst
+1st,B.Tech CSE,Computer Vision,Java Kotlin Swift,2,No,Business Analyst,Interview anxiety,Internships,20,8,19,17,9,8,14,20,Collaboration Empathy Teamwork,4,127,AI Engineer
+3rd,MBA,Data Engineering,PHP JavaScript MySQL,3,No,AI Engineer,Time management,Peer groups,18,9,18,18,8,15,11,10,Emotional Intelligence Active Listening,1,115,Cybersecurity Analyst
+3rd,B.Sc Computer Science,Mobile App Development,Scala Java Python,5,No,Data Scientist,Lack of resources,Peer groups,9,16,6,11,9,11,13,7,Decision-Making Flexibility Innovation,2,96,Business Analyst
+2nd,M.Sc Data Science,IoT Applications,C# .NET SQL,1,Yes,AI Engineer,Lack of resources,Workshops,14,6,9,12,17,9,20,15,Conflict Resolution Team Leadership,5,114,Cybersecurity Analyst
+4th,B.Tech CSE,Penetration Testing,MATLAB Python C,1,Yes,Cybersecurity Analyst,Presentation skills,Workshops,16,10,9,13,12,11,18,11,Emotional Intelligence Active Listening,4,110,Software Engineer
+4th,M.Sc Data Science,Business Intelligence,Java Kotlin Swift,3,No,AI Engineer,Presentation skills,Internships,18,20,17,16,20,10,10,19,Collaboration Empathy Teamwork,1,138,Cloud Architect
+4th,B.Tech IT,Cloud Security,Java Kotlin Swift,3,Yes,Data Scientist,Presentation skills,Internships,16,11,5,19,17,15,13,6,Communication Adaptability Problem-Solving,1,110,Software Engineer
+3rd,M.Sc Data Science,Deep Learning,Python Go Rust,3,Yes,Cybersecurity Analyst,Interview anxiety,Peer groups,8,6,18,13,13,20,13,8,Decision-Making Flexibility Innovation,3,111,Software Engineer
+4th,B.Sc Computer Science,AI Fundamentals,MATLAB Python C,5,Yes,Software Engineer,Presentation skills,Peer groups,18,7,14,13,18,14,14,17,Time-Management Resilience Negotiation,3,131,AI Engineer
+1st,B.Tech CSE,Data Engineering,R SAS Python,1,Yes,Cybersecurity Analyst,Procrastination,Online resources,12,17,9,18,19,10,19,17,Leadership Creativity Critical-Thinking,4,131,Cloud Architect
+2nd,MBA,Cloud Infrastructure,Python Java C++,4,No,AI Engineer,Time management,Internships,16,6,7,14,18,13,13,5,Leadership Creativity Critical-Thinking,4,108,Software Engineer
+4th,MBA,Data Visualization,JavaScript TypeScript Python,1,No,Cybersecurity Analyst,Interview anxiety,Mentorship programs,16,11,10,10,9,8,18,7,Communication Adaptability Problem-Solving,3,97,Business Analyst
+3rd,M.Sc Data Science,AI Fundamentals,PHP JavaScript MySQL,2,Yes,Cloud Architect,Presentation skills,Online resources,8,13,5,20,17,17,19,13,Conflict Resolution Team Leadership,5,126,AI Engineer
+3rd,B.Tech IT,Blockchain Development,Python Go Rust,3,No,Software Engineer,Presentation skills,Peer groups,18,7,11,10,13,19,11,16,Emotional Intelligence Active Listening,2,115,Software Engineer
+4th,M.Sc Data Science,Computer Vision,Java Kotlin Swift,2,No,Business Analyst,Interview anxiety,Workshops,10,9,19,19,12,19,15,13,Leadership Creativity Critical-Thinking,2,124,Cybersecurity Analyst
+1st,B.Tech CSE,Data Engineering,JavaScript TypeScript Python,4,Yes,Business Analyst,Presentation skills,Online resources,8,19,5,11,18,16,14,6,Leadership Creativity Critical-Thinking,2,109,Cybersecurity Analyst
+2nd,MCA,NLP,C# .NET SQL,2,Yes,Business Analyst,Presentation skills,Mentorship programs,10,10,19,12,8,10,18,11,Presentation Skills Public Speaking,2,106,Software Engineer
+1st,MCA,Mobile App Development,PHP JavaScript MySQL,2,No,AI Engineer,Procrastination,Internships,14,18,20,18,16,8,13,17,Presentation Skills Public Speaking,4,136,Data Scientist
+4th,B.Sc Computer Science,Network Security,Python R SQL,3,Yes,Software Engineer,Lack of resources,Online resources,16,8,8,10,17,19,14,15,Time-Management Resilience Negotiation,3,119,Software Engineer
+3rd,B.Tech IT,Data Engineering,MATLAB Python C,3,Yes,Cybersecurity Analyst,Lack of resources,Peer groups,13,9,7,14,14,9,17,13,Presentation Skills Public Speaking,2,106,Software Engineer
+3rd,MBA,Penetration Testing,Python R SQL,5,Yes,Cloud Architect,Time management,Mentorship programs,20,14,20,15,17,19,20,10,Time-Management Resilience Negotiation,2,149,AI Engineer
+2nd,M.Sc Data Science,DevOps,JavaScript TypeScript Python,5,Yes,Cloud Architect,Interview anxiety,Internships,10,13,16,20,14,13,18,17,Conflict Resolution Team Leadership,4,139,Data Scientist
+2nd,B.Tech CSE,Deep Learning,Julia Python R,3,No,Cybersecurity Analyst,Interview anxiety,Workshops,19,7,18,18,18,11,15,6,Presentation Skills Public Speaking,2,122,Software Engineer
+3rd,MCA,Data Engineering,Scala Java Python,3,Yes,Business Analyst,Time management,Mentorship programs,11,15,12,16,9,19,15,8,Time-Management Resilience Negotiation,1,113,Cybersecurity Analyst
+4th,MCA,Data Visualization,PHP JavaScript MySQL,1,No,Software Engineer,Team collaboration,Mentorship programs,12,9,13,20,16,14,20,10,Leadership Creativity Critical-Thinking,3,122,Cybersecurity Analyst
+4th,B.Tech CSE,Computer Vision,Scala Java Python,5,No,AI Engineer,Presentation skills,Online resources,19,7,10,11,14,19,11,8,Emotional Intelligence Active Listening,5,119,Cybersecurity Analyst
+3rd,B.Tech CSE,Data Engineering,JavaScript TypeScript Python,5,No,Cybersecurity Analyst,Procrastination,Workshops,9,8,16,15,13,10,19,8,Collaboration Empathy Teamwork,3,114,Software Engineer
+4th,B.Tech IT,Data Engineering,Scala Java Python,5,Yes,AI Engineer,Lack of resources,Online resources,17,16,7,14,18,20,12,14,Emotional Intelligence Active Listening,1,130,AI Engineer
+2nd,M.Sc Data Science,AI Fundamentals,C# .NET SQL,2,No,Cloud Architect,Presentation skills,Mentorship programs,18,11,20,11,16,19,10,6,Strategic Thinking Analytical Skills,1,117,Software Engineer
+4th,MBA,Mobile App Development,Julia Python R,5,No,Data Scientist,Interview anxiety,Internships,17,6,11,16,20,13,11,9,Communication Adaptability Problem-Solving,5,123,Cybersecurity Analyst
+3rd,M.Sc Data Science,Business Intelligence,JavaScript TypeScript Python,2,Yes,Software Engineer,Procrastination,Workshops,16,11,9,10,17,8,19,15,Collaboration Empathy Teamwork,3,115,Software Engineer
+4th,M.Sc Data Science,IoT Applications,JavaScript TypeScript Python,4,No,Business Analyst,Time management,Mentorship programs,9,14,13,10,8,10,10,20,Time-Management Resilience Negotiation,2,106,Software Engineer
+4th,B.Tech IT,Penetration Testing,PHP JavaScript MySQL,1,No,Cybersecurity Analyst,Presentation skills,Workshops,14,5,18,12,15,18,14,7,Communication Adaptability Problem-Solving,4,113,Software Engineer
+3rd,B.Tech IT,IoT Applications,R SAS Python,3,No,Business Analyst,Lack of resources,Mentorship programs,17,17,11,11,19,16,14,8,Decision-Making Flexibility Innovation,2,123,Cybersecurity Analyst
+4th,MBA,DevOps,MATLAB Python C,3,No,Data Scientist,Time management,Peer groups,14,12,15,19,17,8,12,15,Leadership Creativity Critical-Thinking,2,122,Cybersecurity Analyst
+1st,MCA,Network Security,Julia Python R,1,No,Software Engineer,Time management,Online resources,18,13,17,19,9,11,17,19,Emotional Intelligence Active Listening,2,129,AI Engineer
+2nd,M.Sc Data Science,Business Intelligence,R SAS Python,3,No,Data Scientist,Team collaboration,Internships,18,18,16,11,16,20,14,17,Strategic Thinking Analytical Skills,2,140,AI Engineer
+3rd,B.Tech CSE,Blockchain Development,Julia Python R,1,No,Business Analyst,Interview anxiety,Internships,10,13,7,19,9,10,15,6,Conflict Resolution Team Leadership,3,97,Business Analyst
+1st,B.Sc Computer Science,AI Fundamentals,C# .NET SQL,4,No,AI Engineer,Procrastination,Mentorship programs,14,10,14,11,11,19,11,15,Communication Adaptability Problem-Solving,5,123,Software Engineer
+3rd,MCA,Cloud Infrastructure,Java Kotlin Swift,4,No,Data Scientist,Time management,Workshops,18,10,7,13,19,20,17,16,Communication Adaptability Problem-Solving,5,138,Data Scientist
+2nd,B.Sc Computer Science,Full Stack Development,Java Kotlin Swift,4,No,Data Scientist,Procrastination,Peer groups,19,18,15,13,11,19,14,16,Conflict Resolution Team Leadership,2,137,Cloud Architect
+3rd,B.Tech CSE,NLP,C# .NET SQL,4,Yes,AI Engineer,Lack of resources,Workshops,16,15,14,10,19,14,20,12,Leadership Creativity Critical-Thinking,2,132,AI Engineer
+2nd,MBA,Deep Learning,JavaScript TypeScript Python,5,Yes,Cybersecurity Analyst,Presentation skills,Online resources,14,19,9,16,16,10,15,19,Decision-Making Flexibility Innovation,3,134,Data Scientist
+1st,B.Sc Computer Science,Data Visualization,R SAS Python,1,No,Cybersecurity Analyst,Interview anxiety,Workshops,10,11,8,17,14,14,11,13,Leadership Creativity Critical-Thinking,2,104,Business Analyst
+4th,MBA,Business Intelligence,Python Java C++,5,Yes,Cloud Architect,Lack of resources,Workshops,15,10,20,16,10,10,11,19,Collaboration Empathy Teamwork,3,127,Cloud Architect
+3rd,B.Tech IT,Network Security,Python Java C++,5,Yes,Cybersecurity Analyst,Lack of resources,Online resources,14,8,20,16,15,19,17,8,Decision-Making Flexibility Innovation,3,133,AI Engineer
+3rd,MBA,Cloud Infrastructure,MATLAB Python C,2,Yes,AI Engineer,Time management,Mentorship programs,19,19,19,16,15,16,12,6,Decision-Making Flexibility Innovation,3,132,Cloud Architect
+3rd,B.Tech CSE,Blockchain Development,Python Go Rust,3,No,Cloud Architect,Presentation skills,Mentorship programs,13,19,16,12,18,20,20,10,Conflict Resolution Team Leadership,1,136,Cloud Architect
+1st,M.Sc Data Science,Blockchain Development,Python Go Rust,2,No,Cloud Architect,Lack of resources,Workshops,17,13,7,13,13,12,14,13,Strategic Thinking Analytical Skills,5,116,Cybersecurity Analyst
+2nd,B.Sc Computer Science,Cloud Infrastructure,JavaScript TypeScript Python,3,No,Cloud Architect,Time management,Peer groups,17,20,17,20,16,8,11,11,Time-Management Resilience Negotiation,1,128,AI Engineer
+4th,MCA,Cloud Security,JavaScript TypeScript Python,4,No,Business Analyst,Presentation skills,Mentorship programs,18,10,12,11,18,15,16,11,Conflict Resolution Team Leadership,1,121,Software Engineer
+4th,B.Tech CSE,Deep Learning,Python Java C++,5,Yes,Software Engineer,Team collaboration,Workshops,17,19,11,18,13,19,20,15,Strategic Thinking Analytical Skills,4,150,AI Engineer
+1st,MCA,Computer Vision,PHP JavaScript MySQL,5,Yes,AI Engineer,Time management,Internships,17,14,15,11,17,10,10,7,Conflict Resolution Team Leadership,1,113,Software Engineer
+1st,MBA,IoT Applications,JavaScript TypeScript Python,4,Yes,Cybersecurity Analyst,Procrastination,Internships,16,12,9,19,19,12,16,11,Communication Adaptability Problem-Solving,3,128,Data Scientist
+1st,B.Tech IT,DevOps,C# .NET SQL,5,No,Data Scientist,Lack of resources,Peer groups,13,10,9,17,9,15,15,9,Decision-Making Flexibility Innovation,3,113,Cybersecurity Analyst
+1st,MCA,Data Engineering,PHP JavaScript MySQL,1,Yes,Software Engineer,Lack of resources,Workshops,17,15,13,11,8,14,15,5,Communication Adaptability Problem-Solving,4,108,Software Engineer
+4th,B.Tech IT,Network Security,Python Go Rust,2,No,Data Scientist,Interview anxiety,Peer groups,14,18,7,14,8,14,15,15,Emotional Intelligence Active Listening,3,115,Cybersecurity Analyst
+3rd,MBA,Cloud Security,JavaScript TypeScript Python,4,Yes,Cybersecurity Analyst,Interview anxiety,Internships,13,14,9,11,18,9,14,13,Collaboration Empathy Teamwork,1,111,Cybersecurity Analyst
+4th,M.Sc Data Science,AI Fundamentals,PHP JavaScript MySQL,2,Yes,Cloud Architect,Presentation skills,Workshops,15,14,8,14,10,11,11,13,Conflict Resolution Team Leadership,4,108,Cybersecurity Analyst
+4th,MBA,Deep Learning,Python Java C++,3,No,Cloud Architect,Procrastination,Internships,20,8,12,18,18,9,13,10,Emotional Intelligence Active Listening,4,122,Cybersecurity Analyst
+3rd,M.Sc Data Science,Embedded Systems,Java Kotlin Swift,4,No,Business Analyst,Team collaboration,Online resources,13,5,5,12,9,16,20,17,Presentation Skills Public Speaking,2,109,Software Engineer
+2nd,B.Tech IT,Computer Vision,Python Java C++,5,No,Cybersecurity Analyst,Presentation skills,Online resources,20,16,12,20,9,15,10,20,Decision-Making Flexibility Innovation,3,138,Cloud Architect
+3rd,B.Sc Computer Science,Business Intelligence,Julia Python R,1,Yes,Software Engineer,Time management,Workshops,10,19,7,19,18,14,19,20,Decision-Making Flexibility Innovation,4,136,Data Scientist
+4th,B.Tech CSE,NLP,Scala Java Python,1,Yes,AI Engineer,Procrastination,Online resources,14,9,10,14,15,19,12,20,Leadership Creativity Critical-Thinking,5,125,Cybersecurity Analyst
+1st,MBA,Blockchain Development,Python Go Rust,3,No,Software Engineer,Interview anxiety,Mentorship programs,10,14,20,16,15,15,11,11,Collaboration Empathy Teamwork,1,120,Cybersecurity Analyst
+4th,B.Tech IT,Embedded Systems,MATLAB Python C,2,No,Business Analyst,Lack of resources,Peer groups,15,18,11,19,18,11,15,16,Communication Adaptability Problem-Solving,5,137,Data Scientist
+1st,B.Tech IT,Cloud Infrastructure,Scala Java Python,1,No,Cloud Architect,Time management,Online resources,13,18,14,13,10,8,13,11,Presentation Skills Public Speaking,2,106,Cybersecurity Analyst
+4th,MBA,Cloud Security,PHP JavaScript MySQL,3,Yes,Business Analyst,Interview anxiety,Workshops,12,17,10,15,13,20,18,7,Collaboration Empathy Teamwork,3,124,Cybersecurity Analyst
+2nd,M.Sc Data Science,AI Fundamentals,MATLAB Python C,4,Yes,AI Engineer,Lack of resources,Mentorship programs,9,6,7,20,18,9,11,18,Conflict Resolution Team Leadership,4,114,Cybersecurity Analyst
+4th,MCA,Network Security,Python Java C++,3,Yes,Business Analyst,Presentation skills,Workshops,12,11,11,10,11,16,11,9,Presentation Skills Public Speaking,3,103,Business Analyst
+2nd,B.Sc Computer Science,Deep Learning,JavaScript TypeScript Python,4,No,AI Engineer,Interview anxiety,Online resources,16,20,15,10,13,9,18,20,Conflict Resolution Team Leadership,4,137,Data Scientist
+1st,MBA,Data Visualization,PHP JavaScript MySQL,4,No,Business Analyst,Team collaboration,Peer groups,18,13,20,17,13,20,11,9,Communication Adaptability Problem-Solving,1,131,AI Engineer
+3rd,B.Tech CSE,Business Intelligence,Scala Java Python,4,Yes,Software Engineer,Presentation skills,Peer groups,12,8,11,13,10,13,20,16,Communication Adaptability Problem-Solving,5,121,Cybersecurity Analyst
+1st,MBA,Blockchain Development,C# .NET SQL,4,No,Software Engineer,Team collaboration,Workshops,9,5,7,12,9,16,18,8,Collaboration Empathy Teamwork,3,98,Business Analyst
+3rd,B.Sc Computer Science,Penetration Testing,JavaScript TypeScript Python,3,Yes,Business Analyst,Presentation skills,Mentorship programs,10,18,11,20,9,18,20,18,Leadership Creativity Critical-Thinking,5,140,Cloud Architect
+3rd,B.Sc Computer Science,Computer Vision,Python Go Rust,2,Yes,Cloud Architect,Presentation skills,Peer groups,13,12,19,11,19,15,10,16,Conflict Resolution Team Leadership,3,125,Cybersecurity Analyst
+1st,B.Sc Computer Science,Cloud Security,Scala Java Python,3,Yes,Cybersecurity Analyst,Time management,Peer groups,20,18,11,12,16,16,16,16,Time-Management Resilience Negotiation,2,135,AI Engineer
+1st,MBA,Embedded Systems,MATLAB Python C,4,No,Business Analyst,Interview anxiety,Workshops,18,11,5,10,16,11,12,8,Leadership Creativity Critical-Thinking,1,101,Business Analyst
+3rd,B.Tech IT,Cloud Security,Julia Python R,5,Yes,Data Scientist,Time management,Workshops,15,20,11,17,11,20,12,9,Leadership Creativity Critical-Thinking,5,135,AI Engineer
+4th,B.Tech IT,Data Visualization,Scala Java Python,5,No,Cloud Architect,Interview anxiety,Internships,8,17,13,13,9,8,13,19,Collaboration Empathy Teamwork,3,116,Cybersecurity Analyst
+1st,MBA,Mobile App Development,Python Go Rust,4,Yes,Software Engineer,Interview anxiety,Mentorship programs,10,19,12,17,20,17,13,11,Strategic Thinking Analytical Skills,4,135,Cloud Architect
+1st,B.Tech CSE,Data Visualization,PHP JavaScript MySQL,1,Yes,Software Engineer,Presentation skills,Internships,16,9,20,13,17,14,14,9,Presentation Skills Public Speaking,2,118,Software Engineer
+4th,B.Tech CSE,Embedded Systems,MATLAB Python C,4,No,Business Analyst,Presentation skills,Internships,14,14,17,16,15,19,11,20,Leadership Creativity Critical-Thinking,2,138,Data Scientist
+2nd,MBA,Cloud Infrastructure,Scala Java Python,5,No,Cybersecurity Analyst,Interview anxiety,Peer groups,12,18,18,19,8,18,10,20,Collaboration Empathy Teamwork,5,143,Cloud Architect
+4th,B.Tech CSE,Full Stack Development,Java Kotlin Swift,3,Yes,Cybersecurity Analyst,Team collaboration,Online resources,20,9,6,15,18,18,18,9,Strategic Thinking Analytical Skills,1,121,Software Engineer
+1st,MCA,Data Visualization,PHP JavaScript MySQL,2,No,Software Engineer,Procrastination,Online resources,12,7,14,15,14,14,16,7,Communication Adaptability Problem-Solving,2,107,Software Engineer
+4th,M.Sc Data Science,Computer Vision,Python R SQL,3,Yes,Cybersecurity Analyst,Presentation skills,Internships,18,15,8,16,16,18,14,14,Communication Adaptability Problem-Solving,2,129,AI Engineer
+2nd,B.Sc Computer Science,Full Stack Development,Python Go Rust,4,Yes,AI Engineer,Interview anxiety,Peer groups,9,19,16,12,16,12,14,14,Time-Management Resilience Negotiation,1,122,Cybersecurity Analyst
+4th,MBA,Data Engineering,Scala Java Python,4,No,Cloud Architect,Lack of resources,Internships,10,8,15,11,19,20,11,13,Communication Adaptability Problem-Solving,2,119,Software Engineer
+2nd,B.Tech CSE,Data Visualization,R SAS Python,1,Yes,Business Analyst,Presentation skills,Peer groups,12,11,8,14,13,10,11,15,Decision-Making Flexibility Innovation,2,100,Business Analyst
+3rd,MBA,NLP,R SAS Python,2,Yes,Cybersecurity Analyst,Interview anxiety,Workshops,15,17,11,13,15,12,12,7,Leadership Creativity Critical-Thinking,2,110,Software Engineer
+1st,B.Tech IT,Deep Learning,C# .NET SQL,5,Yes,AI Engineer,Procrastination,Workshops,14,8,16,18,15,13,10,10,Presentation Skills Public Speaking,4,122,Software Engineer
+4th,MBA,Cloud Security,Python Go Rust,4,No,Business Analyst,Lack of resources,Online resources,11,15,10,19,13,16,17,13,Strategic Thinking Analytical Skills,3,128,AI Engineer
+3rd,MCA,Blockchain Development,R SAS Python,3,Yes,Software Engineer,Procrastination,Internships,20,6,13,19,12,16,12,16,Time-Management Resilience Negotiation,2,124,Cybersecurity Analyst
+4th,MBA,Network Security,Python R SQL,2,No,Cybersecurity Analyst,Lack of resources,Mentorship programs,13,19,12,19,14,15,11,8,Decision-Making Flexibility Innovation,1,117,Cybersecurity Analyst
+3rd,B.Sc Computer Science,IoT Applications,Java Kotlin Swift,1,No,Software Engineer,Team collaboration,Internships,9,15,5,14,20,15,14,16,Time-Management Resilience Negotiation,2,114,Software Engineer
+2nd,MCA,Data Visualization,R SAS Python,3,Yes,Data Scientist,Time management,Internships,20,14,18,11,13,14,10,14,Decision-Making Flexibility Innovation,2,124,Software Engineer
+3rd,MCA,Data Engineering,Python Go Rust,3,Yes,Cloud Architect,Procrastination,Online resources,9,18,18,16,18,20,13,16,Presentation Skills Public Speaking,4,142,Cloud Architect
+2nd,B.Tech CSE,DevOps,Java Kotlin Swift,5,No,Business Analyst,Team collaboration,Peer groups,16,18,16,20,12,19,17,16,Leadership Creativity Critical-Thinking,1,146,Data Scientist
+1st,MCA,Business Intelligence,Java Kotlin Swift,3,No,Software Engineer,Procrastination,Workshops,12,19,9,17,20,17,12,15,Leadership Creativity Critical-Thinking,2,131,Data Scientist
+1st,B.Sc Computer Science,AI Fundamentals,Julia Python R,3,No,Cybersecurity Analyst,Time management,Peer groups,19,14,13,19,17,20,10,16,Decision-Making Flexibility Innovation,5,144,Data Scientist
+2nd,M.Sc Data Science,Full Stack Development,R SAS Python,2,Yes,Cloud Architect,Presentation skills,Mentorship programs,18,6,15,16,12,16,15,12,Leadership Creativity Critical-Thinking,2,118,Software Engineer
+1st,B.Tech IT,Deep Learning,MATLAB Python C,4,Yes,Cloud Architect,Time management,Online resources,14,10,14,18,20,11,18,8,Decision-Making Flexibility Innovation,5,131,Data Scientist
+3rd,M.Sc Data Science,Cloud Security,C# .NET SQL,5,Yes,Business Analyst,Interview anxiety,Online resources,9,18,18,18,12,17,16,15,Presentation Skills Public Speaking,5,143,Data Scientist
+2nd,B.Tech CSE,Penetration Testing,PHP JavaScript MySQL,2,Yes,Cybersecurity Analyst,Lack of resources,Mentorship programs,10,6,15,12,12,12,11,9,Leadership Creativity Critical-Thinking,4,99,Business Analyst
+2nd,MCA,Computer Vision,C# .NET SQL,2,Yes,AI Engineer,Procrastination,Peer groups,19,16,16,19,18,19,12,11,Time-Management Resilience Negotiation,2,138,AI Engineer
+1st,MCA,Mobile App Development,Python Java C++,2,Yes,Software Engineer,Interview anxiety,Online resources,11,16,5,11,16,12,11,6,Communication Adaptability Problem-Solving,4,100,Business Analyst
+4th,B.Tech IT,Blockchain Development,R SAS Python,1,No,AI Engineer,Presentation skills,Online resources,11,18,9,14,11,10,17,11,Time-Management Resilience Negotiation,4,111,Cybersecurity Analyst
+1st,MBA,Business Intelligence,Julia Python R,3,Yes,Software Engineer,Procrastination,Online resources,10,14,8,12,10,12,17,12,Conflict Resolution Team Leadership,4,109,Software Engineer
+1st,B.Tech IT,Deep Learning,Java Kotlin Swift,5,No,AI Engineer,Procrastination,Peer groups,9,20,18,17,16,15,20,20,Time-Management Resilience Negotiation,5,155,Data Scientist
+4th,B.Sc Computer Science,Business Intelligence,Julia Python R,3,No,Data Scientist,Procrastination,Internships,18,19,12,17,17,8,20,19,Time-Management Resilience Negotiation,4,144,Cloud Architect
+3rd,M.Sc Data Science,Mobile App Development,MATLAB Python C,1,Yes,Cloud Architect,Presentation skills,Workshops,11,12,9,14,14,17,11,7,Communication Adaptability Problem-Solving,5,107,Software Engineer
+4th,B.Tech CSE,Data Visualization,Python Java C++,2,Yes,Cloud Architect,Time management,Internships,19,7,16,16,8,10,10,9,Conflict Resolution Team Leadership,4,107,Cybersecurity Analyst
+3rd,B.Tech IT,Data Visualization,Python Java C++,1,No,AI Engineer,Procrastination,Peer groups,20,15,15,12,9,20,20,6,Strategic Thinking Analytical Skills,1,121,Software Engineer
+1st,M.Sc Data Science,Penetration Testing,R SAS Python,5,No,AI Engineer,Lack of resources,Peer groups,15,7,7,18,11,17,12,11,Leadership Creativity Critical-Thinking,5,118,Software Engineer
+1st,B.Tech CSE,Data Engineering,MATLAB Python C,2,Yes,Cloud Architect,Procrastination,Peer groups,12,13,6,11,18,11,16,6,Conflict Resolution Team Leadership,4,105,Business Analyst
+1st,B.Tech IT,Mobile App Development,R SAS Python,2,Yes,Business Analyst,Interview anxiety,Peer groups,14,11,9,19,20,13,13,18,Conflict Resolution Team Leadership,1,123,Software Engineer
+1st,M.Sc Data Science,Penetration Testing,PHP JavaScript MySQL,1,No,Data Scientist,Lack of resources,Internships,11,15,15,18,9,9,13,12,Leadership Creativity Critical-Thinking,4,112,Software Engineer
+4th,B.Sc Computer Science,Data Visualization,Python Go Rust,4,Yes,Business Analyst,Procrastination,Mentorship programs,15,13,18,17,9,20,14,16,Conflict Resolution Team Leadership,5,140,Data Scientist
+3rd,MBA,Business Intelligence,PHP JavaScript MySQL,2,No,Data Scientist,Lack of resources,Peer groups,12,17,15,15,19,11,10,9,Emotional Intelligence Active Listening,1,114,Cybersecurity Analyst
+3rd,B.Tech IT,Full Stack Development,Python Java C++,4,Yes,Business Analyst,Interview anxiety,Mentorship programs,13,8,11,13,10,13,20,8,Presentation Skills Public Speaking,1,106,Software Engineer
+1st,MBA,Deep Learning,MATLAB Python C,4,Yes,Software Engineer,Time management,Online resources,8,17,13,14,16,8,11,8,Emotional Intelligence Active Listening,3,109,Cybersecurity Analyst
+1st,B.Tech IT,Cloud Infrastructure,Java Kotlin Swift,1,No,AI Engineer,Team collaboration,Online resources,18,7,20,12,16,9,20,11,Decision-Making Flexibility Innovation,2,119,Software Engineer
+2nd,MBA,NLP,PHP JavaScript MySQL,5,Yes,AI Engineer,Procrastination,Internships,8,8,5,17,8,10,19,20,Emotional Intelligence Active Listening,2,109,Cybersecurity Analyst
+1st,B.Tech IT,Network Security,JavaScript TypeScript Python,1,No,Data Scientist,Interview anxiety,Online resources,16,5,19,17,13,9,15,8,Time-Management Resilience Negotiation,5,114,Software Engineer
+1st,MCA,Embedded Systems,Python Java C++,1,No,Cloud Architect,Team collaboration,Online resources,11,10,20,13,17,15,13,17,Presentation Skills Public Speaking,2,122,Software Engineer
+1st,B.Tech CSE,AI Fundamentals,Julia Python R,1,No,Business Analyst,Team collaboration,Online resources,19,18,8,14,20,18,10,8,Time-Management Resilience Negotiation,4,125,Software Engineer
+1st,B.Sc Computer Science,Cloud Security,Julia Python R,2,Yes,Data Scientist,Lack of resources,Online resources,8,9,14,20,16,15,13,16,Conflict Resolution Team Leadership,1,117,Software Engineer
+1st,B.Tech IT,AI Fundamentals,R SAS Python,3,No,Data Scientist,Time management,Internships,17,10,8,16,11,11,12,17,Time-Management Resilience Negotiation,5,118,Cybersecurity Analyst
+2nd,B.Tech CSE,Embedded Systems,Julia Python R,2,No,Cybersecurity Analyst,Lack of resources,Online resources,11,16,11,13,19,13,13,7,Conflict Resolution Team Leadership,1,109,Cybersecurity Analyst
+1st,B.Sc Computer Science,Cloud Security,C# .NET SQL,2,No,AI Engineer,Procrastination,Internships,11,9,11,16,8,20,14,9,Collaboration Empathy Teamwork,4,110,Software Engineer
+1st,B.Sc Computer Science,Full Stack Development,JavaScript TypeScript Python,4,Yes,Cloud Architect,Presentation skills,Online resources,8,16,5,15,12,13,19,11,Collaboration Empathy Teamwork,1,109,Software Engineer
+1st,B.Tech IT,Mobile App Development,Java Kotlin Swift,3,Yes,Business Analyst,Interview anxiety,Online resources,8,20,18,15,8,16,11,7,Strategic Thinking Analytical Skills,4,117,Cybersecurity Analyst
+2nd,M.Sc Data Science,Cloud Infrastructure,MATLAB Python C,1,Yes,Software Engineer,Procrastination,Online resources,8,17,15,20,20,20,13,5,Leadership Creativity Critical-Thinking,5,130,Data Scientist
+1st,M.Sc Data Science,Penetration Testing,Python R SQL,5,Yes,Cloud Architect,Presentation skills,Peer groups,19,5,14,10,13,10,18,15,Time-Management Resilience Negotiation,1,116,Cybersecurity Analyst
+4th,MCA,Data Engineering,Python Java C++,2,No,AI Engineer,Team collaboration,Workshops,16,8,19,11,16,19,17,16,Collaboration Empathy Teamwork,1,128,AI Engineer
+1st,M.Sc Data Science,Cloud Security,Java Kotlin Swift,5,No,Business Analyst,Presentation skills,Peer groups,15,15,5,20,12,17,15,13,Conflict Resolution Team Leadership,3,128,Cloud Architect
+3rd,B.Tech IT,Data Engineering,C# .NET SQL,1,Yes,Software Engineer,Lack of resources,Internships,12,16,5,16,8,19,11,16,Emotional Intelligence Active Listening,3,111,Software Engineer
+2nd,M.Sc Data Science,AI Fundamentals,Python Java C++,3,Yes,Data Scientist,Interview anxiety,Online resources,14,11,12,20,14,13,18,9,Time-Management Resilience Negotiation,4,125,Cybersecurity Analyst
+1st,B.Tech IT,Cloud Infrastructure,C# .NET SQL,1,No,Software Engineer,Lack of resources,Online resources,19,15,15,18,11,9,10,13,Strategic Thinking Analytical Skills,4,120,Software Engineer
+1st,MBA,Data Engineering,Java Kotlin Swift,4,No,Cloud Architect,Team collaboration,Peer groups,16,16,5,11,16,16,10,13,Leadership Creativity Critical-Thinking,1,113,Software Engineer
+2nd,B.Sc Computer Science,Data Visualization,MATLAB Python C,4,Yes,Cybersecurity Analyst,Team collaboration,Internships,16,10,19,11,8,14,19,14,Strategic Thinking Analytical Skills,4,127,Cloud Architect
+4th,MBA,Cloud Infrastructure,MATLAB Python C,1,No,Business Analyst,Presentation skills,Workshops,18,5,13,14,14,8,18,18,Time-Management Resilience Negotiation,5,120,Software Engineer
+4th,MCA,Computer Vision,C# .NET SQL,4,No,Data Scientist,Procrastination,Workshops,20,7,16,11,14,19,18,13,Strategic Thinking Analytical Skills,4,134,AI Engineer
+1st,MBA,Deep Learning,MATLAB Python C,4,No,AI Engineer,Lack of resources,Workshops,13,13,16,12,14,8,17,20,Collaboration Empathy Teamwork,1,123,Cybersecurity Analyst
+2nd,B.Sc Computer Science,Deep Learning,R SAS Python,4,Yes,Business Analyst,Presentation skills,Workshops,15,17,8,15,15,10,16,18,Collaboration Empathy Teamwork,4,130,Data Scientist
+2nd,B.Tech CSE,IoT Applications,R SAS Python,4,Yes,AI Engineer,Time management,Mentorship programs,11,18,20,11,17,15,11,17,Collaboration Empathy Teamwork,1,130,AI Engineer
+4th,B.Tech IT,Business Intelligence,Julia Python R,4,Yes,Cloud Architect,Lack of resources,Online resources,19,10,7,16,17,15,20,18,Collaboration Empathy Teamwork,5,140,AI Engineer
+2nd,MBA,Full Stack Development,Julia Python R,2,No,AI Engineer,Presentation skills,Workshops,19,6,18,14,10,19,13,7,Collaboration Empathy Teamwork,5,120,Software Engineer
+3rd,M.Sc Data Science,NLP,Python Go Rust,1,No,Software Engineer,Interview anxiety,Mentorship programs,9,17,13,10,15,12,19,19,Leadership Creativity Critical-Thinking,2,120,Cybersecurity Analyst
+3rd,M.Sc Data Science,Embedded Systems,Java Kotlin Swift,4,No,AI Engineer,Team collaboration,Online resources,13,15,9,18,14,17,14,15,Collaboration Empathy Teamwork,2,127,Data Scientist
+4th,B.Tech CSE,Penetration Testing,Julia Python R,4,Yes,Cybersecurity Analyst,Time management,Mentorship programs,14,7,14,11,15,13,19,6,Leadership Creativity Critical-Thinking,1,109,Software Engineer
+1st,B.Tech IT,Computer Vision,Julia Python R,3,Yes,Cybersecurity Analyst,Presentation skills,Mentorship programs,11,5,14,15,14,17,12,7,Emotional Intelligence Active Listening,2,105,Business Analyst
+1st,B.Tech CSE,Network Security,Scala Java Python,4,No,Software Engineer,Time management,Mentorship programs,19,16,9,18,12,13,15,13,Decision-Making Flexibility Innovation,1,125,Cybersecurity Analyst
+2nd,B.Tech CSE,Cloud Security,Python Java C++,1,No,Data Scientist,Interview anxiety,Workshops,17,18,11,13,17,12,17,13,Collaboration Empathy Teamwork,3,126,Cloud Architect
+2nd,MBA,Computer Vision,Python Java C++,5,No,Cybersecurity Analyst,Lack of resources,Internships,14,19,13,17,10,18,15,17,Decision-Making Flexibility Innovation,2,137,AI Engineer
+2nd,MBA,IoT Applications,Python Go Rust,5,No,Cybersecurity Analyst,Team collaboration,Internships,18,9,13,20,17,11,16,17,Presentation Skills Public Speaking,5,141,Data Scientist
+3rd,MCA,Data Visualization,C# .NET SQL,5,Yes,Business Analyst,Presentation skills,Mentorship programs,20,6,9,12,18,12,16,5,Conflict Resolution Team Leadership,3,114,Cybersecurity Analyst
+1st,MBA,Penetration Testing,PHP JavaScript MySQL,5,Yes,Business Analyst,Presentation skills,Online resources,19,5,11,18,18,16,11,18,Strategic Thinking Analytical Skills,3,132,AI Engineer
+4th,MCA,Cloud Infrastructure,Python R SQL,2,No,Cloud Architect,Presentation skills,Online resources,15,8,10,15,20,12,12,18,Presentation Skills Public Speaking,3,120,Cybersecurity Analyst
+3rd,B.Tech IT,Cloud Security,Python Go Rust,5,No,AI Engineer,Time management,Peer groups,18,5,5,12,13,10,14,12,Conflict Resolution Team Leadership,3,105,Business Analyst
+3rd,B.Sc Computer Science,Deep Learning,Scala Java Python,5,Yes,Business Analyst,Time management,Peer groups,14,16,13,19,20,17,20,10,Communication Adaptability Problem-Solving,2,143,Data Scientist
+3rd,B.Tech IT,Cloud Security,MATLAB Python C,1,Yes,Business Analyst,Interview anxiety,Internships,11,7,15,15,11,18,19,8,Strategic Thinking Analytical Skills,1,108,Cybersecurity Analyst
+1st,MBA,DevOps,C# .NET SQL,2,Yes,Business Analyst,Time management,Online resources,15,13,16,16,12,8,11,20,Leadership Creativity Critical-Thinking,4,123,Cybersecurity Analyst
+2nd,B.Tech CSE,Data Engineering,C# .NET SQL,2,No,Business Analyst,Interview anxiety,Peer groups,16,17,13,20,13,13,18,14,Decision-Making Flexibility Innovation,2,132,AI Engineer
+2nd,M.Sc Data Science,IoT Applications,Python Java C++,5,No,Cybersecurity Analyst,Time management,Mentorship programs,15,12,20,10,19,14,11,7,Decision-Making Flexibility Innovation,2,122,Cybersecurity Analyst
+3rd,M.Sc Data Science,Blockchain Development,R SAS Python,3,No,Data Scientist,Lack of resources,Mentorship programs,8,7,6,18,19,20,10,14,Decision-Making Flexibility Innovation,1,110,Cybersecurity Analyst
+1st,M.Sc Data Science,NLP,PHP JavaScript MySQL,3,Yes,Data Scientist,Presentation skills,Workshops,16,5,16,18,8,14,18,19,Collaboration Empathy Teamwork,2,124,Software Engineer
+3rd,B.Sc Computer Science,Penetration Testing,Python R SQL,1,Yes,AI Engineer,Procrastination,Workshops,13,15,13,19,15,19,19,15,Communication Adaptability Problem-Solving,5,140,Cloud Architect
+2nd,MCA,Data Visualization,JavaScript TypeScript Python,5,No,Cybersecurity Analyst,Interview anxiety,Mentorship programs,16,20,18,14,18,8,15,10,Communication Adaptability Problem-Solving,4,137,Data Scientist
+1st,B.Tech CSE,IoT Applications,Scala Java Python,4,Yes,Software Engineer,Procrastination,Workshops,8,20,6,11,13,14,14,6,Strategic Thinking Analytical Skills,5,110,Cybersecurity Analyst
+4th,MCA,Data Engineering,Python Go Rust,4,No,Business Analyst,Time management,Peer groups,12,10,19,16,15,12,16,7,Communication Adaptability Problem-Solving,5,125,Software Engineer
+1st,B.Tech CSE,Mobile App Development,Julia Python R,4,No,Software Engineer,Presentation skills,Workshops,15,7,6,10,10,16,15,15,Leadership Creativity Critical-Thinking,3,108,Cybersecurity Analyst
+1st,B.Sc Computer Science,Cloud Security,C# .NET SQL,1,No,Software Engineer,Interview anxiety,Online resources,14,9,7,17,19,10,14,8,Presentation Skills Public Speaking,3,106,Cybersecurity Analyst
+1st,B.Tech CSE,Blockchain Development,Scala Java Python,3,Yes,AI Engineer,Procrastination,Workshops,20,18,5,15,18,10,15,8,Decision-Making Flexibility Innovation,1,117,Cybersecurity Analyst
+4th,MCA,Penetration Testing,Scala Java Python,5,Yes,AI Engineer,Time management,Online resources,13,12,6,19,8,18,11,6,Strategic Thinking Analytical Skills,3,109,Cybersecurity Analyst
+3rd,M.Sc Data Science,Business Intelligence,C# .NET SQL,5,Yes,Business Analyst,Presentation skills,Workshops,19,12,19,20,13,17,11,10,Presentation Skills Public Speaking,1,133,Cloud Architect
+4th,MBA,Computer Vision,Python Go Rust,5,No,Business Analyst,Lack of resources,Mentorship programs,9,14,9,17,14,15,20,11,Time-Management Resilience Negotiation,5,129,Cloud Architect
+3rd,MBA,Full Stack Development,Python Java C++,2,Yes,Business Analyst,Time management,Workshops,10,5,18,15,12,18,15,14,Emotional Intelligence Active Listening,3,117,Software Engineer
+2nd,MCA,Penetration Testing,Scala Java Python,2,Yes,AI Engineer,Time management,Peer groups,18,16,6,17,10,9,10,14,Communication Adaptability Problem-Solving,4,112,Software Engineer
+1st,B.Sc Computer Science,Network Security,Python R SQL,4,No,Software Engineer,Time management,Peer groups,15,16,5,20,16,17,12,14,Emotional Intelligence Active Listening,5,133,Data Scientist
+4th,B.Tech IT,Cloud Infrastructure,R SAS Python,2,Yes,Business Analyst,Presentation skills,Online resources,8,7,5,17,18,20,19,6,Collaboration Empathy Teamwork,5,114,Software Engineer
+1st,B.Sc Computer Science,IoT Applications,PHP JavaScript MySQL,5,No,Cloud Architect,Time management,Mentorship programs,8,11,9,18,12,15,14,17,Communication Adaptability Problem-Solving,5,124,Cybersecurity Analyst
+2nd,B.Sc Computer Science,Embedded Systems,Julia Python R,5,Yes,Cloud Architect,Time management,Internships,19,15,12,13,9,19,19,9,Emotional Intelligence Active Listening,3,131,Cloud Architect
+2nd,M.Sc Data Science,Cloud Security,Julia Python R,5,No,Business Analyst,Interview anxiety,Peer groups,15,12,17,13,14,20,14,19,Conflict Resolution Team Leadership,5,144,Data Scientist
+1st,MCA,Deep Learning,Python Java C++,4,No,Cybersecurity Analyst,Interview anxiety,Peer groups,10,19,10,17,8,17,18,18,Emotional Intelligence Active Listening,4,133,Data Scientist
+4th,M.Sc Data Science,Full Stack Development,Python R SQL,1,No,Business Analyst,Procrastination,Workshops,18,17,12,14,20,17,18,9,Collaboration Empathy Teamwork,5,137,AI Engineer
+1st,B.Sc Computer Science,Cloud Infrastructure,Java Kotlin Swift,2,No,Business Analyst,Team collaboration,Workshops,9,20,12,12,10,13,10,10,Leadership Creativity Critical-Thinking,2,104,Business Analyst
+2nd,MBA,Network Security,Julia Python R,2,Yes,Data Scientist,Team collaboration,Online resources,18,5,16,10,19,20,12,20,Presentation Skills Public Speaking,1,126,AI Engineer
+3rd,M.Sc Data Science,AI Fundamentals,Scala Java Python,4,Yes,Business Analyst,Presentation skills,Workshops,18,13,20,19,19,15,19,14,Decision-Making Flexibility Innovation,3,151,AI Engineer
+2nd,B.Sc Computer Science,Data Visualization,MATLAB Python C,3,Yes,Business Analyst,Interview anxiety,Mentorship programs,19,17,16,12,9,10,12,6,Time-Management Resilience Negotiation,5,117,Software Engineer
+1st,B.Sc Computer Science,Embedded Systems,Python Java C++,2,Yes,AI Engineer,Interview anxiety,Mentorship programs,18,15,16,20,17,11,15,18,Leadership Creativity Critical-Thinking,2,138,Data Scientist
+1st,MBA,Penetration Testing,Java Kotlin Swift,2,Yes,AI Engineer,Procrastination,Online resources,12,7,9,11,11,11,16,15,Communication Adaptability Problem-Solving,4,104,Business Analyst
+2nd,MCA,Blockchain Development,Julia Python R,2,No,Software Engineer,Team collaboration,Mentorship programs,16,8,19,15,20,15,17,17,Time-Management Resilience Negotiation,1,133,Data Scientist
+4th,MBA,DevOps,R SAS Python,2,No,Software Engineer,Team collaboration,Workshops,20,15,9,20,13,11,19,5,Collaboration Empathy Teamwork,3,122,Software Engineer
+2nd,M.Sc Data Science,DevOps,Python R SQL,5,Yes,Cloud Architect,Time management,Mentorship programs,16,7,13,12,11,12,20,12,Emotional Intelligence Active Listening,4,121,Cybersecurity Analyst
+2nd,MCA,Penetration Testing,Python Java C++,1,Yes,Software Engineer,Team collaboration,Internships,20,19,13,12,14,20,17,14,Time-Management Resilience Negotiation,4,139,Data Scientist
+3rd,MBA,Business Intelligence,PHP JavaScript MySQL,4,Yes,Cloud Architect,Lack of resources,Internships,12,15,9,18,8,15,15,14,Emotional Intelligence Active Listening,1,116,Cybersecurity Analyst
+3rd,M.Sc Data Science,Blockchain Development,MATLAB Python C,1,Yes,Cybersecurity Analyst,Presentation skills,Peer groups,19,6,11,15,15,9,19,11,Presentation Skills Public Speaking,5,117,Cybersecurity Analyst
+2nd,MBA,Business Intelligence,Python Java C++,4,Yes,Cybersecurity Analyst,Interview anxiety,Peer groups,13,13,10,17,8,12,10,10,Decision-Making Flexibility Innovation,2,105,Business Analyst
+2nd,B.Tech CSE,DevOps,C# .NET SQL,3,No,Cybersecurity Analyst,Interview anxiety,Workshops,14,11,10,18,20,19,11,6,Strategic Thinking Analytical Skills,2,119,Cybersecurity Analyst
+3rd,B.Tech CSE,Penetration Testing,Python Java C++,4,Yes,AI Engineer,Time management,Mentorship programs,16,13,19,11,16,12,19,10,Leadership Creativity Critical-Thinking,1,126,Data Scientist
+3rd,MCA,Data Visualization,Julia Python R,4,No,AI Engineer,Lack of resources,Peer groups,10,9,10,16,16,8,18,6,Decision-Making Flexibility Innovation,5,111,Cybersecurity Analyst
+1st,B.Sc Computer Science,Cloud Infrastructure,Julia Python R,3,Yes,AI Engineer,Team collaboration,Workshops,19,12,12,10,14,19,10,18,Time-Management Resilience Negotiation,4,128,Data Scientist
+3rd,MCA,Network Security,Python Java C++,2,No,Cloud Architect,Lack of resources,Workshops,13,18,15,19,11,14,18,17,Leadership Creativity Critical-Thinking,5,139,AI Engineer
+1st,M.Sc Data Science,Full Stack Development,Java Kotlin Swift,5,Yes,Data Scientist,Presentation skills,Internships,15,17,13,17,19,10,12,12,Collaboration Empathy Teamwork,2,129,Data Scientist
+3rd,MBA,AI Fundamentals,Python Java C++,3,No,Cybersecurity Analyst,Time management,Internships,20,15,8,16,8,13,15,13,Time-Management Resilience Negotiation,2,118,Software Engineer
+4th,B.Tech IT,Mobile App Development,PHP JavaScript MySQL,1,No,AI Engineer,Lack of resources,Online resources,10,20,12,12,16,8,10,16,Decision-Making Flexibility Innovation,1,108,Software Engineer
+2nd,MCA,NLP,Scala Java Python,1,No,Cybersecurity Analyst,Interview anxiety,Online resources,10,19,12,11,15,16,17,11,Conflict Resolution Team Leadership,4,121,Software Engineer
+4th,B.Tech CSE,Embedded Systems,Python Go Rust,1,Yes,Business Analyst,Time management,Online resources,14,6,9,20,20,10,15,14,Collaboration Empathy Teamwork,5,120,Software Engineer
+1st,M.Sc Data Science,NLP,Python Java C++,1,Yes,Data Scientist,Procrastination,Peer groups,14,20,18,20,9,11,16,13,Strategic Thinking Analytical Skills,5,133,Cloud Architect
+2nd,B.Sc Computer Science,Blockchain Development,Python R SQL,4,Yes,Business Analyst,Lack of resources,Mentorship programs,8,9,16,17,11,8,16,19,Strategic Thinking Analytical Skills,2,116,Cybersecurity Analyst
+1st,M.Sc Data Science,IoT Applications,Python Java C++,1,No,Cybersecurity Analyst,Presentation skills,Internships,18,20,16,13,19,19,20,10,Communication Adaptability Problem-Solving,3,143,Cloud Architect
+2nd,B.Tech IT,Embedded Systems,Python R SQL,1,Yes,Business Analyst,Team collaboration,Peer groups,15,14,16,15,10,14,17,18,Collaboration Empathy Teamwork,4,129,Data Scientist
+1st,B.Tech IT,Deep Learning,Julia Python R,2,Yes,Cloud Architect,Time management,Online resources,20,15,19,19,15,19,16,18,Conflict Resolution Team Leadership,5,155,AI Engineer
+3rd,MCA,Data Engineering,C# .NET SQL,3,No,Data Scientist,Procrastination,Mentorship programs,17,11,17,14,17,8,18,18,Emotional Intelligence Active Listening,5,136,Data Scientist
+2nd,B.Sc Computer Science,NLP,Scala Java Python,3,Yes,Business Analyst,Lack of resources,Peer groups,11,17,19,10,18,9,19,12,Decision-Making Flexibility Innovation,4,129,Data Scientist
+3rd,M.Sc Data Science,Blockchain Development,Python R SQL,2,No,Business Analyst,Lack of resources,Internships,11,8,18,16,19,18,15,11,Decision-Making Flexibility Innovation,4,128,Data Scientist
+1st,B.Tech IT,Mobile App Development,MATLAB Python C,1,No,Business Analyst,Time management,Workshops,8,10,5,18,19,16,17,17,Collaboration Empathy Teamwork,5,122,Cybersecurity Analyst
+4th,B.Sc Computer Science,Computer Vision,Python Go Rust,5,No,Cybersecurity Analyst,Procrastination,Workshops,18,16,9,17,20,10,16,12,Emotional Intelligence Active Listening,1,130,Cloud Architect
+2nd,MBA,Cloud Infrastructure,Python Go Rust,5,Yes,Data Scientist,Interview anxiety,Online resources,10,9,12,18,17,10,10,16,Leadership Creativity Critical-Thinking,1,114,Software Engineer
+4th,M.Sc Data Science,Network Security,Julia Python R,2,Yes,Data Scientist,Lack of resources,Workshops,20,8,5,18,16,8,17,16,Leadership Creativity Critical-Thinking,5,122,Software Engineer
+2nd,B.Sc Computer Science,Cloud Security,C# .NET SQL,1,No,Software Engineer,Lack of resources,Peer groups,16,15,12,20,10,11,18,10,Emotional Intelligence Active Listening,1,116,Cybersecurity Analyst
+4th,B.Tech IT,Embedded Systems,MATLAB Python C,4,No,Data Scientist,Procrastination,Workshops,8,14,18,12,16,11,19,19,Emotional Intelligence Active Listening,2,129,Cloud Architect
+4th,B.Sc Computer Science,AI Fundamentals,JavaScript TypeScript Python,3,Yes,Software Engineer,Team collaboration,Internships,13,6,18,13,16,19,19,5,Collaboration Empathy Teamwork,3,121,Software Engineer
+2nd,B.Tech CSE,AI Fundamentals,Scala Java Python,1,Yes,Cybersecurity Analyst,Lack of resources,Internships,11,9,17,17,12,10,15,12,Time-Management Resilience Negotiation,3,111,Software Engineer
+4th,MCA,Computer Vision,MATLAB Python C,3,No,Cloud Architect,Procrastination,Internships,13,12,11,13,18,16,16,19,Strategic Thinking Analytical Skills,1,126,Cloud Architect
+2nd,B.Sc Computer Science,Full Stack Development,Java Kotlin Swift,1,No,Data Scientist,Time management,Peer groups,20,14,17,12,18,11,20,12,Communication Adaptability Problem-Solving,4,134,Data Scientist
+1st,B.Tech CSE,Mobile App Development,PHP JavaScript MySQL,4,Yes,Business Analyst,Interview anxiety,Workshops,11,18,8,17,20,17,18,8,Strategic Thinking Analytical Skills,4,133,Data Scientist
+1st,MBA,Business Intelligence,Python Java C++,1,No,Data Scientist,Presentation skills,Peer groups,18,5,12,17,18,10,20,16,Conflict Resolution Team Leadership,5,128,Data Scientist
+2nd,B.Sc Computer Science,Computer Vision,JavaScript TypeScript Python,5,No,Cloud Architect,Procrastination,Internships,20,6,15,20,14,10,13,14,Emotional Intelligence Active Listening,4,130,AI Engineer
+3rd,B.Tech IT,Cloud Infrastructure,PHP JavaScript MySQL,4,No,Business Analyst,Presentation skills,Peer groups,14,8,13,18,13,11,11,15,Leadership Creativity Critical-Thinking,5,121,Cybersecurity Analyst
+3rd,B.Tech IT,Blockchain Development,Python Java C++,3,No,Cybersecurity Analyst,Procrastination,Peer groups,9,11,15,19,10,8,11,13,Time-Management Resilience Negotiation,5,112,Cybersecurity Analyst
+4th,MBA,Embedded Systems,Python Go Rust,1,Yes,Data Scientist,Interview anxiety,Peer groups,9,19,5,13,9,15,13,20,Presentation Skills Public Speaking,3,111,Cybersecurity Analyst
+4th,M.Sc Data Science,Embedded Systems,Python Java C++,2,Yes,Business Analyst,Lack of resources,Online resources,14,9,5,14,13,10,13,15,Leadership Creativity Critical-Thinking,1,99,Business Analyst
+4th,MBA,Data Engineering,Python Go Rust,4,Yes,AI Engineer,Time management,Online resources,15,15,16,15,17,15,15,13,Time-Management Resilience Negotiation,4,137,AI Engineer
+4th,MCA,Cloud Infrastructure,Python Go Rust,1,Yes,Cybersecurity Analyst,Procrastination,Workshops,13,9,11,16,16,17,10,6,Emotional Intelligence Active Listening,3,106,Software Engineer
+2nd,B.Sc Computer Science,NLP,R SAS Python,1,Yes,Business Analyst,Interview anxiety,Online resources,17,17,20,19,16,19,16,19,Collaboration Empathy Teamwork,5,155,Cloud Architect
+1st,B.Sc Computer Science,NLP,R SAS Python,5,Yes,AI Engineer,Interview anxiety,Mentorship programs,13,5,14,19,18,8,20,16,Conflict Resolution Team Leadership,2,127,Cloud Architect
+2nd,MBA,DevOps,Julia Python R,3,Yes,Business Analyst,Time management,Internships,10,11,9,17,11,14,16,7,Presentation Skills Public Speaking,3,107,Cybersecurity Analyst
+4th,M.Sc Data Science,Full Stack Development,PHP JavaScript MySQL,1,Yes,Cloud Architect,Interview anxiety,Online resources,19,12,12,13,19,9,15,17,Conflict Resolution Team Leadership,3,124,Cybersecurity Analyst
+2nd,M.Sc Data Science,NLP,PHP JavaScript MySQL,1,No,Software Engineer,Team collaboration,Workshops,12,11,14,20,14,12,13,12,Decision-Making Flexibility Innovation,3,116,Cybersecurity Analyst
+1st,B.Tech CSE,Full Stack Development,Python Java C++,2,Yes,Software Engineer,Interview anxiety,Online resources,15,5,8,19,12,15,17,7,Presentation Skills Public Speaking,3,108,Software Engineer
+1st,B.Tech IT,Cloud Security,MATLAB Python C,4,No,Data Scientist,Interview anxiety,Workshops,9,5,19,19,8,16,12,18,Conflict Resolution Team Leadership,5,124,Software Engineer
+2nd,M.Sc Data Science,Full Stack Development,R SAS Python,1,No,Cloud Architect,Lack of resources,Online resources,13,20,11,15,18,19,13,16,Decision-Making Flexibility Innovation,4,135,AI Engineer
+1st,B.Tech IT,DevOps,C# .NET SQL,3,Yes,Cloud Architect,Procrastination,Internships,17,19,8,11,18,16,14,15,Emotional Intelligence Active Listening,4,132,Data Scientist
+1st,B.Tech IT,Deep Learning,Scala Java Python,4,Yes,Software Engineer,Time management,Workshops,11,14,16,20,9,19,13,7,Time-Management Resilience Negotiation,2,121,Cybersecurity Analyst
+4th,B.Tech IT,Cloud Infrastructure,MATLAB Python C,1,Yes,Software Engineer,Team collaboration,Workshops,18,15,11,18,11,10,12,7,Conflict Resolution Team Leadership,2,108,Software Engineer
+2nd,MCA,Embedded Systems,JavaScript TypeScript Python,3,Yes,Cybersecurity Analyst,Lack of resources,Internships,12,18,19,10,20,20,10,14,Leadership Creativity Critical-Thinking,3,135,AI Engineer
+2nd,M.Sc Data Science,NLP,Scala Java Python,3,Yes,AI Engineer,Procrastination,Workshops,8,12,20,17,18,18,12,5,Communication Adaptability Problem-Solving,1,118,Software Engineer
+1st,B.Tech IT,Network Security,JavaScript TypeScript Python,3,Yes,Data Scientist,Team collaboration,Mentorship programs,16,10,8,19,16,20,12,11,Emotional Intelligence Active Listening,5,128,Cloud Architect
+4th,B.Tech IT,Cloud Security,Julia Python R,5,Yes,AI Engineer,Presentation skills,Mentorship programs,9,19,18,16,15,14,16,17,Presentation Skills Public Speaking,2,138,AI Engineer
+1st,B.Sc Computer Science,Network Security,Python Go Rust,1,No,Cybersecurity Analyst,Procrastination,Workshops,8,12,11,19,13,19,17,18,Conflict Resolution Team Leadership,4,127,Cloud Architect
+2nd,B.Tech IT,Cloud Infrastructure,Julia Python R,3,No,AI Engineer,Lack of resources,Online resources,17,19,7,17,14,15,20,8,Strategic Thinking Analytical Skills,3,129,Data Scientist
+1st,B.Tech IT,Deep Learning,C# .NET SQL,1,No,Cybersecurity Analyst,Procrastination,Mentorship programs,14,8,8,16,9,19,17,20,Presentation Skills Public Speaking,4,121,Cybersecurity Analyst
+2nd,MBA,Mobile App Development,C# .NET SQL,2,Yes,Data Scientist,Team collaboration,Internships,14,10,6,14,10,18,11,20,Leadership Creativity Critical-Thinking,5,117,Cybersecurity Analyst
+4th,B.Sc Computer Science,Network Security,Python Go Rust,5,No,Software Engineer,Team collaboration,Workshops,18,8,8,15,15,15,20,19,Collaboration Empathy Teamwork,2,132,Data Scientist
+1st,B.Tech CSE,Cloud Infrastructure,Java Kotlin Swift,3,Yes,Business Analyst,Presentation skills,Online resources,10,6,7,16,20,8,11,17,Leadership Creativity Critical-Thinking,1,103,Business Analyst
+2nd,MCA,Blockchain Development,C# .NET SQL,5,Yes,Software Engineer,Team collaboration,Internships,11,6,5,20,8,11,16,15,Conflict Resolution Team Leadership,1,104,Business Analyst
+2nd,B.Sc Computer Science,Network Security,R SAS Python,1,No,AI Engineer,Team collaboration,Workshops,17,14,12,19,12,19,14,14,Strategic Thinking Analytical Skills,3,129,AI Engineer
+4th,MBA,Data Visualization,Python R SQL,1,Yes,Cloud Architect,Lack of resources,Workshops,20,15,14,10,13,17,13,5,Strategic Thinking Analytical Skills,2,113,Software Engineer
+2nd,MBA,AI Fundamentals,Python R SQL,2,No,Cloud Architect,Time management,Workshops,15,7,6,13,20,12,16,6,Time-Management Resilience Negotiation,4,107,Cybersecurity Analyst
+2nd,MCA,Cloud Security,C# .NET SQL,3,No,Cloud Architect,Team collaboration,Online resources,14,14,8,13,8,19,20,16,Leadership Creativity Critical-Thinking,4,126,Cloud Architect
+2nd,B.Sc Computer Science,Penetration Testing,C# .NET SQL,5,Yes,Business Analyst,Lack of resources,Online resources,10,11,8,16,13,11,13,10,Presentation Skills Public Speaking,5,112,Cybersecurity Analyst
+1st,MBA,DevOps,Python Go Rust,2,Yes,Data Scientist,Interview anxiety,Mentorship programs,20,13,18,15,14,20,10,17,Strategic Thinking Analytical Skills,5,141,AI Engineer
+4th,B.Tech IT,IoT Applications,Python Go Rust,2,Yes,Business Analyst,Interview anxiety,Online resources,12,8,19,11,8,18,18,14,Presentation Skills Public Speaking,2,116,Software Engineer
+2nd,MCA,Deep Learning,PHP JavaScript MySQL,5,No,AI Engineer,Lack of resources,Peer groups,18,5,7,19,15,20,20,10,Communication Adaptability Problem-Solving,1,126,Cloud Architect
+3rd,B.Tech CSE,Business Intelligence,C# .NET SQL,5,Yes,AI Engineer,Interview anxiety,Internships,18,13,7,19,11,19,20,11,Emotional Intelligence Active Listening,3,134,Data Scientist
+4th,MBA,Blockchain Development,R SAS Python,1,Yes,Cloud Architect,Team collaboration,Internships,19,8,15,17,17,12,15,6,Decision-Making Flexibility Innovation,3,117,Software Engineer
+1st,MCA,Full Stack Development,Python R SQL,1,Yes,Cloud Architect,Presentation skills,Online resources,19,14,19,19,10,12,10,13,Collaboration Empathy Teamwork,3,124,Cybersecurity Analyst
+3rd,MCA,Business Intelligence,Python Go Rust,4,No,Software Engineer,Procrastination,Workshops,9,7,7,14,16,10,12,6,Time-Management Resilience Negotiation,3,95,Business Analyst
+1st,B.Sc Computer Science,Network Security,Python R SQL,4,Yes,Business Analyst,Presentation skills,Internships,14,19,19,18,10,12,19,17,Leadership Creativity Critical-Thinking,4,144,AI Engineer
+2nd,MBA,IoT Applications,Julia Python R,2,No,Cybersecurity Analyst,Team collaboration,Internships,8,16,11,11,18,14,20,13,Strategic Thinking Analytical Skills,3,121,Cybersecurity Analyst
+3rd,MCA,Network Security,Python R SQL,3,No,Business Analyst,Presentation skills,Mentorship programs,12,11,20,20,19,9,15,6,Presentation Skills Public Speaking,5,128,Data Scientist
+1st,B.Sc Computer Science,Data Engineering,Python Go Rust,2,Yes,AI Engineer,Interview anxiety,Workshops,10,6,7,14,16,11,16,15,Leadership Creativity Critical-Thinking,1,101,Business Analyst
+3rd,MBA,Full Stack Development,JavaScript TypeScript Python,1,Yes,Cybersecurity Analyst,Procrastination,Peer groups,12,11,18,19,16,17,18,15,Presentation Skills Public Speaking,3,134,Data Scientist
+1st,MCA,Embedded Systems,C# .NET SQL,5,Yes,Cybersecurity Analyst,Team collaboration,Workshops,13,8,9,13,14,19,20,19,Strategic Thinking Analytical Skills,5,135,AI Engineer
+4th,M.Sc Data Science,Data Engineering,Python R SQL,4,Yes,Data Scientist,Time management,Online resources,17,19,19,13,20,16,14,7,Conflict Resolution Team Leadership,3,139,Cloud Architect
+1st,MBA,Full Stack Development,MATLAB Python C,4,Yes,Data Scientist,Team collaboration,Internships,10,11,19,11,12,15,12,11,Communication Adaptability Problem-Solving,4,117,Software Engineer
+4th,B.Sc Computer Science,Business Intelligence,R SAS Python,1,Yes,Cybersecurity Analyst,Interview anxiety,Internships,8,17,7,15,17,13,10,18,Conflict Resolution Team Leadership,1,109,Cybersecurity Analyst
+2nd,B.Tech CSE,Data Engineering,Python Java C++,3,No,AI Engineer,Interview anxiety,Mentorship programs,16,20,12,14,16,12,16,8,Strategic Thinking Analytical Skills,1,122,Software Engineer
+4th,B.Sc Computer Science,Penetration Testing,Scala Java Python,5,No,Business Analyst,Interview anxiety,Workshops,12,15,15,10,10,15,20,5,Decision-Making Flexibility Innovation,2,116,Cybersecurity Analyst
+3rd,B.Sc Computer Science,Mobile App Development,Java Kotlin Swift,3,No,AI Engineer,Team collaboration,Internships,13,8,19,12,16,14,16,10,Time-Management Resilience Negotiation,3,120,Software Engineer
+3rd,M.Sc Data Science,Data Engineering,Python R SQL,2,No,Cloud Architect,Team collaboration,Internships,11,12,14,14,18,12,11,15,Collaboration Empathy Teamwork,1,113,Software Engineer
+1st,MCA,Business Intelligence,Java Kotlin Swift,4,Yes,Software Engineer,Team collaboration,Peer groups,15,14,19,15,14,13,16,11,Strategic Thinking Analytical Skills,1,127,AI Engineer
+3rd,B.Tech IT,Computer Vision,Python Java C++,4,No,Data Scientist,Interview anxiety,Mentorship programs,8,9,14,11,9,18,14,7,Conflict Resolution Team Leadership,1,100,Business Analyst
+3rd,MBA,Penetration Testing,C# .NET SQL,3,Yes,AI Engineer,Time management,Mentorship programs,12,7,10,14,11,12,19,14,Decision-Making Flexibility Innovation,4,113,Software Engineer
+1st,B.Tech CSE,Deep Learning,Python Go Rust,4,No,Cloud Architect,Team collaboration,Peer groups,20,18,12,19,18,11,19,6,Strategic Thinking Analytical Skills,1,133,Cloud Architect
+1st,MBA,Network Security,MATLAB Python C,1,Yes,Data Scientist,Presentation skills,Peer groups,17,5,12,12,15,16,18,6,Collaboration Empathy Teamwork,4,111,Software Engineer
+2nd,M.Sc Data Science,Data Engineering,Java Kotlin Swift,3,No,Software Engineer,Team collaboration,Online resources,8,12,14,16,11,19,19,7,Emotional Intelligence Active Listening,5,122,Software Engineer
+1st,B.Sc Computer Science,Blockchain Development,PHP JavaScript MySQL,5,No,Cybersecurity Analyst,Presentation skills,Internships,14,17,16,12,12,15,18,18,Strategic Thinking Analytical Skills,1,134,AI Engineer
+4th,MCA,Network Security,MATLAB Python C,3,No,Software Engineer,Interview anxiety,Online resources,18,19,15,18,16,9,15,7,Decision-Making Flexibility Innovation,1,125,Software Engineer
+1st,MBA,IoT Applications,MATLAB Python C,1,Yes,Business Analyst,Procrastination,Online resources,9,17,20,13,12,12,16,10,Presentation Skills Public Speaking,4,119,Cybersecurity Analyst
+1st,MBA,Deep Learning,Scala Java Python,2,Yes,Business Analyst,Team collaboration,Mentorship programs,16,12,15,17,16,16,18,11,Communication Adaptability Problem-Solving,5,135,Cloud Architect
+1st,M.Sc Data Science,Penetration Testing,C# .NET SQL,4,Yes,Software Engineer,Presentation skills,Internships,15,6,12,19,17,18,16,11,Communication Adaptability Problem-Solving,1,124,Software Engineer
+2nd,B.Tech CSE,Full Stack Development,Python R SQL,3,Yes,Software Engineer,Team collaboration,Online resources,9,11,19,13,11,14,18,10,Collaboration Empathy Teamwork,1,113,Cybersecurity Analyst
+1st,B.Sc Computer Science,IoT Applications,Java Kotlin Swift,2,No,Cloud Architect,Presentation skills,Internships,15,12,5,17,14,12,17,10,Communication Adaptability Problem-Solving,2,110,Cybersecurity Analyst
+2nd,B.Sc Computer Science,Mobile App Development,Python R SQL,5,Yes,AI Engineer,Team collaboration,Mentorship programs,19,5,9,17,8,8,18,13,Strategic Thinking Analytical Skills,5,117,Software Engineer
+1st,B.Tech CSE,Data Visualization,R SAS Python,5,Yes,Cybersecurity Analyst,Team collaboration,Internships,9,13,17,18,17,20,12,17,Strategic Thinking Analytical Skills,1,135,AI Engineer
+1st,B.Tech IT,Data Visualization,Python R SQL,3,No,Business Analyst,Interview anxiety,Mentorship programs,15,13,10,11,11,17,14,18,Communication Adaptability Problem-Solving,3,121,Cybersecurity Analyst
+2nd,B.Sc Computer Science,NLP,PHP JavaScript MySQL,3,No,Cloud Architect,Team collaboration,Mentorship programs,11,10,15,17,19,8,20,6,Time-Management Resilience Negotiation,5,122,Software Engineer
+1st,B.Tech CSE,Network Security,Python Go Rust,3,No,Business Analyst,Interview anxiety,Workshops,20,11,7,10,16,9,11,13,Decision-Making Flexibility Innovation,3,109,Cybersecurity Analyst
+2nd,B.Sc Computer Science,Full Stack Development,Python Java C++,3,Yes,Cloud Architect,Lack of resources,Online resources,12,10,17,13,15,19,11,16,Emotional Intelligence Active Listening,1,121,Cybersecurity Analyst
+1st,B.Tech IT,Network Security,MATLAB Python C,5,Yes,AI Engineer,Time management,Internships,14,8,19,13,18,11,20,11,Leadership Creativity Critical-Thinking,1,126,Cloud Architect
+3rd,B.Tech CSE,Cloud Infrastructure,Python Java C++,2,Yes,Business Analyst,Interview anxiety,Peer groups,13,14,7,12,14,9,16,15,Communication Adaptability Problem-Solving,1,106,Cybersecurity Analyst
+1st,B.Sc Computer Science,IoT Applications,MATLAB Python C,5,Yes,Cybersecurity Analyst,Team collaboration,Workshops,17,7,20,13,15,18,16,9,Presentation Skills Public Speaking,1,127,AI Engineer
+3rd,B.Sc Computer Science,NLP,Julia Python R,2,No,Cloud Architect,Team collaboration,Internships,8,6,15,20,10,14,15,11,Emotional Intelligence Active Listening,2,107,Software Engineer
+4th,MCA,Penetration Testing,Python Java C++,4,No,Cybersecurity Analyst,Time management,Workshops,16,13,16,19,15,11,13,19,Decision-Making Flexibility Innovation,2,134,Cloud Architect
+2nd,MBA,Penetration Testing,Scala Java Python,3,Yes,Cloud Architect,Lack of resources,Peer groups,8,16,16,15,10,19,17,6,Time-Management Resilience Negotiation,4,121,Cybersecurity Analyst
+4th,MCA,Network Security,MATLAB Python C,3,Yes,Cybersecurity Analyst,Procrastination,Peer groups,14,6,6,11,8,12,18,10,Presentation Skills Public Speaking,1,93,Business Analyst
+3rd,MCA,Penetration Testing,JavaScript TypeScript Python,5,Yes,Software Engineer,Lack of resources,Internships,16,6,16,13,18,15,19,11,Emotional Intelligence Active Listening,4,132,AI Engineer
+3rd,B.Tech CSE,Business Intelligence,Python R SQL,4,No,Cloud Architect,Team collaboration,Online resources,16,16,9,11,10,13,17,15,Communication Adaptability Problem-Solving,3,121,Cybersecurity Analyst
+2nd,M.Sc Data Science,Cloud Security,Java Kotlin Swift,3,Yes,Data Scientist,Team collaboration,Mentorship programs,13,18,20,15,15,17,20,16,Decision-Making Flexibility Innovation,2,144,AI Engineer
+3rd,MBA,DevOps,PHP JavaScript MySQL,1,Yes,Business Analyst,Lack of resources,Internships,20,15,5,10,20,15,16,16,Presentation Skills Public Speaking,1,121,Software Engineer
+2nd,MBA,Full Stack Development,JavaScript TypeScript Python,4,No,Cybersecurity Analyst,Lack of resources,Peer groups,8,16,6,18,20,10,14,5,Decision-Making Flexibility Innovation,3,111,Software Engineer
+2nd,MCA,NLP,Python Go Rust,3,Yes,Software Engineer,Interview anxiety,Workshops,16,20,7,10,15,16,13,17,Decision-Making Flexibility Innovation,4,128,Cloud Architect
+3rd,B.Tech CSE,Cloud Infrastructure,Python Java C++,1,No,Business Analyst,Lack of resources,Online resources,13,10,12,16,15,13,18,6,Presentation Skills Public Speaking,2,109,Cybersecurity Analyst
+4th,B.Tech CSE,DevOps,PHP JavaScript MySQL,3,Yes,Software Engineer,Team collaboration,Peer groups,9,19,8,13,19,11,15,9,Strategic Thinking Analytical Skills,4,117,Cybersecurity Analyst
+1st,MCA,IoT Applications,Scala Java Python,4,No,AI Engineer,Team collaboration,Peer groups,8,16,9,19,17,11,10,9,Communication Adaptability Problem-Solving,1,109,Software Engineer
+1st,B.Sc Computer Science,Data Visualization,Scala Java Python,3,No,Cloud Architect,Presentation skills,Internships,18,9,10,11,14,10,16,10,Strategic Thinking Analytical Skills,1,106,Cybersecurity Analyst
+4th,B.Sc Computer Science,Blockchain Development,JavaScript TypeScript Python,1,Yes,Software Engineer,Interview anxiety,Online resources,11,15,5,19,15,10,16,8,Emotional Intelligence Active Listening,5,111,Cybersecurity Analyst
+4th,B.Sc Computer Science,IoT Applications,R SAS Python,5,Yes,Data Scientist,Interview anxiety,Mentorship programs,11,20,5,13,9,20,16,16,Time-Management Resilience Negotiation,1,122,Software Engineer
+2nd,B.Tech CSE,Cloud Infrastructure,MATLAB Python C,2,No,Business Analyst,Presentation skills,Peer groups,11,6,16,10,12,19,19,12,Time-Management Resilience Negotiation,4,117,Software Engineer
+2nd,B.Sc Computer Science,Data Engineering,R SAS Python,2,No,Business Analyst,Presentation skills,Mentorship programs,15,11,16,16,12,13,12,17,Time-Management Resilience Negotiation,2,120,Software Engineer
+1st,MCA,Deep Learning,R SAS Python,4,Yes,Cloud Architect,Procrastination,Online resources,8,16,17,11,12,11,20,9,Conflict Resolution Team Leadership,2,116,Cybersecurity Analyst
+2nd,B.Tech IT,Deep Learning,Java Kotlin Swift,2,No,Cybersecurity Analyst,Procrastination,Workshops,20,16,19,17,9,11,10,12,Strategic Thinking Analytical Skills,5,128,Data Scientist
+1st,M.Sc Data Science,AI Fundamentals,R SAS Python,3,No,Cloud Architect,Interview anxiety,Online resources,12,8,15,19,15,19,16,16,Presentation Skills Public Speaking,1,128,Data Scientist
+3rd,M.Sc Data Science,Mobile App Development,JavaScript TypeScript Python,4,No,Data Scientist,Time management,Workshops,10,5,15,18,12,19,19,16,Collaboration Empathy Teamwork,4,130,Cloud Architect
+2nd,B.Tech IT,IoT Applications,PHP JavaScript MySQL,5,No,AI Engineer,Procrastination,Peer groups,15,9,6,18,14,19,10,10,Decision-Making Flexibility Innovation,3,117,Software Engineer
+4th,M.Sc Data Science,Cloud Security,Python Java C++,5,Yes,Business Analyst,Time management,Mentorship programs,9,18,15,20,17,15,15,7,Leadership Creativity Critical-Thinking,1,128,AI Engineer
+4th,B.Sc Computer Science,NLP,Python R SQL,4,Yes,Cybersecurity Analyst,Presentation skills,Workshops,10,17,20,14,20,18,14,6,Collaboration Empathy Teamwork,2,131,Data Scientist
+4th,B.Tech CSE,Data Visualization,Python Go Rust,5,No,Business Analyst,Time management,Internships,19,12,14,10,16,20,10,7,Collaboration Empathy Teamwork,1,120,Cybersecurity Analyst
+4th,B.Sc Computer Science,Full Stack Development,Julia Python R,5,Yes,Cybersecurity Analyst,Procrastination,Online resources,14,17,16,14,17,15,20,5,Communication Adaptability Problem-Solving,5,138,Cloud Architect
+2nd,B.Tech IT,Embedded Systems,Java Kotlin Swift,1,Yes,Cloud Architect,Team collaboration,Mentorship programs,20,9,11,10,9,17,17,19,Communication Adaptability Problem-Solving,4,122,Software Engineer
+1st,B.Tech IT,Deep Learning,PHP JavaScript MySQL,3,Yes,Cloud Architect,Presentation skills,Internships,8,12,15,14,13,15,11,8,Emotional Intelligence Active Listening,4,110,Software Engineer
+2nd,B.Tech CSE,Penetration Testing,Python R SQL,2,No,Cloud Architect,Team collaboration,Peer groups,10,9,8,13,17,18,15,18,Emotional Intelligence Active Listening,3,118,Cybersecurity Analyst
+4th,MBA,Cloud Security,Python Go Rust,5,No,Data Scientist,Lack of resources,Mentorship programs,8,7,12,10,13,16,20,18,Communication Adaptability Problem-Solving,3,120,Cybersecurity Analyst
+4th,B.Sc Computer Science,Mobile App Development,JavaScript TypeScript Python,2,Yes,Cybersecurity Analyst,Time management,Peer groups,8,15,11,20,19,17,19,6,Emotional Intelligence Active Listening,4,127,AI Engineer
+3rd,MCA,Business Intelligence,Scala Java Python,2,Yes,Software Engineer,Team collaboration,Peer groups,17,20,15,17,17,15,20,18,Time-Management Resilience Negotiation,3,149,Cloud Architect
+1st,MBA,Penetration Testing,JavaScript TypeScript Python,3,Yes,Cybersecurity Analyst,Lack of resources,Workshops,16,18,20,17,12,16,14,15,Conflict Resolution Team Leadership,3,140,Cloud Architect
+3rd,B.Tech IT,DevOps,Java Kotlin Swift,1,Yes,Data Scientist,Procrastination,Online resources,19,15,17,14,16,14,14,7,Presentation Skills Public Speaking,4,126,Cloud Architect
+4th,B.Tech CSE,Penetration Testing,Python Go Rust,5,Yes,Cybersecurity Analyst,Interview anxiety,Internships,9,18,20,10,12,17,16,13,Communication Adaptability Problem-Solving,2,129,Cloud Architect
+2nd,B.Sc Computer Science,Computer Vision,PHP JavaScript MySQL,4,Yes,AI Engineer,Time management,Internships,12,19,6,11,9,16,16,19,Decision-Making Flexibility Innovation,4,124,Cybersecurity Analyst
+4th,B.Tech CSE,Blockchain Development,MATLAB Python C,4,Yes,AI Engineer,Time management,Workshops,14,11,13,11,17,10,11,18,Presentation Skills Public Speaking,1,115,Software Engineer
+3rd,B.Tech CSE,Penetration Testing,Python Go Rust,3,No,Business Analyst,Interview anxiety,Mentorship programs,12,19,12,13,17,20,13,9,Communication Adaptability Problem-Solving,2,125,Software Engineer
+4th,MBA,NLP,JavaScript TypeScript Python,2,Yes,Data Scientist,Team collaboration,Peer groups,8,14,12,18,9,8,19,15,Presentation Skills Public Speaking,4,115,Software Engineer
+3rd,B.Sc Computer Science,Data Engineering,Java Kotlin Swift,5,Yes,Cybersecurity Analyst,Team collaboration,Online resources,15,17,9,15,20,16,16,12,Conflict Resolution Team Leadership,2,134,Data Scientist
+4th,M.Sc Data Science,NLP,Python Go Rust,5,No,Software Engineer,Team collaboration,Mentorship programs,11,7,12,19,15,13,19,9,Leadership Creativity Critical-Thinking,3,121,Software Engineer
+2nd,B.Sc Computer Science,AI Fundamentals,Java Kotlin Swift,5,No,AI Engineer,Team collaboration,Online resources,9,9,11,15,15,20,20,18,Emotional Intelligence Active Listening,4,135,Data Scientist
+4th,B.Tech CSE,Blockchain Development,Scala Java Python,4,No,Data Scientist,Time management,Online resources,14,15,19,20,18,18,15,5,Time-Management Resilience Negotiation,4,140,Data Scientist
+3rd,MCA,Penetration Testing,C# .NET SQL,5,No,Data Scientist,Interview anxiety,Online resources,15,19,6,18,15,20,16,17,Emotional Intelligence Active Listening,4,144,Cloud Architect
+2nd,B.Tech CSE,AI Fundamentals,R SAS Python,1,No,AI Engineer,Time management,Online resources,17,13,13,15,11,20,13,19,Leadership Creativity Critical-Thinking,2,127,Data Scientist
+4th,B.Tech CSE,Business Intelligence,JavaScript TypeScript Python,3,No,Business Analyst,Team collaboration,Workshops,20,5,6,18,12,13,18,8,Presentation Skills Public Speaking,3,112,Cybersecurity Analyst
+1st,B.Sc Computer Science,Full Stack Development,C# .NET SQL,2,Yes,Business Analyst,Time management,Peer groups,12,6,7,19,12,16,12,19,Conflict Resolution Team Leadership,4,115,Cybersecurity Analyst
+2nd,B.Tech CSE,Mobile App Development,R SAS Python,3,No,Data Scientist,Interview anxiety,Online resources,15,8,11,18,14,8,19,11,Emotional Intelligence Active Listening,4,118,Software Engineer
+1st,MCA,Cloud Security,C# .NET SQL,2,Yes,Data Scientist,Lack of resources,Internships,9,5,9,17,11,8,18,19,Decision-Making Flexibility Innovation,4,108,Software Engineer
+4th,M.Sc Data Science,Blockchain Development,Julia Python R,4,Yes,Data Scientist,Team collaboration,Workshops,15,17,16,19,19,15,11,15,Strategic Thinking Analytical Skills,2,139,Data Scientist
+3rd,MBA,Penetration Testing,MATLAB Python C,1,Yes,Business Analyst,Lack of resources,Workshops,13,18,11,15,8,11,20,17,Strategic Thinking Analytical Skills,1,117,Software Engineer
+4th,MCA,Network Security,Python Go Rust,3,Yes,Cloud Architect,Presentation skills,Online resources,20,13,13,17,18,17,12,12,Conflict Resolution Team Leadership,1,130,AI Engineer
+4th,B.Tech IT,DevOps,Python Go Rust,2,Yes,Software Engineer,Presentation skills,Mentorship programs,8,5,14,12,19,15,20,13,Time-Management Resilience Negotiation,3,116,Software Engineer
+4th,MBA,Cloud Infrastructure,R SAS Python,2,Yes,Cloud Architect,Time management,Online resources,12,19,17,10,16,10,14,5,Strategic Thinking Analytical Skills,5,117,Cybersecurity Analyst
+3rd,MCA,Blockchain Development,Python R SQL,3,Yes,AI Engineer,Time management,Online resources,16,7,14,15,16,18,12,7,Time-Management Resilience Negotiation,2,115,Cybersecurity Analyst
+1st,M.Sc Data Science,Embedded Systems,R SAS Python,2,Yes,Data Scientist,Interview anxiety,Online resources,8,18,14,17,16,17,16,15,Leadership Creativity Critical-Thinking,2,129,Cloud Architect
+1st,MCA,DevOps,JavaScript TypeScript Python,1,Yes,AI Engineer,Interview anxiety,Peer groups,15,10,11,19,8,11,16,14,Presentation Skills Public Speaking,5,116,Software Engineer
+4th,B.Sc Computer Science,NLP,R SAS Python,5,No,Data Scientist,Procrastination,Internships,16,9,15,10,13,12,20,10,Communication Adaptability Problem-Solving,1,117,Cybersecurity Analyst
+1st,B.Tech CSE,Data Visualization,PHP JavaScript MySQL,2,Yes,Software Engineer,Procrastination,Peer groups,17,12,6,14,16,9,17,18,Presentation Skills Public Speaking,2,117,Software Engineer
+1st,B.Tech CSE,Cloud Security,Python R SQL,3,No,AI Engineer,Team collaboration,Online resources,10,13,18,11,9,8,17,19,Communication Adaptability Problem-Solving,5,121,Cybersecurity Analyst
+3rd,MBA,Deep Learning,JavaScript TypeScript Python,3,No,AI Engineer,Time management,Internships,16,10,18,17,12,8,12,8,Time-Management Resilience Negotiation,1,109,Software Engineer
+3rd,MBA,IoT Applications,Python R SQL,3,Yes,AI Engineer,Procrastination,Peer groups,14,15,8,10,17,11,17,16,Leadership Creativity Critical-Thinking,1,116,Cybersecurity Analyst
+4th,MCA,AI Fundamentals,PHP JavaScript MySQL,5,Yes,AI Engineer,Lack of resources,Mentorship programs,14,17,19,18,9,8,14,15,Decision-Making Flexibility Innovation,1,126,Data Scientist
+3rd,B.Tech CSE,Deep Learning,MATLAB Python C,5,No,Data Scientist,Time management,Mentorship programs,20,5,20,13,10,17,20,16,Leadership Creativity Critical-Thinking,3,137,Cloud Architect
+3rd,M.Sc Data Science,Penetration Testing,Java Kotlin Swift,2,No,Cybersecurity Analyst,Team collaboration,Mentorship programs,16,11,14,16,18,13,15,6,Conflict Resolution Team Leadership,2,117,Software Engineer
+2nd,M.Sc Data Science,Computer Vision,Scala Java Python,1,Yes,Business Analyst,Presentation skills,Internships,9,7,19,12,9,15,17,7,Leadership Creativity Critical-Thinking,2,101,Business Analyst
+2nd,MBA,Embedded Systems,C# .NET SQL,2,Yes,Data Scientist,Lack of resources,Mentorship programs,15,17,10,12,10,15,11,16,Emotional Intelligence Active Listening,1,112,Cybersecurity Analyst
+4th,B.Tech IT,Full Stack Development,R SAS Python,5,Yes,Cloud Architect,Lack of resources,Peer groups,16,12,9,13,20,13,20,15,Emotional Intelligence Active Listening,2,132,Cloud Architect
+2nd,MBA,Data Engineering,JavaScript TypeScript Python,5,No,Cloud Architect,Presentation skills,Mentorship programs,16,17,20,13,19,19,18,9,Leadership Creativity Critical-Thinking,5,151,Data Scientist
+4th,B.Tech CSE,Business Intelligence,Python R SQL,3,Yes,Cloud Architect,Interview anxiety,Peer groups,11,16,13,20,11,10,18,5,Leadership Creativity Critical-Thinking,3,116,Software Engineer
+4th,M.Sc Data Science,Full Stack Development,JavaScript TypeScript Python,2,No,Data Scientist,Lack of resources,Online resources,9,14,9,13,15,20,20,14,Presentation Skills Public Speaking,2,122,Software Engineer
+2nd,B.Tech IT,Data Engineering,C# .NET SQL,4,Yes,Data Scientist,Interview anxiety,Peer groups,12,8,20,14,16,20,18,12,Decision-Making Flexibility Innovation,5,138,AI Engineer
+1st,MBA,Business Intelligence,Python Go Rust,3,Yes,Cybersecurity Analyst,Procrastination,Mentorship programs,8,5,9,11,12,14,19,10,Collaboration Empathy Teamwork,2,98,Business Analyst
+3rd,M.Sc Data Science,Deep Learning,R SAS Python,2,Yes,Data Scientist,Time management,Mentorship programs,10,16,15,16,12,18,18,17,Strategic Thinking Analytical Skills,5,136,Data Scientist
+4th,B.Tech CSE,NLP,R SAS Python,5,Yes,Software Engineer,Interview anxiety,Internships,19,17,6,16,11,8,20,17,Conflict Resolution Team Leadership,1,126,Cloud Architect
+4th,M.Sc Data Science,Data Engineering,Scala Java Python,1,Yes,Data Scientist,Presentation skills,Workshops,13,9,9,17,8,17,15,11,Conflict Resolution Team Leadership,1,103,Business Analyst
+3rd,B.Tech CSE,NLP,JavaScript TypeScript Python,5,Yes,AI Engineer,Interview anxiety,Peer groups,10,15,7,18,13,13,17,12,Collaboration Empathy Teamwork,1,117,Cybersecurity Analyst
+4th,B.Tech CSE,Cloud Security,JavaScript TypeScript Python,1,No,Cybersecurity Analyst,Interview anxiety,Peer groups,19,6,18,13,13,20,18,19,Time-Management Resilience Negotiation,3,134,Cloud Architect
+4th,B.Tech CSE,Mobile App Development,Python Go Rust,2,No,AI Engineer,Procrastination,Peer groups,9,8,20,10,12,8,12,12,Communication Adaptability Problem-Solving,2,99,Business Analyst
+4th,MCA,Data Visualization,C# .NET SQL,3,Yes,Software Engineer,Team collaboration,Internships,19,12,18,11,8,17,20,8,Presentation Skills Public Speaking,5,129,Cloud Architect
+4th,M.Sc Data Science,Computer Vision,Python Java C++,5,No,Software Engineer,Presentation skills,Internships,11,9,18,14,14,15,12,20,Strategic Thinking Analytical Skills,3,129,AI Engineer
+4th,M.Sc Data Science,NLP,Python Java C++,1,No,Cybersecurity Analyst,Time management,Online resources,8,11,17,19,9,11,16,10,Time-Management Resilience Negotiation,5,113,Software Engineer
+4th,B.Tech CSE,Deep Learning,Scala Java Python,3,Yes,Software Engineer,Interview anxiety,Mentorship programs,15,7,18,16,9,18,10,5,Strategic Thinking Analytical Skills,3,110,Software Engineer
+2nd,B.Tech IT,Blockchain Development,Python Java C++,4,Yes,Software Engineer,Interview anxiety,Internships,15,18,15,10,17,13,17,20,Presentation Skills Public Speaking,2,137,AI Engineer
+3rd,B.Sc Computer Science,Business Intelligence,Java Kotlin Swift,1,No,Cybersecurity Analyst,Presentation skills,Mentorship programs,11,7,18,19,17,8,14,15,Decision-Making Flexibility Innovation,4,119,Software Engineer
+3rd,B.Tech IT,NLP,R SAS Python,3,Yes,Business Analyst,Lack of resources,Online resources,19,6,12,15,15,14,20,14,Decision-Making Flexibility Innovation,4,129,Cloud Architect
+4th,MBA,IoT Applications,JavaScript TypeScript Python,4,No,Cloud Architect,Interview anxiety,Online resources,13,13,20,19,13,14,20,11,Conflict Resolution Team Leadership,3,137,AI Engineer
+3rd,B.Tech IT,Deep Learning,Python Java C++,5,Yes,AI Engineer,Lack of resources,Workshops,13,8,17,19,16,8,15,14,Time-Management Resilience Negotiation,2,124,Software Engineer
+2nd,M.Sc Data Science,Data Engineering,JavaScript TypeScript Python,5,No,Cloud Architect,Team collaboration,Peer groups,13,15,14,13,10,18,13,12,Strategic Thinking Analytical Skills,3,124,Software Engineer
+2nd,B.Tech CSE,DevOps,MATLAB Python C,4,No,Cybersecurity Analyst,Procrastination,Mentorship programs,11,18,14,15,9,16,13,15,Decision-Making Flexibility Innovation,2,123,Software Engineer
+4th,B.Tech CSE,Network Security,R SAS Python,5,No,AI Engineer,Procrastination,Internships,12,13,19,19,14,15,19,12,Time-Management Resilience Negotiation,1,135,Data Scientist
+1st,MBA,Penetration Testing,R SAS Python,3,Yes,Data Scientist,Presentation skills,Workshops,14,10,15,13,10,20,13,8,Decision-Making Flexibility Innovation,1,111,Software Engineer
+4th,B.Tech CSE,AI Fundamentals,Julia Python R,3,No,AI Engineer,Time management,Online resources,11,12,13,19,13,17,12,9,Strategic Thinking Analytical Skills,1,114,Cybersecurity Analyst
+2nd,B.Sc Computer Science,Mobile App Development,C# .NET SQL,1,Yes,Software Engineer,Presentation skills,Online resources,11,9,13,20,20,12,20,13,Time-Management Resilience Negotiation,2,124,Software Engineer
+3rd,MBA,Embedded Systems,Scala Java Python,1,No,Cloud Architect,Interview anxiety,Internships,9,13,19,12,19,10,11,6,Decision-Making Flexibility Innovation,3,107,Cybersecurity Analyst
+1st,MBA,NLP,JavaScript TypeScript Python,1,Yes,Business Analyst,Team collaboration,Internships,13,9,9,17,10,15,18,19,Presentation Skills Public Speaking,4,120,Software Engineer
+1st,MCA,Computer Vision,Java Kotlin Swift,3,No,Cloud Architect,Presentation skills,Workshops,15,15,15,11,16,19,12,9,Conflict Resolution Team Leadership,1,120,Cybersecurity Analyst
+3rd,B.Tech CSE,NLP,Python Java C++,3,No,Cybersecurity Analyst,Presentation skills,Workshops,15,19,16,10,20,9,15,5,Strategic Thinking Analytical Skills,5,125,Cybersecurity Analyst
+3rd,B.Sc Computer Science,Network Security,Java Kotlin Swift,2,No,Software Engineer,Procrastination,Peer groups,12,12,7,10,18,11,12,20,Decision-Making Flexibility Innovation,3,112,Software Engineer
+4th,M.Sc Data Science,DevOps,Python R SQL,3,Yes,Business Analyst,Procrastination,Mentorship programs,8,6,12,11,11,13,11,19,Emotional Intelligence Active Listening,1,99,Business Analyst
+2nd,B.Tech CSE,Full Stack Development,PHP JavaScript MySQL,4,Yes,AI Engineer,Interview anxiety,Online resources,9,11,9,20,14,16,19,18,Communication Adaptability Problem-Solving,5,134,AI Engineer
+1st,MCA,Network Security,MATLAB Python C,3,Yes,Software Engineer,Presentation skills,Peer groups,16,11,6,18,11,8,13,12,Communication Adaptability Problem-Solving,1,103,Business Analyst
+1st,B.Sc Computer Science,Network Security,C# .NET SQL,3,Yes,Business Analyst,Presentation skills,Internships,16,20,18,17,11,19,18,13,Time-Management Resilience Negotiation,3,144,Cloud Architect
+1st,MCA,Cloud Infrastructure,C# .NET SQL,5,Yes,Business Analyst,Lack of resources,Mentorship programs,15,7,18,11,10,16,18,10,Time-Management Resilience Negotiation,2,119,Software Engineer
+1st,B.Tech CSE,Penetration Testing,C# .NET SQL,1,Yes,Data Scientist,Team collaboration,Peer groups,20,20,20,18,11,17,17,12,Conflict Resolution Team Leadership,1,139,AI Engineer
+4th,MCA,AI Fundamentals,PHP JavaScript MySQL,3,Yes,Business Analyst,Lack of resources,Peer groups,8,11,5,16,12,15,18,10,Strategic Thinking Analytical Skills,1,103,Business Analyst
+3rd,M.Sc Data Science,Business Intelligence,PHP JavaScript MySQL,5,Yes,Data Scientist,Team collaboration,Workshops,19,13,11,18,17,12,20,18,Conflict Resolution Team Leadership,5,148,AI Engineer
+4th,M.Sc Data Science,Embedded Systems,R SAS Python,1,Yes,AI Engineer,Lack of resources,Internships,20,6,18,12,10,14,18,12,Conflict Resolution Team Leadership,2,116,Cybersecurity Analyst
+4th,MCA,Blockchain Development,Python R SQL,3,Yes,Software Engineer,Presentation skills,Mentorship programs,12,8,5,10,19,18,20,11,Time-Management Resilience Negotiation,1,111,Software Engineer
+4th,MBA,NLP,Java Kotlin Swift,4,No,Cybersecurity Analyst,Procrastination,Internships,8,7,13,14,18,8,13,8,Communication Adaptability Problem-Solving,4,105,Business Analyst
+4th,B.Tech IT,Blockchain Development,Python Go Rust,4,Yes,Software Engineer,Lack of resources,Internships,15,16,5,11,19,14,18,6,Conflict Resolution Team Leadership,1,114,Cybersecurity Analyst
+4th,M.Sc Data Science,DevOps,JavaScript TypeScript Python,1,No,Cloud Architect,Procrastination,Mentorship programs,14,8,16,13,19,11,13,12,Leadership Creativity Critical-Thinking,1,110,Cybersecurity Analyst
+1st,B.Tech IT,Deep Learning,Python R SQL,5,Yes,Cloud Architect,Presentation skills,Internships,8,15,6,11,20,13,20,14,Conflict Resolution Team Leadership,2,121,Cybersecurity Analyst
+1st,MCA,Data Visualization,MATLAB Python C,5,Yes,Software Engineer,Time management,Online resources,8,17,7,16,13,19,20,13,Communication Adaptability Problem-Solving,2,127,Data Scientist
+4th,B.Tech IT,Embedded Systems,R SAS Python,5,Yes,Software Engineer,Time management,Online resources,11,13,12,17,16,20,19,6,Communication Adaptability Problem-Solving,1,126,Data Scientist
+2nd,B.Sc Computer Science,DevOps,Python Java C++,2,Yes,Cybersecurity Analyst,Lack of resources,Mentorship programs,8,9,11,18,20,15,11,14,Emotional Intelligence Active Listening,4,118,Software Engineer
+4th,MBA,Embedded Systems,MATLAB Python C,1,No,Cybersecurity Analyst,Interview anxiety,Peer groups,11,8,18,11,12,20,19,6,Presentation Skills Public Speaking,5,117,Cybersecurity Analyst
+4th,B.Tech IT,AI Fundamentals,MATLAB Python C,5,No,Data Scientist,Procrastination,Internships,15,13,7,14,10,9,18,6,Conflict Resolution Team Leadership,4,110,Software Engineer
+3rd,B.Tech IT,Penetration Testing,Scala Java Python,2,Yes,Cloud Architect,Team collaboration,Peer groups,16,14,5,20,12,11,14,7,Presentation Skills Public Speaking,1,105,Business Analyst
+2nd,M.Sc Data Science,Data Visualization,Java Kotlin Swift,1,No,Cloud Architect,Interview anxiety,Mentorship programs,10,8,11,18,13,12,17,17,Time-Management Resilience Negotiation,1,110,Software Engineer
+4th,B.Sc Computer Science,Blockchain Development,JavaScript TypeScript Python,1,Yes,AI Engineer,Lack of resources,Mentorship programs,8,6,13,18,18,15,11,16,Decision-Making Flexibility Innovation,3,113,Cybersecurity Analyst
+1st,MCA,IoT Applications,Scala Java Python,1,No,AI Engineer,Time management,Workshops,12,15,7,15,20,12,20,13,Conflict Resolution Team Leadership,1,118,Software Engineer
+2nd,MBA,Mobile App Development,PHP JavaScript MySQL,3,No,Cybersecurity Analyst,Lack of resources,Internships,20,9,18,19,18,17,19,11,Conflict Resolution Team Leadership,3,143,Data Scientist
+2nd,B.Sc Computer Science,Data Engineering,JavaScript TypeScript Python,2,No,Software Engineer,Procrastination,Peer groups,18,6,8,15,13,8,17,12,Leadership Creativity Critical-Thinking,2,105,Business Analyst
+4th,B.Sc Computer Science,Cloud Security,Julia Python R,1,No,Business Analyst,Procrastination,Internships,11,10,5,16,16,17,12,17,Presentation Skills Public Speaking,3,112,Software Engineer
+3rd,B.Tech CSE,Full Stack Development,Python R SQL,4,Yes,Software Engineer,Interview anxiety,Online resources,10,10,19,12,11,20,17,14,Leadership Creativity Critical-Thinking,4,129,Data Scientist
+1st,M.Sc Data Science,Blockchain Development,MATLAB Python C,4,No,Data Scientist,Procrastination,Online resources,10,8,7,16,12,17,10,19,Presentation Skills Public Speaking,1,109,Software Engineer
+4th,MBA,Business Intelligence,MATLAB Python C,1,No,Data Scientist,Procrastination,Peer groups,18,8,8,14,17,16,19,19,Emotional Intelligence Active Listening,3,127,Cloud Architect
+1st,B.Tech IT,Full Stack Development,Java Kotlin Swift,2,Yes,AI Engineer,Time management,Internships,15,11,15,17,18,12,11,8,Presentation Skills Public Speaking,3,117,Cybersecurity Analyst
+3rd,M.Sc Data Science,Data Engineering,Scala Java Python,1,No,Cybersecurity Analyst,Presentation skills,Internships,17,10,17,14,15,20,18,14,Collaboration Empathy Teamwork,5,137,Cloud Architect
+4th,B.Sc Computer Science,Business Intelligence,JavaScript TypeScript Python,4,No,Software Engineer,Time management,Peer groups,18,11,5,11,11,10,15,18,Conflict Resolution Team Leadership,2,111,Software Engineer
+1st,B.Tech CSE,Penetration Testing,Python Go Rust,5,No,Business Analyst,Time management,Peer groups,17,20,20,20,15,12,20,19,Collaboration Empathy Teamwork,1,155,Cloud Architect
+2nd,B.Tech IT,Mobile App Development,Julia Python R,2,No,Data Scientist,Team collaboration,Workshops,17,10,11,16,19,15,20,8,Strategic Thinking Analytical Skills,3,126,Data Scientist
+1st,M.Sc Data Science,Computer Vision,Java Kotlin Swift,2,Yes,Business Analyst,Presentation skills,Mentorship programs,20,5,6,13,11,20,15,6,Time-Management Resilience Negotiation,3,106,Cybersecurity Analyst
+4th,B.Sc Computer Science,Embedded Systems,R SAS Python,4,Yes,Cloud Architect,Interview anxiety,Peer groups,14,7,11,18,18,11,10,17,Presentation Skills Public Speaking,5,124,Software Engineer
+1st,B.Tech IT,AI Fundamentals,Julia Python R,3,No,Cloud Architect,Time management,Online resources,16,11,17,10,18,20,20,20,Presentation Skills Public Speaking,4,146,Cloud Architect
+1st,B.Tech CSE,NLP,Julia Python R,1,Yes,Software Engineer,Procrastination,Peer groups,20,20,5,19,19,9,17,15,Presentation Skills Public Speaking,3,132,Data Scientist
+2nd,M.Sc Data Science,Deep Learning,Python R SQL,2,No,Cloud Architect,Time management,Workshops,8,5,16,10,15,12,15,17,Time-Management Resilience Negotiation,4,110,Software Engineer
+2nd,MBA,Cloud Security,Python Java C++,4,Yes,AI Engineer,Lack of resources,Internships,8,5,19,20,19,8,14,7,Time-Management Resilience Negotiation,1,110,Cybersecurity Analyst
+3rd,MBA,Cloud Security,JavaScript TypeScript Python,3,Yes,Cloud Architect,Presentation skills,Peer groups,15,10,6,10,15,20,17,9,Decision-Making Flexibility Innovation,5,118,Cybersecurity Analyst
+4th,MBA,DevOps,PHP JavaScript MySQL,4,Yes,Business Analyst,Lack of resources,Mentorship programs,8,18,7,11,19,10,16,11,Strategic Thinking Analytical Skills,1,110,Cybersecurity Analyst
+4th,M.Sc Data Science,Blockchain Development,JavaScript TypeScript Python,3,Yes,Cybersecurity Analyst,Interview anxiety,Internships,10,6,17,12,20,19,16,16,Presentation Skills Public Speaking,5,132,AI Engineer
+3rd,MCA,IoT Applications,PHP JavaScript MySQL,3,No,AI Engineer,Interview anxiety,Internships,8,20,19,15,11,11,10,5,Leadership Creativity Critical-Thinking,3,111,Cybersecurity Analyst
+3rd,MCA,Computer Vision,C# .NET SQL,4,Yes,Cybersecurity Analyst,Team collaboration,Internships,8,13,14,13,16,12,20,6,Presentation Skills Public Speaking,2,114,Cybersecurity Analyst
+4th,B.Tech IT,Penetration Testing,Python Go Rust,3,No,Software Engineer,Presentation skills,Internships,18,14,9,12,10,20,15,5,Presentation Skills Public Speaking,1,111,Software Engineer
+2nd,MBA,Data Visualization,PHP JavaScript MySQL,5,Yes,Software Engineer,Lack of resources,Online resources,16,5,18,17,8,11,19,8,Collaboration Empathy Teamwork,1,114,Software Engineer
+3rd,M.Sc Data Science,Deep Learning,C# .NET SQL,1,No,Cybersecurity Analyst,Lack of resources,Workshops,8,12,7,11,12,15,12,14,Communication Adaptability Problem-Solving,1,95,Business Analyst
+2nd,B.Sc Computer Science,DevOps,Python Java C++,1,Yes,Cloud Architect,Time management,Workshops,14,10,19,15,20,15,11,15,Emotional Intelligence Active Listening,3,127,Data Scientist
+4th,B.Tech CSE,Data Visualization,MATLAB Python C,4,No,Cloud Architect,Interview anxiety,Workshops,19,15,19,19,15,18,17,14,Strategic Thinking Analytical Skills,2,148,Data Scientist
+2nd,MCA,Data Visualization,C# .NET SQL,1,No,Data Scientist,Interview anxiety,Online resources,18,6,15,10,13,20,20,6,Collaboration Empathy Teamwork,3,116,Software Engineer
+4th,MCA,Network Security,R SAS Python,1,No,Business Analyst,Interview anxiety,Peer groups,16,15,19,13,15,19,10,18,Decision-Making Flexibility Innovation,5,137,Data Scientist
+4th,B.Sc Computer Science,Blockchain Development,Java Kotlin Swift,3,Yes,Cybersecurity Analyst,Interview anxiety,Online resources,9,7,12,17,16,9,18,12,Presentation Skills Public Speaking,4,114,Software Engineer
+2nd,B.Tech IT,Cloud Security,R SAS Python,2,No,Cybersecurity Analyst,Procrastination,Workshops,15,16,8,17,19,16,20,5,Strategic Thinking Analytical Skills,1,122,Software Engineer
+3rd,MBA,IoT Applications,Python Java C++,3,Yes,Software Engineer,Presentation skills,Mentorship programs,18,16,8,20,11,17,20,20,Communication Adaptability Problem-Solving,1,138,AI Engineer
+2nd,B.Tech IT,AI Fundamentals,Python Java C++,2,No,Data Scientist,Procrastination,Workshops,12,6,5,11,11,19,16,7,Communication Adaptability Problem-Solving,5,101,Business Analyst
+4th,B.Sc Computer Science,Data Engineering,MATLAB Python C,5,No,Software Engineer,Team collaboration,Peer groups,10,14,15,20,8,14,16,7,Decision-Making Flexibility Innovation,5,124,Software Engineer
+3rd,MCA,Network Security,JavaScript TypeScript Python,2,Yes,Software Engineer,Lack of resources,Peer groups,12,9,9,13,13,19,18,10,Communication Adaptability Problem-Solving,2,111,Cybersecurity Analyst
+4th,B.Tech IT,Deep Learning,Julia Python R,1,Yes,AI Engineer,Procrastination,Peer groups,13,11,14,19,12,18,11,11,Time-Management Resilience Negotiation,1,113,Software Engineer
+2nd,MBA,AI Fundamentals,Julia Python R,1,Yes,Data Scientist,Presentation skills,Mentorship programs,8,5,17,11,18,20,13,17,Collaboration Empathy Teamwork,5,121,Cybersecurity Analyst
+1st,B.Tech IT,Data Engineering,Python Go Rust,3,Yes,Software Engineer,Interview anxiety,Mentorship programs,11,15,19,10,10,18,18,16,Collaboration Empathy Teamwork,4,131,Data Scientist
+2nd,B.Sc Computer Science,Full Stack Development,PHP JavaScript MySQL,4,Yes,Software Engineer,Lack of resources,Workshops,16,7,8,13,16,12,19,17,Decision-Making Flexibility Innovation,2,120,Software Engineer
+1st,B.Sc Computer Science,Data Engineering,Python R SQL,4,Yes,Data Scientist,Interview anxiety,Internships,10,16,7,17,18,10,20,20,Strategic Thinking Analytical Skills,4,134,Data Scientist
+1st,B.Tech IT,Mobile App Development,PHP JavaScript MySQL,3,No,Cloud Architect,Time management,Workshops,20,7,7,12,8,8,13,17,Strategic Thinking Analytical Skills,2,102,Business Analyst
+4th,B.Tech CSE,Embedded Systems,Scala Java Python,1,No,Business Analyst,Interview anxiety,Workshops,15,18,20,20,20,10,18,15,Collaboration Empathy Teamwork,3,144,Cloud Architect
+4th,B.Tech IT,Full Stack Development,MATLAB Python C,4,Yes,Business Analyst,Interview anxiety,Internships,11,16,10,19,13,20,16,19,Conflict Resolution Team Leadership,2,136,Data Scientist
+3rd,MBA,Network Security,Python R SQL,2,No,Business Analyst,Team collaboration,Peer groups,18,8,5,14,9,16,12,8,Presentation Skills Public Speaking,2,98,Business Analyst
+1st,B.Tech CSE,Data Engineering,Scala Java Python,5,Yes,Software Engineer,Interview anxiety,Workshops,17,17,17,20,8,16,14,9,Strategic Thinking Analytical Skills,3,134,AI Engineer
+2nd,B.Sc Computer Science,Penetration Testing,R SAS Python,4,No,Business Analyst,Interview anxiety,Online resources,8,5,13,16,8,15,18,20,Decision-Making Flexibility Innovation,3,117,Cybersecurity Analyst
+1st,B.Tech CSE,Deep Learning,PHP JavaScript MySQL,4,No,Data Scientist,Time management,Workshops,10,19,20,18,11,10,19,17,Leadership Creativity Critical-Thinking,4,140,AI Engineer
+2nd,MBA,Computer Vision,Scala Java Python,3,No,Cloud Architect,Procrastination,Peer groups,13,14,10,16,14,12,14,9,Strategic Thinking Analytical Skills,4,116,Software Engineer
+3rd,B.Tech CSE,AI Fundamentals,Julia Python R,3,No,Data Scientist,Lack of resources,Mentorship programs,20,17,9,15,14,18,18,11,Leadership Creativity Critical-Thinking,3,134,Cloud Architect
+2nd,MCA,Cloud Security,MATLAB Python C,4,Yes,Business Analyst,Procrastination,Online resources,19,15,13,20,17,13,18,17,Emotional Intelligence Active Listening,4,148,AI Engineer
+4th,MBA,Mobile App Development,Scala Java Python,2,No,AI Engineer,Procrastination,Online resources,12,11,8,17,10,8,10,14,Conflict Resolution Team Leadership,3,100,Business Analyst
+2nd,B.Sc Computer Science,Blockchain Development,JavaScript TypeScript Python,4,No,Data Scientist,Presentation skills,Workshops,8,10,5,17,9,20,13,19,Communication Adaptability Problem-Solving,5,119,Cybersecurity Analyst
+2nd,MCA,Data Engineering,Python Java C++,1,No,Data Scientist,Interview anxiety,Internships,13,9,10,18,12,20,14,9,Strategic Thinking Analytical Skills,5,117,Software Engineer
+1st,B.Tech CSE,Network Security,Python Go Rust,2,No,Cybersecurity Analyst,Presentation skills,Workshops,13,7,7,19,20,8,17,8,Presentation Skills Public Speaking,3,109,Software Engineer
+3rd,B.Tech CSE,AI Fundamentals,MATLAB Python C,3,Yes,Cloud Architect,Time management,Workshops,19,16,8,10,15,20,15,7,Collaboration Empathy Teamwork,2,120,Software Engineer
+1st,B.Tech CSE,IoT Applications,Scala Java Python,2,Yes,Data Scientist,Presentation skills,Peer groups,19,8,11,17,8,10,13,8,Collaboration Empathy Teamwork,4,106,Software Engineer
+4th,B.Tech CSE,Data Engineering,Julia Python R,2,Yes,AI Engineer,Team collaboration,Internships,20,20,12,18,17,12,14,20,Presentation Skills Public Speaking,3,143,Data Scientist
+4th,B.Tech IT,NLP,Scala Java Python,5,No,Data Scientist,Time management,Workshops,20,19,5,13,20,14,16,16,Presentation Skills Public Speaking,3,139,AI Engineer
+1st,M.Sc Data Science,Cloud Security,Python Go Rust,5,No,Business Analyst,Time management,Online resources,18,8,6,11,20,18,11,6,Leadership Creativity Critical-Thinking,2,112,Cybersecurity Analyst
+3rd,M.Sc Data Science,Cloud Infrastructure,MATLAB Python C,2,Yes,AI Engineer,Time management,Mentorship programs,14,11,8,18,11,17,10,7,Conflict Resolution Team Leadership,5,110,Cybersecurity Analyst
+4th,B.Tech CSE,Penetration Testing,Julia Python R,3,Yes,AI Engineer,Lack of resources,Peer groups,16,13,19,18,17,17,15,13,Strategic Thinking Analytical Skills,2,138,AI Engineer
+2nd,MCA,Data Visualization,Scala Java Python,2,No,Business Analyst,Procrastination,Internships,20,11,16,13,12,15,15,10,Decision-Making Flexibility Innovation,1,118,Cybersecurity Analyst
+1st,MBA,Full Stack Development,Python R SQL,2,Yes,Software Engineer,Lack of resources,Peer groups,15,7,5,10,16,13,17,13,Leadership Creativity Critical-Thinking,2,104,Business Analyst
+3rd,B.Tech CSE,Cloud Security,PHP JavaScript MySQL,4,No,AI Engineer,Time management,Online resources,13,14,20,17,18,11,13,8,Decision-Making Flexibility Innovation,3,128,AI Engineer
+3rd,B.Sc Computer Science,Business Intelligence,PHP JavaScript MySQL,5,Yes,Business Analyst,Procrastination,Workshops,11,14,8,17,12,20,17,12,Communication Adaptability Problem-Solving,4,129,Cloud Architect
+4th,B.Sc Computer Science,Cloud Infrastructure,PHP JavaScript MySQL,5,Yes,Cloud Architect,Interview anxiety,Mentorship programs,13,18,7,11,10,18,11,16,Time-Management Resilience Negotiation,3,120,Software Engineer
+2nd,B.Sc Computer Science,Embedded Systems,JavaScript TypeScript Python,1,Yes,Software Engineer,Procrastination,Mentorship programs,15,5,18,20,18,18,17,11,Communication Adaptability Problem-Solving,5,134,Data Scientist
+3rd,MBA,IoT Applications,Python R SQL,5,No,Software Engineer,Procrastination,Workshops,9,15,8,18,12,20,15,8,Strategic Thinking Analytical Skills,4,123,Software Engineer
+2nd,MCA,Data Engineering,JavaScript TypeScript Python,2,No,Cybersecurity Analyst,Interview anxiety,Mentorship programs,17,16,13,10,16,17,13,13,Leadership Creativity Critical-Thinking,5,129,Data Scientist
+2nd,MBA,Deep Learning,Scala Java Python,4,Yes,Cybersecurity Analyst,Presentation skills,Internships,12,11,9,12,9,13,11,8,Presentation Skills Public Speaking,2,97,Business Analyst
+2nd,MBA,Data Visualization,PHP JavaScript MySQL,3,Yes,Data Scientist,Time management,Peer groups,19,20,20,12,20,16,12,15,Communication Adaptability Problem-Solving,2,144,AI Engineer
+2nd,MCA,Cloud Infrastructure,Python Go Rust,4,Yes,Cybersecurity Analyst,Lack of resources,Internships,9,11,20,19,8,20,15,15,Collaboration Empathy Teamwork,3,131,Data Scientist
+3rd,B.Tech CSE,AI Fundamentals,JavaScript TypeScript Python,4,No,Software Engineer,Interview anxiety,Internships,9,18,12,13,11,10,13,13,Leadership Creativity Critical-Thinking,3,113,Cybersecurity Analyst
+3rd,B.Tech IT,Full Stack Development,Python R SQL,3,No,AI Engineer,Presentation skills,Peer groups,8,8,20,12,13,17,18,9,Strategic Thinking Analytical Skills,5,121,Cybersecurity Analyst
+2nd,MBA,Embedded Systems,Python Go Rust,2,Yes,Business Analyst,Interview anxiety,Peer groups,20,14,6,15,18,18,14,14,Leadership Creativity Critical-Thinking,2,127,AI Engineer
+4th,B.Sc Computer Science,Mobile App Development,C# .NET SQL,5,Yes,Cybersecurity Analyst,Time management,Online resources,10,11,6,12,18,13,10,20,Strategic Thinking Analytical Skills,1,112,Software Engineer
+3rd,B.Sc Computer Science,Cloud Security,PHP JavaScript MySQL,1,Yes,Software Engineer,Lack of resources,Online resources,8,18,14,12,15,10,17,6,Communication Adaptability Problem-Solving,4,110,Cybersecurity Analyst
+2nd,MBA,Business Intelligence,C# .NET SQL,4,Yes,Cybersecurity Analyst,Presentation skills,Mentorship programs,12,6,5,20,20,12,12,9,Collaboration Empathy Teamwork,3,110,Cybersecurity Analyst
+1st,MBA,Data Engineering,C# .NET SQL,5,No,Software Engineer,Team collaboration,Internships,9,13,20,19,14,19,16,14,Decision-Making Flexibility Innovation,2,138,AI Engineer
+1st,B.Tech IT,Data Engineering,Python R SQL,1,Yes,Data Scientist,Team collaboration,Mentorship programs,13,18,18,12,9,18,20,15,Decision-Making Flexibility Innovation,1,127,Cloud Architect
+4th,B.Tech IT,Mobile App Development,PHP JavaScript MySQL,2,Yes,Data Scientist,Interview anxiety,Mentorship programs,13,15,5,13,13,18,18,17,Strategic Thinking Analytical Skills,1,118,Cybersecurity Analyst
+1st,MCA,Full Stack Development,Java Kotlin Swift,4,No,Cybersecurity Analyst,Team collaboration,Peer groups,12,8,16,11,15,20,10,8,Strategic Thinking Analytical Skills,3,114,Cybersecurity Analyst
+2nd,MCA,IoT Applications,R SAS Python,3,No,AI Engineer,Interview anxiety,Internships,18,20,14,10,9,9,14,8,Leadership Creativity Critical-Thinking,5,118,Cybersecurity Analyst

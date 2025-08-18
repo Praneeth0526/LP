@@ -1,0 +1,72 @@
+Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Skill Profile,Score,Recommended Job,P Set,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15
+Bodily,Interpersonal,Intrapersonal,,"Bodily, Interpersonal, Intrapersonal, ",30,Athlete,"P3,P6,P7,",P3,P6,P7,,,set1,"P3,P6,P7,",set1
+Bodily,Interpersonal,Naturalist,,"Bodily, Interpersonal, Naturalist, ",19,Pharmacist,"P3,P6,P7,",P3,P6,P7,,,set1,,
+Bodily,Interpersonal,Naturalist,,"Bodily, Interpersonal, Naturalist, ",67,Medical,"P3,P6,P7,",P3,P6,P7,,,set1,,
+Bodily,Intrapersonal,Naturalist,,"Bodily, Intrapersonal, Naturalist, ",5,Nature photographer,"P3,P6,P7,",P3,P6,P7,,,set1,,
+Bodily,Intrapersonal,Naturalist,,"Bodily, Intrapersonal, Naturalist, ",62,Archeologist,"P3,P6,P7,",P3,P6,P7,,,set1,,
+Bodily,Logical - Mathematical,,,"Bodily, Logical - Mathematical, , ",32,Mechanic,"P3,P4,",P3,P4,,,,set2,"P3,P4,,",set2
+Bodily,Logical - Mathematical,Interpersonal,,"Bodily, Logical - Mathematical, Interpersonal, ",20,Physician,"P3,P4,P6,",P3,P4,P6,,,set3,"P3,P4,P6,",set3
+Bodily,Logical - Mathematical,Interpersonal,,"Bodily, Logical - Mathematical, Interpersonal, ",69,Militry,"P3,P4,P6,",P3,P4,P6,,,set3,,
+Bodily,Logical - Mathematical,Interpersonal,,"Bodily, Logical - Mathematical, Interpersonal, ",70,Para Militry  (https://en.wikipedia.org/wiki/Paramilitary_forces_of_India),"P3,P4,P6,",P3,P4,P6,,,set3,,
+Bodily,Logical - Mathematical,Interpersonal,,"Bodily, Logical - Mathematical, Interpersonal, ",71,"Police Force (Spies, CBI officials, CID, Detectives)","P3,P4,P6,",P3,P4,P6,,,set3,,
+Bodily,Logical - Mathematical,Interpersonal,,"Bodily, Logical - Mathematical, Interpersonal, ",34,Physical Therapist,"P3,P4,P6,",P3,P4,P6,,,set3,,
+Bodily,Logical - Mathematical,Interpersonal,,"Bodily, Logical - Mathematical, Interpersonal, ",21,Physicist,"P3,P4,P6,",P3,P4,P6,,,set3,,
+Bodily,Logical - Mathematical,Intrapersonal,,"Bodily, Logical - Mathematical, Intrapersonal, ",16,Librarian,"P3,P4,P7,",P3,P4,P7,,,set4,"P3,P4,P7,",set4
+Bodily,Logical - Mathematical,Naturalist,,"Bodily, Logical - Mathematical, Naturalist, ",2,Geologist,"P3,P4,P8,",P3,P4,P8,,,set5,"P3,P4,P8,",set5
+Bodily,Logical - Mathematical,Naturalist,,"Bodily, Logical - Mathematical, Naturalist, ",45,Pilot,"P3,P4,P8,",P3,P4,P8,,,set5,,
+Interpersonal,Intrapersonal,Naturalist,,"Interpersonal, Intrapersonal, Naturalist, ",43,Fashion Designer,"P6,P7,P8",P6,P7,P8,,,set6,"P6,P7,P8",set6
+Interpersonal,Intrapersonal,Naturalist,,"Interpersonal, Intrapersonal, Naturalist, ",4,Veterinarian,"P6,P7,P8",P6,P7,P9,,,set6,"P6,P7,P9",set7
+Linguistic,Bodily,Interpersonal,,"Linguistic, Bodily, Interpersonal, ",40,Broadcaster,"P1,P3,P6,",P1,P3,P6,,,set7,"P1,P3,P6,",set8
+Linguistic,Bodily,Interpersonal,,"Linguistic, Bodily, Interpersonal, ",63,Pre Primary Teacher (2020 NEP and Mental Health),"P1,P3,P6,",P1,P3,P6,,,set7,,
+Linguistic,Bodily,Interpersonal,,"Linguistic, Bodily, Interpersonal, ",68,"Para Medical (physiotherapy, occupational theropy, audio and speech language theropy, nursing)","P1,P3,P6,",P1,P3,P6,,,set7,,
+Linguistic,Bodily,Interpersonal,Intrapersonal,"Linguistic, Bodily, Interpersonal, Intrapersonal",33,Actor / Actress,"P1,P3,P6,P7",P1,P3,P6,P7,,set8,"P1,P3,P6,P7",set9
+Linguistic,Interpersonal,Intrapersonal,,"Linguistic, Interpersonal, Intrapersonal, ",38,Language Teacher,"P1,P6,P7,",P1,P6,P7,,,set9,"P1,P6,P7,",set10
+Linguistic,Logical - Mathematical,,,"Linguistic, Logical - Mathematical, , ",13,Computer programmer,"P1,P4,,",P1,P4,,,,set10,"P1,P4,,",set11
+Linguistic,Logical - Mathematical,Interpersonal,,"Linguistic, Logical - Mathematical, Interpersonal, ",7,Audiologist,"P1,P4,P6,",P1,P4,P6,,,set11,"P1,P4,P6,",set12
+Linguistic,Logical - Mathematical,Interpersonal,,"Linguistic, Logical - Mathematical, Interpersonal, ",28,Sales Representative,"P1,P4,P6,",P1,P4,P6,,,set11,,
+Linguistic,Logical - Mathematical,Interpersonal,,"Linguistic, Logical - Mathematical, Interpersonal, ",37,Journalist,"P1,P4,P6,",P1,P4,P6,,,set11,,
+Linguistic,Logical - Mathematical,Interpersonal,,"Linguistic, Logical - Mathematical, Interpersonal, ",51,Marketing,"P1,P4,P6,",P1,P4,P6,,,set11,,
+Linguistic,Logical - Mathematical,Interpersonal,Intrapersonal,"Linguistic, Logical - Mathematical, Interpersonal, Intrapersonal",57,Business Analyst,"P1,P4,P6,P7,",P1,P4,P6,P7,,set12,"P1,P4,P6,P7,",set13
+Linguistic,Logical - Mathematical,Interpersonal,Intrapersonal,"Linguistic, Logical - Mathematical, Interpersonal, Intrapersonal",54,Business manager,"P1,P4,P6,P7",P1,P4,P6,P7,,set12,,
+Linguistic,Logical - Mathematical,Intrapersonal,,"Linguistic, Logical - Mathematical, Intrapersonal, ",35,Editor,"P1,P4,P7",P1,P4,P7,,,set13,"P1,P4,P7",set14
+Linguistic,Logical - Mathematical,Intrapersonal,,"Linguistic, Logical - Mathematical, Intrapersonal, ",50,Company secretary,"P1,P4,P7",P1,P4,P7,,,set13,,
+Linguistic,Logical - Mathematical,Intrapersonal,,"Linguistic, Logical - Mathematical, Intrapersonal, ",12,Computer analyst,"P1,P4,P7",P1,P4,P7,,,set13,,
+Linguistic,Logical - Mathematical,Intrapersonal,,"Linguistic, Logical - Mathematical, Intrapersonal, ",48,Writer,"P1,P4,P7",P1,P4,P7,,,set13,,
+Linguistic,Logical - Mathematical,Intrapersonal,,"Linguistic, Logical - Mathematical, Intrapersonal, ",53,Research analyst,"P1,P4,P7",P1,P4,P7,,,set13,,
+Linguistic,Musical,Bodily,,"Linguistic, Musical, Bodily, ",64,Primary Teacher,"P1,P2,P3,",P1,P2,P3,,,set14,"P1,P2,P3,",set15
+Linguistic,Musical,Interpersonal,,"Linguistic, Musical, Interpersonal, ",9,Music teacher,"P1,P2,P6,",P1,P2,P6,,,set15,"P1,P2,P6,",set16
+Linguistic,Musical,Interpersonal,,"Linguistic, Musical, Interpersonal, ",27,Receptionist,"P1,P2,P6,",P1,P2,P6,,,set15,,
+Linguistic,Musical,Intrapersonal,,"Linguistic, Musical, Intrapersonal, ",39,Poet,"P1,P2,P7",P1,P2,P7,,,set16,"P1,P2,P7",set17
+Logical - Mathematical,Interpersonal,,,"Logical - Mathematical, Interpersonal, , ",15,Economist,"P4,P6",P4,P6,,,,set17,"P4,P6",set18
+Logical - Mathematical,Interpersonal,,,"Logical - Mathematical, Interpersonal, , ",11,Chartered Accountant,"P4,P6",P4,P6,,,,set18,"P4,P6",set19
+Logical - Mathematical,Interpersonal,,,"Logical - Mathematical, Interpersonal, , ",58,Banking,"P4,P6",P4,P6,,,,set18,,
+Logical - Mathematical,Interpersonal,Intrapersonal,,"Logical - Mathematical, Interpersonal, Intrapersonal, ",60,Financial Advisor,"P4,P6,P7",P4,P6,P7,,,set19,"P4,P6,P7,",set20
+Logical - Mathematical,Interpersonal,Intrapersonal,,"Logical - Mathematical, Interpersonal, Intrapersonal, ",10,Actuary,"P4,P6,P7,",P4,P6,P7,,,set19,,
+Logical - Mathematical,Interpersonal,Intrapersonal,,"Logical - Mathematical, Interpersonal, Intrapersonal, ",14,Database designer,"P4,P6,P7,",P4,P6,P7,,,set19,,
+Logical - Mathematical,Interpersonal,Intrapersonal,,"Logical - Mathematical, Interpersonal, Intrapersonal, ",18,Lawyer,"P4,P6,P7,",P4,P6,P7,,,set19,,
+Logical - Mathematical,Interpersonal,Intrapersonal,,"Logical - Mathematical, Interpersonal, Intrapersonal, ",24,Manager,"P4,P6,P7,",P4,P6,P7,,,set19,,
+Logical - Mathematical,Interpersonal,Intrapersonal,,"Logical - Mathematical, Interpersonal, Intrapersonal, ",29,Counselor,"P4,P6,P7,",P4,P6,P7,,,set19,,
+Logical - Mathematical,Interpersonal,Intrapersonal,,"Logical - Mathematical, Interpersonal, Intrapersonal, ",46,Psychologist,"P4,P6,P7,",P4,P6,P7,,,set19,,
+Logical - Mathematical,Interpersonal,Intrapersonal,,"Logical - Mathematical, Interpersonal, Intrapersonal, ",49,Criminologist,"P4,P6,P7,",P4,P6,P7,,,set19,,
+Logical - Mathematical,Interpersonal,Intrapersonal,,"Logical - Mathematical, Interpersonal, Intrapersonal, ",52,Logistics manager,"P4,P6,P7,",P4,P6,P7,,,set19,,
+Logical - Mathematical,Interpersonal,Intrapersonal,,"Logical - Mathematical, Interpersonal, Intrapersonal, ",55,Internal auditor ,"P4,P6,P7,",P4,P6,P7,,,set19,,
+Logical - Mathematical,Interpersonal,Intrapersonal,,"Logical - Mathematical, Interpersonal, Intrapersonal, ",56,Chief financial officer,"P4,P6,P7,",P4,P6,P7,,,set19,,
+Logical - Mathematical,Interpersonal,Intrapersonal,,"Logical - Mathematical, Interpersonal, Intrapersonal, ",59,Stock Broker,"P4,P6,P7,",P4,P6,P7,,,set19,,
+Logical - Mathematical,Interpersonal,Intrapersonal,,"Logical - Mathematical, Interpersonal, Intrapersonal, ",61,Consultant,"P4,P6,P7,",P4,P6,P7,,,set19,,
+Logical - Mathematical,Interpersonal,Intrapersonal,,"Logical - Mathematical, Interpersonal, Intrapersonal, ",65,"Middle, Higher School Teacher and Professors","P4,P6,P7,",P4,P6,P7,,,set19,,
+Logical - Mathematical,Interpersonal,Intrapersonal,,"Logical - Mathematical, Interpersonal, Intrapersonal, ",23,Leader,"P4,P6,P7,",P4,P6,P7,,,set19,,
+Logical - Mathematical,Interpersonal,Intrapersonal,,"Logical - Mathematical, Interpersonal, Intrapersonal, ",25,Politician,"P4,P6,P7,",P4,P6,P7,,,set19,,
+Logical - Mathematical,Intrapersonal,Naturalist,,"Logical - Mathematical, Intrapersonal, Naturalist, ",3,Marine Biologist,"P4,P7,P8,",P4,P7,P8,,,set20,"P4,P7,P8,",set21
+Logical - Mathematical,Intrapersonal,Naturalist,,"Logical - Mathematical, Intrapersonal, Naturalist, ",36,Historian,"P4,P7,P8,",P4,P7,P8,,,set20,,
+Logical - Mathematical,Intrapersonal,Naturalist,,"Logical - Mathematical, Intrapersonal, Naturalist, ",47,Philosopher,"P4,P7,P8,",P4,P7,P8,,,set20,,
+Logical - Mathematical,Spatial-Visualization,,,"Logical - Mathematical, Spatial-Visualization, , ",22,Mathematician,"P4,P5",P4,P5,,,,set21,"P4,P5",set22
+Logical - Mathematical,Spatial-Visualization,,,"Logical - Mathematical, Spatial-Visualization, , ",42,Graphic Designer,"P4,P5",P4,P5,,,,set21,,
+Logical - Mathematical,Spatial-Visualization,Interpersonal,,"Logical - Mathematical, Spatial-Visualization, Interpersonal, ",44,Interior Decorator,"P4,P5,P6,",P4,P5,P6,,,set22,"P4,P5,P6,",set23
+Logical - Mathematical,Spatial-Visualization,Intrapersonal,,"Logical - Mathematical, Spatial-Visualization, Intrapersonal, ",17,Engineer,"P4,P5,P7,",P4,P5,P7,,,set23,"P4,P5,P7,",set24
+Logical - Mathematical,Spatial-Visualization,Intrapersonal,,"Logical - Mathematical, Spatial-Visualization, Intrapersonal, ",66,Anthropologist,"P4,P5,P7,",P4,P5,P7,,,set23,,
+Logical - Mathematical,Spatial-Visualization,Intrapersonal,Naturalist,"Logical - Mathematical, Spatial-Visualization, Intrapersonal, Naturalist",1,Astronomer    ,"P4,P5,P7,P8",P4,P5,P7,P8,,set24,"P4,P5,P7,P8",set25
+Musical,Bodily,Interpersonal,,"Musical, Bodily, Interpersonal, ",31,Dancer,"P2,P3,P6,",P2,P3,P6,,,set25,"P2,P3,P6,",set26
+Musical,Intrapersonal,Naturalist,,"Musical, Intrapersonal, Naturalist, ",41,Artist,"P2,P7,P8,",P2,P7,P8,,,set26,"P2,P7,P8,",set27
+Musical,Logical - Mathematical,Interpersonal,,"Musical, Logical - Mathematical, Interpersonal, ",6,Recording engineer,"P2,P4,P6,",P2,P4,P6,,,set27,"P2,P4,P6,",set28
+Musical,Logical - Mathematical,Naturalist,,"Musical, Logical - Mathematical, Naturalist, ",8,Sound editor,"P2,P4,P8,",P2,P4,P8,,,set28,"P2,P4,P8,",set29
+Bodily,Interpersonal,Intrapersonal,,"Bodily, Interpersonal, Intrapersonal, ",26,Social Worker,"P1,P6,P7",P1,P6,P7,,,set29,"P1,P6,P7",set30
