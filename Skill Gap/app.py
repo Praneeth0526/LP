@@ -64,6 +64,54 @@ def extract_text_from_file(filepath):
     return ""
 
 
+def extract_resume_highlights(text):
+    """
+    Extracts key sections like Education, Experience, and Skills from resume text.
+    """
+    highlights = {}
+    # Define patterns for common resume sections. Case-insensitive.
+    patterns = {
+        'Education': r'(?i)\b(education|academic background|qualifications)\b',
+        'Experience': r'(?i)\b(experience|work experience|professional experience|employment history)\b',
+        'Skills': r'(?i)\b(skills|technical skills|core competencies)\b',
+        'Projects': r'(?i)\b(projects|personal projects|academic projects)\b'
+    }
+
+    # Find all section headers and their positions
+    found_sections = []
+    for section, pattern in patterns.items():
+        match = re.search(pattern, text)
+        if match:
+            found_sections.append((section, match.start()))
+
+    # Sort sections by their appearance in the text
+    found_sections.sort(key=lambda x: x[1])
+
+    if not found_sections:
+        # If no sections found, return a snippet of the text
+        return {'Summary': text[:700] + '...'}
+
+    # Extract text between sections
+    for i, (section, start_pos) in enumerate(found_sections):
+        # Determine the end position of the current section's text
+        end_pos = found_sections[i+1][1] if i + 1 < len(found_sections) else len(text)
+
+        # Extract the text block for the section
+        section_text = text[start_pos:end_pos].strip()
+
+        # Clean up the section text: remove the header itself and limit length
+        header_match = re.search(patterns[section], section_text)
+        if header_match:
+            # Start text after the header
+            text_start = header_match.end()
+            # Clean up leading characters like newlines or colons
+            content = re.sub(r'^[\s:.-]*', '', section_text[text_start:])
+            # Limit to a reasonable length for display
+            highlights[section] = content[:700] + '...' if len(content) > 700 else content
+
+    return highlights
+
+
 # -----------------------------
 # Core Prediction Pipeline
 # -----------------------------
@@ -71,9 +119,37 @@ def create_feature_vector(resume_text, form_data):
     """
     Creates a feature vector from raw inputs that matches the model's training data.
     """
-    # 1. Initialize a DataFrame with all the required feature columns, filled with zeros
     input_df = pd.DataFrame(columns=feature_columns)
     input_df.loc[0] = 0
+    resume_lower = resume_text.lower()
+
+    # 1. Extract features from resume text (Year and Course)
+    # Extract Academic Year
+    year_map = {'1st': 1, 'first': 1, '2nd': 2, 'second': 2, '3rd': 3, 'third': 3, '4th': 4, 'final': 4, 'fourth': 4}
+    year_found = 0
+    year_match = re.search(r'\b(1st|2nd|3rd|4th|first|second|third|fourth|final)[\s-]?year\b', resume_lower)
+    if year_match:
+        year_key = year_match.group(1)
+        year_found = year_map.get(year_key, 0)
+
+    if 'Year' in input_df.columns:
+        input_df.loc[0, 'Year'] = year_found if year_found != 0 else 2  # Default to 2nd year
+
+    # Extract and Encode Current Course
+    if 'Current Course' in label_encoders:
+        course_encoder = label_encoders['Current Course']
+        found_course = None
+        for course in course_encoder.classes_:
+            if re.search(r'\b' + re.escape(course.lower()) + r'\b', resume_lower):
+                found_course = course
+                break
+
+        value_to_encode = found_course if found_course else 'B.Tech CSE'
+        if value_to_encode in course_encoder.classes_:
+            encoded_value = course_encoder.transform([value_to_encode])[0]
+            input_df.loc[0, 'Current Course_encoded'] = encoded_value
+        else:
+            input_df.loc[0, 'Current Course_encoded'] = 0
 
     # 2. Process Numerical Features from the form
     numerical_features = [col for col in feature_columns if col in scaler.feature_names_in_]
@@ -82,55 +158,62 @@ def create_feature_vector(resume_text, form_data):
             input_df.loc[0, col] = float(form_data.get(col, 0))
 
     # Create proxy for 'Score' and 'Rating' based on intelligence scores
-    # [FIX] Convert the string values from the form to float before calculating the mean.
     intel_scores = [float(v) for k, v in form_data.items() if
                     k in ['Student-Linguistic', 'Musical', 'Bodily', 'Logical - Mathematical', 'Spatial-Visualization',
                           'Interpersonal', 'Intrapersonal', 'Naturalist']]
-    avg_intel_score = np.mean(intel_scores) if intel_scores else 5
+    avg_intel_score = np.mean(intel_scores) if intel_scores else 10
     input_df.loc[0, 'Score'] = avg_intel_score * 10
-    input_df.loc[0, 'Rating(technical and programming)'] = float(form_data.get('Logical - Mathematical', 5))
-    input_df.loc[0, 'Rating(soft skills)'] = float(form_data.get('Interpersonal', 5))
+    input_df.loc[0, 'Rating(technical and programming)'] = float(form_data.get('Logical - Mathematical', 10))
+    input_df.loc[0, 'Rating(soft skills)'] = float(form_data.get('Interpersonal', 10))
 
-    # 3. Process Label-Encoded Categorical Features from the form
+    # 3. Process other Label-Encoded Categorical Features from the form
     for col, encoder in label_encoders.items():
+        if col == 'Current Course': continue  # Already handled
         encoded_col_name = f'{col}_encoded'
         if encoded_col_name in input_df.columns:
             value = form_data.get(col, encoder.classes_[0])
             if value in encoder.classes_:
                 input_df.loc[0, encoded_col_name] = encoder.transform([value])[0]
             else:
-                input_df.loc[0, encoded_col_name] = 0  # Default for unknown
+                input_df.loc[0, encoded_col_name] = 0
 
     # 4. Process One-Hot Encoded Skill Features from the resume text
-    resume_lower = resume_text.lower()
     for col in feature_columns:
         if col.startswith(('Tech_', 'Prog_', 'Soft_')):
-            # Recreate the original skill name from the feature name
             skill = col.split('_', 1)[1].replace('_', ' ').lower()
             if skill in resume_lower:
                 input_df.loc[0, col] = 1
 
-    # 5. Scale the numerical features using the loaded scaler
+    # 5. Scale the numerical features
     input_df[numerical_features] = scaler.transform(input_df[numerical_features])
 
     return input_df
 
 
-def analyze_resume_and_predict(resume_text, form_data):
+def analyze_resume_and_predict(resume_text, form_data, desired_job):
     """
-    Full pipeline to process inputs, make a prediction, and perform skill gap analysis.
+    Full pipeline to process inputs, make predictions, and perform skill gap analysis.
     """
-    # 1. Create the feature vector for the model
     feature_vector = create_feature_vector(resume_text, form_data)
 
-    # 2. Make a prediction
-    prediction_index = model.predict(feature_vector)[0]
-    prediction_proba = model.predict_proba(feature_vector)[0]
-    predicted_job = target_encoder.inverse_transform([prediction_index])[0]
-    confidence = prediction_proba[prediction_index]
+    # 1. Make Predictions
+    probabilities = model.predict_proba(feature_vector)[0]
 
-    # 3. Perform Skill-Gap Analysis
-    job_key = predicted_job
+    # Get the top prediction
+    top_prediction_index = np.argmax(probabilities)
+    predicted_job = target_encoder.inverse_transform([top_prediction_index])[0]
+    confidence = probabilities[top_prediction_index]
+
+    # Get all high-confidence jobs (80%+)
+    high_confidence_jobs = []
+    for i, prob in enumerate(probabilities):
+        if prob >= 0.80:
+            job_name = target_encoder.inverse_transform([i])[0]
+            if job_name != predicted_job:  # Don't list the top one again
+                high_confidence_jobs.append({'role': job_name, 'confidence': prob})
+
+    # 2. Perform Skill-Gap Analysis against the USER'S DESIRED JOB
+    job_key = desired_job
     if job_key not in job_requirements and "Data" in job_key:
         job_key = "Data Science"
 
@@ -155,6 +238,8 @@ def analyze_resume_and_predict(resume_text, form_data):
     return {
         'predicted_job': predicted_job,
         'confidence': confidence,
+        'desired_job': desired_job,
+        'high_confidence_jobs': sorted(high_confidence_jobs, key=lambda x: x['confidence'], reverse=True),
         'skill_gaps': skill_gaps
     }
 
@@ -164,7 +249,6 @@ def analyze_resume_and_predict(resume_text, form_data):
 # -----------------------------
 @app.route('/', methods=['GET', 'POST'])
 def login():
-    # Your existing login logic
     msg = ''
     if request.method == 'POST' and 'username' in request.form and 'password' in request.form:
         if request.form['username'] == "admin" and request.form['password'] == "admin":
@@ -208,31 +292,42 @@ def upload_resume():
             return render_template("upload.html", error=f"Could not extract text from {filename}.")
 
         if model:
-            analysis_result = analyze_resume_and_predict(raw_text, request.form)
+            desired_job = request.form.get('desired_job')
+
+            # Create a mutable copy of the form data to pass to the model
+            form_data_for_model = request.form.to_dict()
+            # Use the user's desired job as their career interest for prediction
+            form_data_for_model['Career Interest'] = desired_job
+
+            analysis_result = analyze_resume_and_predict(raw_text, form_data_for_model, desired_job)
+
+            # Extract highlights from the resume text
+            resume_highlights = extract_resume_highlights(raw_text)
 
             missing_skills = analysis_result['skill_gaps']['missing_skills']
             missing_skill_recos = {skill.title(): course_recos.get(skill.title(), {}) for skill in missing_skills}
 
-            predicted_role = analysis_result['predicted_job']
-            career_path = career_recos.get(predicted_role, None)
-
-            if not career_path and 'Data' in predicted_role:
+            # Use the desired job for the career roadmap
+            career_path_role = analysis_result['desired_job']
+            career_path = career_recos.get(career_path_role, None)
+            if not career_path and 'Data' in career_path_role:
                 career_path = career_recos.get('Data Science', None)
 
             return render_template("result.html",
                                    result=analysis_result,
                                    recommendations=missing_skill_recos,
-                                   career=career_path)
+                                   career=career_path,
+                                   resume_highlights=resume_highlights)
         else:
             return render_template("upload.html", error="Model is not available. Check server logs.")
 
-    # Pass unique values for dropdowns to the template
+    # Pass options for dropdowns to the template
     form_options = {
-        'Current Course': label_encoders['Current Course'].classes_,
         'Projects': label_encoders['Projects'].classes_,
         'Career Interest': label_encoders['Career Interest'].classes_,
         'Challenges': label_encoders['Challenges'].classes_,
-        'Support-required': label_encoders['Support-required'].classes_
+        'Support-required': label_encoders['Support-required'].classes_,
+        'All_Jobs': sorted(list(job_requirements.keys()))
     }
     return render_template("upload.html", form_options=form_options)
 

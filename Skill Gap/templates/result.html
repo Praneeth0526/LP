@@ -14,10 +14,18 @@
             color: white;
             text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         }
+        .accordion-body pre {
+            white-space: pre-wrap;
+            font-family: inherit;
+            font-size: 0.9rem;
+            background-color: #f8f9fa;
+            padding: 1rem;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
-    <!-- Topbar (keep existing code) -->
+    <!-- Topbar -->
     <div class="container-fluid fixed-top">
         <div class="container">
             <nav class="navbar navbar-light navbar-expand-lg py-3">
@@ -42,15 +50,15 @@
     <div class="container" style="margin-top: 120px;">
         <h1 class="text-center mb-4">Your Personalized Analysis</h1>
 
-        <!-- Job Prediction Section -->
+        <!-- Skill Gap Analysis Section -->
         <div class="card mb-4 shadow-sm">
             <div class="card-header bg-primary text-white">
-                <h3>Top Recommended Job Role: {{ result.predicted_job }}</h3>
+                <h3>Skill Gap Analysis for: {{ result.desired_job }}</h3>
             </div>
             <div class="card-body">
                 <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <h5>Skill Match Score for "{{ result.predicted_job }}"</h5>
+                    <div class="col-md-8">
+                        <h5>Your Skill Match Score</h5>
                         <div class="progress" style="height: 30px;">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                  style="width: {{ result.skill_gaps.skill_match_percentage | round | int }}%;"
@@ -59,15 +67,15 @@
                                  <span class="progress-bar-text">{{ result.skill_gaps.skill_match_percentage | round | int }}%</span>
                             </div>
                         </div>
-                        <p class="mt-2">Your skills match {{ result.skill_gaps.skill_match_percentage | round | int }}% of the requirements for this role.</p>
+                        <p class="mt-2">Your skills match {{ result.skill_gaps.skill_match_percentage | round | int }}% of the requirements for your desired role of <strong>{{ result.desired_job }}</strong>.</p>
                     </div>
-                    <div class="col-md-6">
-                        <h5>Model Confidence</h5>
+                    <div class="col-md-4">
+                        <h5>Top AI Recommendation</h5>
                         <ul class="list-group">
                             <li class="list-group-item d-flex justify-content-between align-items-center">
                                 <div>
-                                    <strong>AI Recommendation Confidence:</strong>
-                                    <span class="d-block text-muted">Based on your complete profile</span>
+                                    <strong>{{ result.predicted_job }}</strong>
+                                    <span class="d-block text-muted">Based on your profile</span>
                                 </div>
                                 <span class="badge bg-primary rounded-pill fs-6">{{ (result.confidence * 100) | round }}%</span>
                             </li>
@@ -77,12 +85,60 @@
             </div>
         </div>
 
+        <!-- Resume Highlights Section -->
+        {% if resume_highlights %}
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header bg-light">
+                <h3><i class="fas fa-file-alt text-secondary"></i> Resume Highlights</h3>
+            </div>
+            <div class="card-body">
+                <p class="text-muted">Here are the key sections we extracted from your resume for analysis.</p>
+                <div class="accordion" id="resumeAccordion">
+                    {% for section, content in resume_highlights.items() %}
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading{{ loop.index }}">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ loop.index }}" aria-expanded="false" aria-controls="collapse{{ loop.index }}">
+                                <strong>{{ section }}</strong>
+                            </button>
+                        </h2>
+                        <div id="collapse{{ loop.index }}" class="accordion-collapse collapse" aria-labelledby="heading{{ loop.index }}" data-bs-parent="#resumeAccordion">
+                            <div class="accordion-body">
+                                <pre>{{ content }}</pre>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Other Suitable Roles -->
+        {% if result.high_confidence_jobs %}
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header bg-secondary text-white">
+                <h3>Other Roles That Might Suit You (80%+ Confidence)</h3>
+            </div>
+            <div class="card-body">
+                <p>Based on your resume, our AI also found these roles to be a strong match for your profile:</p>
+                <ul class="list-group">
+                    {% for job in result.high_confidence_jobs %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        {{ job.role }}
+                        <span class="badge bg-info rounded-pill fs-6">{{ (job.confidence * 100) | round }}% Confidence</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% endif %}
+
         <!-- Skills Overview -->
         <div class="row">
             <div class="col-md-6 mb-4">
                 <div class="card h-100 shadow-sm">
                     <div class="card-header bg-success text-white">
-                        <h5><i class="fas fa-check-circle"></i> Skills You Have</h5>
+                        <h5><i class="fas fa-check-circle"></i> Skills You Have for {{ result.desired_job }}</h5>
                     </div>
                     <div class="card-body">
                         {% if result.skill_gaps.have_skills %}
@@ -98,7 +154,7 @@
             <div class="col-md-6 mb-4">
                 <div class="card h-100 shadow-sm">
                     <div class="card-header bg-warning text-dark">
-                        <h5><i class="fas fa-lightbulb"></i> Skills to Develop</h5>
+                        <h5><i class="fas fa-lightbulb"></i> Skills to Develop for {{ result.desired_job }}</h5>
                     </div>
                     <div class="card-body">
                         {% if result.skill_gaps.missing_skills %}
@@ -107,7 +163,7 @@
                             {% endfor %}
                         {% else %}
                              <div class="alert alert-success">
-                                <strong>Excellent!</strong> You have all the required skills for a {{ result.predicted_job }} role.
+                                <strong>Excellent!</strong> You have all the required skills for a {{ result.desired_job }} role.
                             </div>
                         {% endif %}
                     </div>
@@ -119,13 +175,13 @@
         {% if recommendations or career %}
         <div class="card mt-4 shadow-sm">
             <div class="card-header bg-info text-white">
-                <h3>Your Personalized Learning Path</h3>
+                <h3>Your Personalized Learning Path for {{ result.desired_job }}</h3>
             </div>
             <div class="card-body">
                 <!-- Career Path Recommendation -->
                 {% if career %}
                 <div class="mb-4 p-3 bg-light rounded">
-                    <h4>Career Path for a {{ result.predicted_job }}</h4>
+                    <h4>Career Path for a {{ result.desired_job }}</h4>
                     <p>{{ career.description }}</p>
                     <a href="{{ career.link }}" target="_blank" class="btn btn-outline-primary">
                         <i class="fas fa-graduation-cap"></i> View Recommended Course: {{ career.course }}

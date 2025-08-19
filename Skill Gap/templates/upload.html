@@ -9,7 +9,7 @@
     <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
 </head>
 <body>
-    <!-- Topbar (keep existing code) -->
+    <!-- Topbar -->
     <div class="container-fluid fixed-top">
         <div class="container">
             <nav class="navbar navbar-light navbar-expand-lg py-3">
@@ -31,7 +31,7 @@
         </div>
     </div>
 
-    <!-- Hero Header (keep existing code) -->
+    <!-- Hero Header -->
     <div class="container-fluid hero-header">
         <div class="container">
             <div class="row">
@@ -59,45 +59,35 @@
             {% endif %}
 
             <form method="POST" enctype="multipart/form-data">
-                <!-- Section 1: Resume Upload -->
-                <h2 class="text-center mb-4">1. Upload Your Resume</h2>
-                <div class="mb-4">
-                    <label for="resume_file" class="form-label">Your resume provides the primary source of your skills.</label>
-                    <input type="file" name="resume_file" id="resume_file" accept=".pdf,.docx" class="form-control form-control-lg" required>
+                <!-- Section 1: Resume and Desired Role -->
+                <h2 class="text-center mb-4">1. Your Career Goals</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <label for="resume_file" class="form-label">Upload Your Resume*</label>
+                        <input type="file" name="resume_file" id="resume_file" accept=".pdf,.docx" class="form-control form-control-lg" required>
+                        <div class="form-text">Your resume provides the primary source of your skills.</div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <label for="desired_job" class="form-label">Select Your Desired Job Role*</label>
+                        <select name="desired_job" id="desired_job" class="form-select form-select-lg" required>
+                            {% for job in form_options['All_Jobs'] %}
+                            <option value="{{ job }}">{{ job }}</option>
+                            {% endfor %}
+                        </select>
+                        <div class="form-text">Select the job you are aiming for to get a skill gap analysis.</div>
+                    </div>
                 </div>
 
                 <hr class="my-5">
 
-                <!-- Section 2: Academic and Career Info -->
-                <h2 class="text-center mb-4">2. Tell Us About Yourself</h2>
+                <!-- Section 2: Profile and Intelligence Assessment -->
+                <h2 class="text-center mb-4">2. Tell Us More About You</h2>
+                <p class="text-center text-muted mb-5">Your answers here help us understand your strengths and provide better recommendations.</p>
+
                 <div class="row">
-                    <div class="col-md-6 mb-3">
-                        <label for="Current Course" class="form-label">Current Course</label>
-                        <select name="Current Course" id="Current Course" class="form-select">
-                            {% for course in form_options['Current Course'] %}
-                            <option value="{{ course }}">{{ course }}</option>
-                            {% endfor %}
-                        </select>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="Year" class="form-label">Academic Year</label>
-                        <select name="Year" id="Year" class="form-select">
-                            <option value="1">1st Year</option>
-                            <option value="2">2nd Year</option>
-                            <option value="3">3rd Year</option>
-                            <option value="4">Final Year</option>
-                        </select>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="Career Interest" class="form-label">Primary Career Interest</label>
-                        <select name="Career Interest" id="Career Interest" class="form-select">
-                            {% for interest in form_options['Career Interest'] %}
-                            <option value="{{ interest }}">{{ interest }}</option>
-                            {% endfor %}
-                        </select>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label class="form-label">Do you have project experience?</label>
+                    <!-- Other Form Fields -->
+                    <div class="col-md-6 mb-4">
+                        <label class="form-label fw-bold">Do you have project experience?</label>
                         <div>
                             {% for project_option in form_options['Projects'] %}
                             <div class="form-check form-check-inline">
@@ -107,46 +97,42 @@
                             {% endfor %}
                         </div>
                     </div>
-                </div>
 
-                <hr class="my-5">
+                    <!-- Intelligence Questions -->
+                    <div class="col-md-6 mb-4">
+                        <p class="form-label fw-bold">Linguistic (Word Smart)</p>
+                        <p class="text-muted small">How comfortable are you with language, writing, and explaining ideas?</p>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="Student-Linguistic" id="ling1" value="5"><label class="form-check-label" for="ling1">Beginner</label></div>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="Student-Linguistic" id="ling2" value="10" checked><label class="form-check-label" for="ling2">Intermediate</label></div>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="Student-Linguistic" id="ling3" value="15"><label class="form-check-label" for="ling3">Advanced</label></div>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="Student-Linguistic" id="ling4" value="20"><label class="form-check-label" for="ling4">Expert</label></div>
+                    </div>
 
-                <!-- Section 3: Intelligence Profile -->
-                <h2 class="text-center mb-4">3. Rate Your Intelligences (Optional)</h2>
-                <p class="text-center text-muted">Rate yourself on a scale of 1 to 20 for a more personalized recommendation.</p>
+                    <div class="col-md-6 mb-4">
+                        <p class="form-label fw-bold">Logical-Mathematical (Number/Reasoning Smart)</p>
+                        <p class="text-muted small">How skilled are you with logic, patterns, and problem-solving?</p>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="Logical - Mathematical" id="logic1" value="5"><label class="form-check-label" for="logic1">Beginner</label></div>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="Logical - Mathematical" id="logic2" value="10" checked><label class="form-check-label" for="logic2">Intermediate</label></div>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="Logical - Mathematical" id="logic3" value="15"><label class="form-check-label" for="logic3">Advanced</label></div>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="Logical - Mathematical" id="logic4" value="20"><label class="form-check-label" for="logic4">Expert</label></div>
+                    </div>
 
-                <div class="row">
-                    <div class="col-md-6 mb-3">
-                        <label for="Student-Linguistic" class="form-label">Linguistic (Word Smart)</label>
-                        <input type="range" class="form-range" min="1" max="20" step="1" value="10" id="Student-Linguistic" name="Student-Linguistic">
+                    <div class="col-md-6 mb-4">
+                        <p class="form-label fw-bold">Spatial-Visualization (Picture Smart)</p>
+                        <p class="text-muted small">How well can you visualize and manipulate objects in your mind?</p>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="Spatial-Visualization" id="spatial1" value="5"><label class="form-check-label" for="spatial1">Beginner</label></div>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="Spatial-Visualization" id="spatial2" value="10" checked><label class="form-check-label" for="spatial2">Intermediate</label></div>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="Spatial-Visualization" id="spatial3" value="15"><label class="form-check-label" for="spatial3">Advanced</label></div>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="Spatial-Visualization" id="spatial4" value="20"><label class="form-check-label" for="spatial4">Expert</label></div>
                     </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="Logical - Mathematical" class="form-label">Logical-Mathematical (Number/Reasoning Smart)</label>
-                        <input type="range" class="form-range" min="1" max="20" step="1" value="10" id="Logical - Mathematical" name="Logical - Mathematical">
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="Spatial-Visualization" class="form-label">Spatial-Visualization (Picture Smart)</label>
-                        <input type="range" class="form-range" min="1" max="20" step="1" value="10" id="Spatial-Visualization" name="Spatial-Visualization">
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="Bodily" class="form-label">Bodily-Kinesthetic (Body Smart)</label>
-                        <input type="range" class="form-range" min="1" max="20" step="1" value="10" id="Bodily" name="Bodily">
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="Musical" class="form-label">Musical (Music Smart)</label>
-                        <input type="range" class="form-range" min="1" max="20" step="1" value="10" id="Musical" name="Musical">
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="Interpersonal" class="form-label">Interpersonal (People Smart)</label>
-                        <input type="range" class="form-range" min="1" max="20" step="1" value="10" id="Interpersonal" name="Interpersonal">
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="Intrapersonal" class="form-label">Intrapersonal (Self Smart)</label>
-                        <input type="range" class="form-range" min="1" max="20" step="1" value="10" id="Intrapersonal" name="Intrapersonal">
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="Naturalist" class="form-label">Naturalist (Nature Smart)</label>
-                        <input type="range" class="form-range" min="1" max="20" step="1" value="10" id="Naturalist" name="Naturalist">
+
+                    <div class="col-md-6 mb-4">
+                        <p class="form-label fw-bold">Interpersonal (People Smart)</p>
+                        <p class="text-muted small">How effective are you at understanding and interacting with others?</p>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="Interpersonal" id="inter1" value="5"><label class="form-check-label" for="inter1">Beginner</label></div>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="Interpersonal" id="inter2" value="10" checked><label class="form-check-label" for="inter2">Intermediate</label></div>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="Interpersonal" id="inter3" value="15"><label class="form-check-label" for="inter3">Advanced</label></div>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="Interpersonal" id="inter4" value="20"><label class="form-check-label" for="inter4">Expert</label></div>
                     </div>
                 </div>
 
